@@ -1,0 +1,42 @@
+name: Napi jelentés
+
+on:
+  schedule:
+    # 05:00 UTC hétköznap ≈ 07:00 CET / 06:00 CEST. Igazítsd, ha kell.
+    - cron: "0 5 * * 1-5"
+  workflow_dispatch: {}   # kézi indítás a GitHub felületén
+
+permissions:
+  contents: write         # kell a data/ commithoz
+
+concurrency:
+  group: napi-jelentes
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Jelentés generálása
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # ORTORONY_MODEL: claude-sonnet-5   # opcionális modellváltás
+        run: node scripts/generate.mjs
+
+      - name: Commit & push
+        run: |
+          git config user.name "ortorony-bot"
+          git config user.email "ortorony-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Nincs változás."
+          else
+            git commit -m "napi jelentés $(date -u +%F)"
+            git push
+          fi
