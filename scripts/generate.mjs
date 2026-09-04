@@ -59,7 +59,10 @@ KIZÁRÓLAG a következő JSON-t add vissza, semmi mást (se magyarázat, se \`\
     ]
   }
 }
-A "tags" kulcsok: k ∈ {ok=megerősítve, spec=nincs megerősítve/becslés, mood=közhangulat}.`;
+A "tags" kulcsok: k ∈ {ok=megerősítve, spec=nincs megerősítve/becslés, mood=közhangulat}.
+FONTOS: a mezők értékében NE legyen semmilyen jelölő vagy idézet-címke (pl. <cite ...>...</cite>),
+csak sima szöveg. A forrást a "src" mezőbe tedd (forrás neve + dátum). A <b> kiemelés csak a
+regime.text mezőben megengedett.`;
 
 const body = {
   model: MODEL,
@@ -77,7 +80,10 @@ if (!res.ok) { console.error("API hiba:", res.status, await res.text()); process
 const out = await res.json();
 
 // A szöveges blokkok összefűzése, JSON kiemelése
-const text = (out.content || []).filter(b => b.type === "text").map(b => b.text).join("\n");
+const raw = (out.content || []).filter(b => b.type === "text").map(b => b.text).join("\n");
+// A webkeresés idézet-címkéket tehet a szövegbe (<cite index="...">...</cite>), amelyekben
+// lévő idézőjelek elrontják a JSON-t — ezeket eltávolítjuk feldolgozás előtt.
+const text = raw.replace(/<\/?cite[^>]*>/gi, "");
 const jsonStr = text.replace(/```json|```/g, "").trim().replace(/^[^{]*/, "").replace(/[^}]*$/, "");
 let parsed;
 try { parsed = JSON.parse(jsonStr); }
