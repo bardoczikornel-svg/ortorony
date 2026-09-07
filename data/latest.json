@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-09-04",
     "time": "07:20 CET",
-    "run": "automatikus (2026-09-04T07:38:50.113Z)",
+    "run": "automatikus (2026-09-04) + X-modul (2026-09-07)",
     "demo": false
   },
   "brand": {
@@ -541,59 +541,171 @@
           "heading": "Napi X-jelzések & téma-momentum",
           "items": [
             {
-              "lead": "Memóriaár-sokk narratíva erősödik",
-              "tags": [
-                {
-                  "t": "téma-momentum",
-                  "k": "mood"
-                }
-              ],
-              "why": "Gyorsuló beszédtéma a NAND/HBM-drágulásról — egybecseng a megerősített Apple-áremeléssel, de önmagában hangulat.",
-              "src": [
-                "kurált X-lista: félvezető",
-                "2026-08-27"
-              ]
-            },
-            {
-              "lead": "Szkepszis a Jalapeño-benchmark körül",
-              "tags": [
-                {
-                  "t": "közhangulat",
-                  "k": "mood"
-                }
-              ],
-              "why": "Sokan az érdekelt-fél mérést emelik ki — támogatja az I) ellenoldali olvasatot.",
-              "src": [
-                "kurált X-lista: AI-infra",
-                "2026-08-27"
-              ]
-            },
-            {
-              "lead": "Pletyka: HBM4-ellátási szűkösség",
+              "lead": "Jensen Huang: „megérkezett az AGI”",
               "tags": [
                 {
                   "t": "nincs megerősítve",
                   "k": "spec"
                 }
               ],
-              "why": "Egyetlen, nem hivatalos forrás — ha igaz, strukturális, de visszaigazolás nélkül csak jelzés.",
+              "why": "Virális Nvidia-kijelentés, de az AGI definíciója vitatott, és nincs mögötte hivatalos bejelentés vagy mérhető mérföldkő.",
               "src": [
-                "X · egy számla",
-                "2026-08-27"
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
               ]
             },
             {
-              "lead": "H-1B díj — erős negatív hangulat",
+              "lead": "~90 db 100MW+ amerikai adatközpont, 2030-ra ~280-ra nőhet",
               "tags": [
                 {
                   "t": "közhangulat",
                   "k": "mood"
                 }
               ],
-              "why": "Széles negatív reakció; a hangulat maga is jelzés, de a tény a Federal Register-ből jön.",
+              "why": "A Kobeissi Letter által idézett kapacitásszám az AI-adatközpont-építkezés ütemét jelzi, de elsődleges forrás nélkül.",
+              "src": [
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Tajvan chip-diplomáciát nyomat a szövetségesek felé",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Tajvan a chipgyártási dominanciáját nyomásgyakorlásra használja, miközben szövetségesei az AI-nyereség megosztását sürgetik.",
+              "src": [
+                "kurált X-lista: félvezető",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Malajzia Huawei-chipekkel dacolna az amerikai nyomással",
+              "tags": [
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "Egyetlen esti Bloomberg-összefoglaló jelzi a szándékot, hivatalos megerősítés nélkül.",
+              "src": [
+                "kurált X-lista: félvezető",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Japán Preferred Networks IPO-ra készül saját AI-chip gyártáshoz",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Kisebb szereplő, de jelzi a saját AI-szilícium fejlesztésének növekvő tétjét a globális versenyben.",
+              "src": [
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Malajziai kötvények rekord 3,9 Mrd$ beáramlást kaptak augusztusban az AI-optimizmusra",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Tőkeáramlási adat mutatja, hogy a feltörekvő piaci befektetők az AI-infra-boomra pozicionálnak.",
+              "src": [
+                "kurált X-lista: ETF",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "A koreai won 2 éves csúcson a félvezető-rally és index-beáramlás nyomán",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "A won és a félvezető-részvények együttes erősödése az AI-ciklusba vetett bizalmat tükrözi.",
               "src": [
                 "kurált X-lista: makró",
-                "2026-08-27"
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Ausztrál adatközpont-boom inflációt és kamatemelést kényszeríthet ki",
+              "tags": [
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "Bloomberg Economics modellalapú előrejelzése, nem realizált adat.",
+              "src": [
+                "kurált X-lista: energia/atom",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Nvidia-csipek mint bankképes fedezet hitelekhez",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Jensen Huang kijelentése az AI-chipek finanszírozási felhasználásáról a szektor körkörös finanszírozási kockázatait veti fel.",
+              "src": [
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Az adatközpontok politikailag népszerűtlenebbek, mint az atomerőművek",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Az amerikai közhangulat fordulása helyi engedélyezési kockázatot jelenthet a hiperskálázóknak.",
+              "src": [
+                "kurált X-lista: energia/atom",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Arany esik, Nikkei/chip-részvények emelkednek a Fed-várakozásokra",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "A kamatemelési várakozások és a chip-részvények együttmozgása szoros makró–félvezető összefonódást mutat.",
+              "src": [
+                "kurált X-lista: makró",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Trump kereskedelmi leállítással fenyegetne, ha a Fed nem vág kamatot",
+              "tags": [
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "A Kobeissi Letter posztja fizetős tartalom mögötti állítás, elsődleges forrás vagy pontos idézet nélkül.",
+              "src": [
+                "kurált X-lista: makró",
+                "2026-09-07"
               ]
             }
           ]
@@ -630,7 +742,7 @@
               15.1,
               14.6,
               15.3,
-              16,
+              16.0,
               15.4,
               14.9,
               14.2,
@@ -642,7 +754,7 @@
               15.2,
               14.8,
               14.3,
-              14,
+              14.0,
               14.6,
               15.1,
               14.9,
@@ -1228,6 +1340,127 @@
             "Dealer-gamma (GEX), max pain: modellbecslés (SpotGamma / Menthor Q típus, fizetős)."
           ],
           "note": "A becsült pozicionáltság közelítés — kereszt-ellenőrzésre való."
+        }
+      ]
+    },
+    {
+      "id": "folyamatok",
+      "label": "Folyamatok",
+      "intro": "Hogyan alakulnak a visszatérő témák időben. Minden lánc egy sztori — a korábbi hírektől a mai állásig, forrással és dátummal, hogy lásd: „korábban ezt írták → ez lett”. A Gmail- és X-modul tölti fel; az alábbi láncok példák.",
+      "storylines": [
+        {
+          "title": "Memóriaár-sokk / HBM",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "félvezető",
+          "note": "A memória a szűk keresztmetszet: hat a hardver-marzsokra és a helyi-AI narratívára.",
+          "entries": [
+            {
+              "date": "2026-06",
+              "source": "WSJ",
+              "kind": "fact",
+              "summary": "Apple jelzi: memória/NAND-drágulás az AI-adatközpontok miatt — „sosem látott” alkatrész-áremelkedés."
+            },
+            {
+              "date": "2026-08-25",
+              "source": "Apple",
+              "kind": "fact",
+              "summary": "M6 / M5 Mac áremelés — a júniusi drágulás beépült a fogyasztói árba."
+            },
+            {
+              "date": "2026-08-27",
+              "source": "X · pletyka",
+              "kind": "rumor",
+              "summary": "HBM4-ellátási szűkösség egy nagy beszállítónál — még nincs megerősítve."
+            }
+          ]
+        },
+        {
+          "title": "Hyperscaler saját szilícium",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "AI-infra",
+          "note": "Középtávon az Nvidia árazási erejére kockázat — de érdemi telepítés csak 2027-től.",
+          "entries": [
+            {
+              "date": "2026-06-24",
+              "source": "OpenAI/Broadcom",
+              "kind": "fact",
+              "summary": "„Jalapeño” inference-chip bemutató."
+            },
+            {
+              "date": "2026-08-25",
+              "source": "SemiAnalysis",
+              "kind": "estimate",
+              "summary": "Első benchmark: jobb energiahatékonyság — de vállalati mérés, GB300-alapon (nem Vera Rubin)."
+            }
+          ]
+        },
+        {
+          "title": "Atomenergia AI-adatközpontokhoz",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "energia",
+          "note": "A bejelentés-momentum a tényleges kapacitás előtt jár.",
+          "entries": [
+            {
+              "date": "2026 (folyamatos)",
+              "source": "SMR Intel",
+              "kind": "fact",
+              "summary": "Hyperscalerek ~9,8 GW atomkapacitást kötöttek le AI-adatközpontokra, 13 megállapodásban."
+            },
+            {
+              "date": "2026-06-01",
+              "source": "FERC",
+              "kind": "fact",
+              "summary": "Microsoft Three Mile Island Unit 1 újraindítás — átviteli mentesség jóváhagyva, cél 2027 H2."
+            },
+            {
+              "date": "2030-as évek",
+              "source": "kitekintés",
+              "kind": "estimate",
+              "summary": "Az SMR-ek zöme csak ekkor indul élesen — a kapacitás lassabban jön, mint a bejelentések."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "X · pletyka",
+              "kind": "rumor",
+              "summary": "The Economist: az amerikai adatközpontok politikailag népszerűtlenebbek, mint az atomerőművek — helyi engedélyezési ellenszél erősödik."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "X · pletyka",
+              "kind": "rumor",
+              "summary": "Bloomberg Economics szerint Ausztráliában az AI-adatközpont-boom villamosenergia-kereslete inflációt és kamatemelést kényszeríthet ki."
+            }
+          ]
+        },
+        {
+          "title": "H-1B díj",
+          "status": "figyelt",
+          "statusKind": "spec",
+          "tag": "szabályozás",
+          "note": "Halmozódás kockázata: ha a proklamációs díj visszatér, a két teher együtt szedhető.",
+          "entries": [
+            {
+              "date": "2025-09-19",
+              "source": "proklamáció",
+              "kind": "fact",
+              "summary": "100 000 $ H-1B díj bejelentve."
+            },
+            {
+              "date": "2026-06-08",
+              "source": "szövetségi bíróság",
+              "kind": "fact",
+              "summary": "A proklamációs díjat megsemmisítik (majd felfüggesztés + fellebbezés)."
+            },
+            {
+              "date": "2026-08-25",
+              "source": "DHS · Federal Register",
+              "kind": "fact",
+              "summary": "Külön 103 265 $ díjtervezet; véleményezés 2026-09-24-ig."
+            }
+          ]
         }
       ]
     },
