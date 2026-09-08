@@ -66,7 +66,7 @@ regime.text mezőben megengedett.`;
 
 const body = {
   model: MODEL,
-  max_tokens: 8000,
+  max_tokens: 16000,
   messages: [{ role: "user", content: PROMPT }],
   tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 12 }],
 };
@@ -87,7 +87,14 @@ const text = raw.replace(/<\/?cite[^>]*>/gi, "");
 const jsonStr = text.replace(/```json|```/g, "").trim().replace(/^[^{]*/, "").replace(/[^}]*$/, "");
 let parsed;
 try { parsed = JSON.parse(jsonStr); }
-catch (e) { console.error("Nem sikerült JSON-t parse-olni. Nyers válasz:\n", text.slice(0, 1500)); process.exit(1); }
+catch (e) {
+  const truncated = out.stop_reason === "max_tokens";
+  console.error("Nem sikerült JSON-t parse-olni.",
+    truncated ? "OK: a válasz elérte a max_tokens korlátot (csonka JSON) — emeld a max_tokens értéket." : "");
+  console.error("--- válasz eleje ---\n", text.slice(0, 800));
+  console.error("--- válasz vége ---\n", text.slice(-800));
+  process.exit(1);
+}
 
 // Beolvasztás: a többi fül marad, csak a 'tech' + regime + meta frissül
 const site = JSON.parse(readFileSync(DATA, "utf8"));
