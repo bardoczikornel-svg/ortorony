@@ -390,90 +390,804 @@
         {
           "letter": "MAIL",
           "letterStyle": "font-size:11px",
-          "heading": "2026-08-27 · reggeli futás",
+          "heading": "2026-09-09 · napi Gmail-triage (első éles futás)",
           "items": [
             {
-              "lead": "Apollo — Slok: „The Daily Spark”",
+              "lead": "Apollo — Slok: „The Daily Spark” · Purchase Price Matters",
               "tags": [
                 {
                   "t": "címkézve",
                   "k": "ok"
                 }
               ],
-              "why": "Makró napi jegyzet — fix forrás. → fix források blokk.",
+              "why": "Fix forrás (napi makró jegyzet).",
               "src": [
-                "dailyspark@apollo.com",
-                "2026-08-27"
+                "agm@apollo.com",
+                "2026-09-09"
               ]
             },
             {
-              "lead": "Financial Times — „Unhedged”",
+              "lead": "Apollo — Slok: „The Daily Spark” · A Missed Opportunity (Treasury debt term-out)",
               "tags": [
                 {
                   "t": "címkézve",
                   "k": "ok"
                 }
               ],
-              "why": "Napi piaci jegyzet — fix forrás.",
+              "why": "Fix forrás — a Kincstár nem hosszabbította az adósság futamidejét alacsony kamatnál.",
               "src": [
-                "newsletters@ft.com",
-                "2026-08-27"
+                "agm@apollo.com",
+                "2026-09-07"
               ]
             },
             {
-              "lead": "SemiAnalysis",
+              "lead": "Apollo — Slok: „The Daily Spark” · Multiple Expansion Has Nearly Vanished",
               "tags": [
                 {
                   "t": "címkézve",
                   "k": "ok"
                 }
               ],
-              "why": "Félvezető-mélységi elemzés — tech kategória.",
+              "why": "Fix forrás — Fed-emelési ciklus és a PE-értékteremtés.",
               "src": [
-                "newsletter@semianalysis.com",
-                "2026-08-26"
+                "agm@apollo.com",
+                "2026-09-06"
               ]
             },
             {
-              "lead": "Ismeretlen feladó — „Portfolio riasztás”",
+              "lead": "Stratechery — „Write Things Down”",
               "tags": [
                 {
-                  "t": "gyanús · nem végrehajtva",
-                  "k": "flag"
+                  "t": "címkézve",
+                  "k": "ok"
                 }
               ],
-              "why": "A levél továbbításra/törlésre utasított — <b>nem</b> hajtva végre, adatként kezelve, jelezve.",
+              "why": "Fix forrás (tech/AI-esszé).",
               "src": [
-                "no-reply@unknown-sender",
-                "2026-08-27"
+                "email@stratechery.com",
+                "2026-09-08"
               ]
             },
             {
-              "lead": "LinkedIn — „3 új értesítésed van”",
+              "lead": "Axios AM — „Trump, alone”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "mike@axios.com",
+                "2026-09-09"
+              ]
+            },
+            {
+              "lead": "Axios AM — „Jeffries' next fight”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "mike@axios.com",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "Axios AM — „Blue wave rising”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "mike@axios.com",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Axios AM — „Biggest midterm givers”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "mike@axios.com",
+                "2026-09-06"
+              ]
+            },
+            {
+              "lead": "Axios AM — „The all-about-me campaign”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "mike@axios.com",
+                "2026-09-05"
+              ]
+            },
+            {
+              "lead": "Axios AM — „Sam's sobering siren”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "mike@axios.com",
+                "2026-09-03"
+              ]
+            },
+            {
+              "lead": "LYNX Börsenblick — SMA Solar / Thales / KION",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "service@boersenblick.lynxbroker.de",
+                "2026-09-09"
+              ]
+            },
+            {
+              "lead": "LYNX Börsenblick — Volkswagen",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "service@boersenblick.lynxbroker.de",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "LYNX Börsenblick — Tesla Mini-Island Reversal",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "service@boersenblick.lynxbroker.de",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "LYNX Wochenausblick — KW 37, Midterm-szezonalitás",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "service@lynxbroker.de",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "LYNX Börsenblick — Deutsche Telekom",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "service@boersenblick.lynxbroker.de",
+                "2026-09-04"
+              ]
+            },
+            {
+              "lead": "LYNX — Kereskedés Abu Dhabi / Dubai tőzsdéin (új piac)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás.",
+              "src": [
+                "service@lynxbroker.de",
+                "2026-09-03"
+              ]
+            },
+            {
+              "lead": "SemiAnalysis — „TPU Inference Externalization Full Steam Ahead”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix forrás — Google TPU/Ironwood, CUDA-moat csökkenése.",
+              "src": [
+                "semianalysis@substack.com",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "FT hírlevél-riasztások (World News / In Today's FT / myFT Daily Digest) — 9 db, 2026-09-09–09-03",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Fix, mindig átnézendő forrás (FT hírlevél-riasztás). Napi téma: olajár/Irán-csapások, Falkland-vita, Ukrajna-béketerv, AfD választási siker, Ebola-frontvonal, dél-afrikai elnök ügye, Kína export/AI, Trump–Maga Inc.",
+              "src": [
+                "FT@news-alerts.ft.com · myft@news-alerts.ft.com",
+                "2026-09-09 → 2026-09-03 (25 szál összevonva)"
+              ]
+            },
+            {
+              "lead": "FT hírlevél — „Shockwaves from Germany” (világ $2 ezermrd kamatszámlája)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Globális kamatteher — makró-relevanciájú tartalom.",
+              "src": [
+                "FT@newsletters.ft.com",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "FT hírlevél — „Star Wars reboot” (Meta AI-asszisztens bemutató)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Tech/AI termékbejelentés.",
+              "src": [
+                "FT@newsletters.ft.com",
+                "2026-09-09"
+              ]
+            },
+            {
+              "lead": "FT hírlevél — „On the Ebola frontline” (Apple $2000-os telefon, Huawei-vád)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Tech termékciklus + Kína-tech geopolitika.",
+              "src": [
+                "FT@newsletters.ft.com",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "FT hírlevél — „Fantasy M&A” (Chevron $7mrd Venezuela-bővítés)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Energia/geopolitika, vállalati tőkeallokáció.",
+              "src": [
+                "FT@newsletters.ft.com",
+                "2026-09-03"
+              ]
+            },
+            {
+              "lead": "Reuters Technology Roundup — Apple hajtogatható telefon bemutató",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Tech termékciklus.",
+              "src": [
+                "newsletters@email.reuters.com",
+                "2026-09-09"
+              ]
+            },
+            {
+              "lead": "Reuters — „Wall St futures slip as oil surge puts markets on edge”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Makró — olajár-sokk hatása a piaci hangulatra.",
+              "src": [
+                "newsletters@email.reuters.com",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "Reuters — „Brent oil tops $100 as Middle East conflict intensifies”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Makró/energia — hat hete nem látott olajár-szint.",
+              "src": [
+                "newsletters@email.reuters.com",
+                "2026-09-09"
+              ]
+            },
+            {
+              "lead": "Reuters — OpenAI elismeri a „wiki incidenst”, nagyobb átláthatóságot ígér",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "AI-ügynök biztonsági incidens/szabályozási felvetés.",
+              "src": [
+                "newsletters@email.reuters.com",
+                "2026-09-06"
+              ]
+            },
+            {
+              "lead": "Reuters — Google gyengébb európai keresési minőséget vállal az uniós bírság elkerülésére",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Tech-szabályozás (EU antitröszt).",
+              "src": [
+                "newsletters@email.reuters.com",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "Reuters — Techcégek Argentína Patagóniájában néznek adatközpont-helyszínt",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "AI-infra energiaigény/helyszínválasztás.",
+              "src": [
+                "newsletters@email.reuters.com",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Reuters — „Stocks dented by inflation risk from rising oil, dicey geopolitics”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Makró — inflációs kockázat + geopolitika.",
+              "src": [
+                "newsletters@email.reuters.com",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Bitcoin Treasuries hírlevél — Strategy (MSTR) +17,5%, top-500 vállalat",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto-kincstári részvények strukturális híre.",
+              "src": [
+                "newsletter.bitcointreasuries.net",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Bitcoin Treasuries hírlevél — „STRC Is Losing Retail to SATA”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto-kincstári elsőbbségi papírok versenye.",
+              "src": [
+                "newsletter.bitcointreasuries.net",
+                "2026-09-04"
+              ]
+            },
+            {
+              "lead": "Bitcoin Treasuries hírlevél — „Is BlackRock's Bitcoin Bet Just Getting Started?”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Intézményi bitcoin-allokáció.",
+              "src": [
+                "newsletter.bitcointreasuries.net",
+                "2026-09-03"
+              ]
+            },
+            {
+              "lead": "Glassnode Insights — „The Ceiling Everyone Can See” (BTC ellenállási zóna)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "On-chain kripto piacelemzés.",
+              "src": [
+                "insights@glassnode.com",
+                "2026-09-09"
+              ]
+            },
+            {
+              "lead": "CoinGecko — „Your Week in Crypto”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Heti kripto piaci összefoglaló.",
+              "src": [
+                "geckobot@coingecko.com",
+                "2026-09-04"
+              ]
+            },
+            {
+              "lead": "KriptoVadász (Patreon) — „A kriptopiac 3 izgalmas sztorija”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto piaci hírlevél.",
+              "src": [
+                "kriptovadasz@creator.patreon.com",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "KriptoVadász (Patreon) — „Heti piaci update”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto piaci hírlevél.",
+              "src": [
+                "kriptovadasz@creator.patreon.com",
+                "2026-09-06"
+              ]
+            },
+            {
+              "lead": "KriptoVadász (Patreon) — „Altcoin frissítés (Avax)”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto piaci hírlevél.",
+              "src": [
+                "kriptovadasz@creator.patreon.com",
+                "2026-09-03"
+              ]
+            },
+            {
+              "lead": "KriptoVadász (Patreon) — „Összefoglaló + szavazás” (makró/kripto)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto piaci hírlevél.",
+              "src": [
+                "kriptovadasz@creator.patreon.com",
+                "2026-09-04"
+              ]
+            },
+            {
+              "lead": "KriptoVadász (Patreon) — „Szeptemberi kitekintés”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto piaci hírlevél.",
+              "src": [
+                "kriptovadasz@creator.patreon.com",
+                "2026-09-02"
+              ]
+            },
+            {
+              "lead": "Feed+ (dontfoss.hu) — Bitcoin és ONDO elemzés",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Kripto piaci elemzés.",
+              "src": [
+                "hirlevel@dontfoss.hu",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "Trade on the Market — Heti Makrogazdasági Körkép (ECB + US infláció)",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Makró — kamatpálya-releváns heti körkép.",
+              "src": [
+                "support@tradeonthemarket.com",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "wikifolio — „Top 3: Die Bestseller im August”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Havi piaci visszatekintő (Dow ötödik nyerő hónapja).",
+              "src": [
+                "service@wikifolio.com",
+                "2026-09-03"
+              ]
+            },
+            {
+              "lead": "ChinaTalk — „Can Taiwan Build Drones?”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Geopolitika/tech-ellátólánc.",
+              "src": [
+                "chinatalk@substack.com",
+                "2026-09-09"
+              ]
+            },
+            {
+              "lead": "ChinaTalk — „US-China Biorisk Cooperation”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "AI-biztonsági szabályozás/geopolitika.",
+              "src": [
+                "chinatalk@substack.com",
+                "2026-09-08"
+              ]
+            },
+            {
+              "lead": "ChinaTalk — „Open Models are the United Front of AI”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "AI nyílt modellek geopolitikája.",
+              "src": [
+                "chinatalk@substack.com",
+                "2026-09-06"
+              ]
+            },
+            {
+              "lead": "Artificial Intelligence Made Simple — „The Dirty Math Behind '100% Renewable Data Centers'”",
+              "tags": [
+                {
+                  "t": "címkézve",
+                  "k": "ok"
+                }
+              ],
+              "why": "AI-infra energia/hűtés — kiemelt figyelmű téma.",
+              "src": [
+                "artificialintelligencemadesimple@substack.com",
+                "2026-09-06"
+              ]
+            },
+            {
+              "lead": "Promóciós / webshop hírlevelek (XXXLutz, EMP, Weisshaus, Helly Hansen, Women's Best, jö Club, Payback, SuperShop, Amazon-értékelés, MediaMarkt stb.) — kb. 45 db",
               "tags": [
                 {
                   "t": "kihagyva",
                   "k": "skip"
                 }
               ],
-              "why": "Közösségi értesítő — nem piaci tartalom.",
+              "why": "Kereskedelmi promóció, nem piaci/gazdasági tartalom.",
               "src": [
-                "notifications@linkedin.com",
-                "2026-08-27"
+                "több feladó",
+                "2026-09-03 → 09-09"
               ]
             },
             {
-              "lead": "Fintech-hírlevél — vegyes",
+              "lead": "Automatizált egyéni portfólió-/watchlist-riasztások (TipRanks, SimplyWall St) — kb. 20 db",
               "tags": [
                 {
-                  "t": "bizonytalan · nem címkézve",
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Napi ár-/watchlist zaj, nem strukturális hír — a hosszútávú szűrés kizárja.",
+              "src": [
+                "info@tipranks.com · no-reply@p.simplywall.st",
+                "2026-09-03 → 09-09"
+              ]
+            },
+            {
+              "lead": "Csomagkövetés / rendelés-visszaigazolás (GLS, DPD, MediaMarkt, Amazon) — kb. 10 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Személyes logisztikai értesítő.",
+              "src": [
+                "több feladó",
+                "2026-09-03 → 09-09"
+              ]
+            },
+            {
+              "lead": "Fiók-/biztonsági értesítők, OTP-kódok (Google, GitHub, Cloudflare, ASFINAG, X, Bybit) — kb. 15 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Fiókbiztonsági adminisztráció, nem piaci tartalom.",
+              "src": [
+                "több feladó",
+                "2026-09-03 → 09-09"
+              ]
+            },
+            {
+              "lead": "Számlák / nyugták (NAV, Díjnet, Zauner bérszámfejtés, Anthropic, Google Play, AKH) — kb. 12 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Számla/nyugta — kizárva.",
+              "src": [
+                "több feladó",
+                "2026-09-03 → 09-09"
+              ]
+            },
+            {
+              "lead": "Személyes levelezés (család, iskola, orvos, ügyvezető, GitHub Actions repo-hiba) — kb. 12 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Személyes/technikai levél, nem piaci tartalom.",
+              "src": [
+                "több feladó",
+                "2026-09-03 → 09-09"
+              ]
+            },
+            {
+              "lead": "Streaming/közösségi/wellness értesítők (Netflix, Spotify, Pinterest, Facebook, Duolingo, Xbox, Sweatco, gymnasticsmethod) — kb. 15 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Közösségi/szórakoztató értesítő — kizárva.",
+              "src": [
+                "több feladó",
+                "2026-09-03 → 09-09"
+              ]
+            },
+            {
+              "lead": "Politikai közvélemény-kutatás (Rasmussen Reports napi update) — 4 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Belpolitikai közvéleménykutatás, nem piaci/makró adat — nem Fear&Greed/AAII típusú szentiment.",
+              "src": [
+                "update@rasmussenreports.com",
+                "2026-09-03 → 09-08"
+              ]
+            },
+            {
+              "lead": "Egyéni/promóciós befektetési hírlevelek bizonytalan hozzáadott értékkel (Cubic Analytics feliratkozás-csali, Falcon Hírlevél, alphadojo day-trade, erthetopenz.hu meghívó) — 6 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Túlnyomórészt feliratkozás-/kurzus-értékesítés, day-trade fókusz vagy személyes szales-megkeresés — nem strukturális makró/tech tartalom; bizonytalan esetben nem címkéztünk.",
+              "src": [
+                "több feladó",
+                "2026-09-03 → 09-09"
+              ]
+            },
+            {
+              "lead": "Trade on the Market — számlázási/előfizetési adminlevelek (számla, sikertelen fizetés, előfizetés leállítva) — 6 db",
+              "tags": [
+                {
+                  "t": "kihagyva",
+                  "k": "skip"
+                }
+              ],
+              "why": "Fiók-/számlaadminisztráció, nem tartalmi hírlevél.",
+              "src": [
+                "support@tradeonthemarket.com",
+                "2026-09-04 → 09-06"
+              ]
+            },
+            {
+              "lead": "Gyanús utasítást tartalmazó levél",
+              "tags": [
+                {
+                  "t": "nincs találat",
                   "k": "spec"
                 }
               ],
-              "why": "Nem egyértelmű — a Beérkezőben hagyva felülvizsgálatra.",
+              "why": "A most átnézett kb. 200 szál tárgya/kivonata alapján egyetlen levél sem tartalmazott a fiókkezelésre vagy továbbküldésre/törlésre vonatkozó beágyazott utasítást.",
               "src": [
-                "hello@fintech.example",
-                "2026-08-27"
+                "—",
+                "2026-09-09"
               ]
             }
           ]
@@ -481,39 +1195,39 @@
       ],
       "rail": [
         {
-          "heading": "Mai futás",
+          "heading": "Mai futás (2026-09-09)",
           "metrics": [
             {
               "k": "Átnézve",
-              "v": "34"
+              "v": "~200"
             },
             {
               "k": "Címkézve",
-              "v": "4"
+              "v": "70"
             },
             {
               "k": "Kihagyva",
-              "v": "28"
+              "v": "~130"
             },
             {
               "k": "Bizonytalan",
-              "v": "1"
+              "v": "0"
             },
             {
               "k": "Gyanús",
-              "v": "1"
+              "v": "0"
             }
           ],
-          "note": "A napló ellenőrizhetővé teszi a szűrést."
+          "note": "Keresés: -label:Őrtorony newer_than:7d (2026-09-02 → 09-09). A napló ellenőrizhetővé teszi a szűrést."
         },
         {
           "heading": "Mi kap Őrtorony-címkét",
           "chips": [
             "makró / piac",
             "tech / félvezető",
-            "AI-infra",
-            "ETF-értesítő",
-            "fix hírlevelek"
+            "AI-infra / energia",
+            "kripto piac",
+            "fix hírlevelek (Apollo/Slok, FT, Axios AM, LYNX, SemiAnalysis, Stratechery)"
           ],
           "note": "Bizonytalan esetben nem címkéz — a Beérkezőben hagyja."
         },
@@ -1394,6 +2108,12 @@
               "source": "SemiAnalysis",
               "kind": "estimate",
               "summary": "Első benchmark: jobb energiahatékonyság — de vállalati mérés, GB300-alapon (nem Vera Rubin)."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "SemiAnalysis",
+              "kind": "fact",
+              "summary": "Google TPU (Ironwood/TPUv8i): akár 50%-kal jobb teljesítmény/dollár, gyorsuló külső (nem-Google) TPU-értékesítés — csökkenő CUDA-moat, közvetlenebb kihívás az Nvidia felé."
             }
           ]
         },
@@ -1433,6 +2153,18 @@
               "source": "X · pletyka",
               "kind": "rumor",
               "summary": "Bloomberg Economics szerint Ausztráliában az AI-adatközpont-boom villamosenergia-kereslete inflációt és kamatemelést kényszeríthet ki."
+            },
+            {
+              "date": "2026-09-06",
+              "source": "Artificial Intelligence Made Simple (Substack)",
+              "kind": "estimate",
+              "summary": "„The Dirty Math Behind 100% Renewable Data Centers”: az AI-adatközpontok tényleges karbon-/energialábnyoma elemzés szerint nagyobb a hirdetettnél — tovább erősíti az atom/SMR-igény narratíváját."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "Reuters",
+              "kind": "fact",
+              "summary": "Techcégek Argentína szélcsendes Patagónia-régiójában néznek adatközpont-helyszínt a hűvös klíma és megújuló energia miatt — a helyszínválasztást egyre inkább az energiaköltség vezérli."
             }
           ]
         },
@@ -1460,6 +2192,126 @@
               "source": "DHS · Federal Register",
               "kind": "fact",
               "summary": "Külön 103 265 $ díjtervezet; véleményezés 2026-09-24-ig."
+            }
+          ]
+        },
+        {
+          "title": "Bitcoin-kincstári vállalatok (Strategy, SATA, BlackRock)",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "kripto",
+          "note": "A bitcoin-kincstári modell (MSTR és követői) tovább terjed, de a belső verseny (STRC vs. SATA) már látszik.",
+          "entries": [
+            {
+              "date": "2026-09-03",
+              "source": "Bitcoin Treasuries hírlevél",
+              "kind": "estimate",
+              "summary": "BlackRock bitcoin-allokációs stratégiája (IBIT) a hírlevél szerint még korai szakaszban lehet — nyitott kérdés, mekkora tovább a bővülési tér."
+            },
+            {
+              "date": "2026-09-04",
+              "source": "Bitcoin Treasuries hírlevél",
+              "kind": "fact",
+              "summary": "A Strategy STRC elsőbbségi papírja veszít lakossági keresletből a versenytárs SATA (napi kamatozású konstrukció) javára."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "Bitcoin Treasuries hírlevél",
+              "kind": "fact",
+              "summary": "A Strategy (MSTR) egynapos +17,5%-os árfolyammozgással bekerült a világ 500 legnagyobb tőzsdei vállalata közé — a bitcoin-kincstári modell tovább erősödik."
+            }
+          ]
+        },
+        {
+          "title": "Olajár-sokk / Közel-Kelet eszkaláció",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "makró",
+          "note": "Az USA-Irán konfliktus eszkalációja közvetlen olajár-csatornán hat a globális inflációs kockázatra — figyelendő, mennyire strukturális vs. átmeneti.",
+          "entries": [
+            {
+              "date": "2026-09-08",
+              "source": "Reuters",
+              "kind": "fact",
+              "summary": "Tőzsdei határidős jegyzések estek az olajár-sokk miatt, az inflációs adatok közzététele előtt."
+            },
+            {
+              "date": "2026-09-09",
+              "source": "FT hírlevél-riasztás",
+              "kind": "fact",
+              "summary": "Az USA új csapásokat indított iráni tartályhajók ellen — az olajár 100 dollár/hordó közelébe emelkedett."
+            },
+            {
+              "date": "2026-09-09",
+              "source": "Reuters",
+              "kind": "fact",
+              "summary": "A Brent olaj átlépte a 100 dolláros szintet — hat hét után először —, a Közel-Kelet-i konfliktus eszkalációja és az ellátási félelmek miatt."
+            }
+          ]
+        },
+        {
+          "title": "Fed/ECB kamatpálya és állampapír-stratégia",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "makró",
+          "note": "Slok (Apollo) szerint a kamatemelési ciklus költsége már a vállalatértékelésben és az államadósság-finanszírozásban is látszik; a szeptemberi ECB-/inflációs adat lehet a következő katalizátor.",
+          "entries": [
+            {
+              "date": "2026-09-06",
+              "source": "Apollo — Slok „Daily Spark”",
+              "kind": "estimate",
+              "summary": "A Fed kamatemelési ciklusa óta a többszörös-bővülés (multiple expansion) csaknem eltűnt mint a private equity érték forrása."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "Apollo — Slok „Daily Spark”",
+              "kind": "fact",
+              "summary": "A Kincstár elmulasztotta hosszabbra nyújtani az államadósság futamidejét a nulla közeli kamatok idején — ez most drágábban finanszírozott adósságszerkezetet eredményez."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "Trade on the Market — heti makró körkép",
+              "kind": "estimate",
+              "summary": "A szeptemberi ECB-kamatdöntés és az amerikai inflációs adat együtt dönthet a globális kamatpálya irányáról."
+            },
+            {
+              "date": "2026-09-08",
+              "source": "FT hírlevél",
+              "kind": "fact",
+              "summary": "A világ államai összesen kb. 2 ezermilliárd dollárt fizetnek évi kamatra — a magas kamatkörnyezet költsége globálisan érzékelhető."
+            }
+          ]
+        },
+        {
+          "title": "US-Kína AI/tech verseny",
+          "status": "figyelt",
+          "statusKind": "spec",
+          "tag": "AI-infra",
+          "note": "Több független jel (export, nyílt modellek, biztonsági együttműködés, ellátólánc) mutat a Kína-USA AI-verseny szélesedésére — egyelőre nincs egységes kép, csak részjelek.",
+          "entries": [
+            {
+              "date": "2026-09-06",
+              "source": "ChinaTalk",
+              "kind": "estimate",
+              "summary": "A nyílt súlyú AI-modellek geopolitikai szerepe erősödik — Kína nyílt modell-stratégiája versenyt teremt a zárt amerikai modellekkel szemben."
+            },
+            {
+              "date": "2026-09-08",
+              "source": "ChinaTalk",
+              "kind": "estimate",
+              "summary": "Az amerikai AI-cégvezetők mind szűrni akarják a veszélyes biológiai megrendeléseket — ez közös alapot teremthet egy US-Kína megállapodáshoz."
+            },
+            {
+              "date": "2026-09-08",
+              "source": "FT — myFT Daily Digest",
+              "kind": "fact",
+              "summary": "Kína exportja 25%-kal nőtt augusztusban az AI-kiépítés lendületében; a Huawei hajtja Kína törekvését a saját chipgyártásra."
+            },
+            {
+              "date": "2026-09-09",
+              "source": "ChinaTalk",
+              "kind": "estimate",
+              "summary": "Kérdéses, hogy Tajvan képes-e elég gyorsan drónkapacitást építeni egy esetleges kínai eszkalációra készülve."
             }
           ]
         }
