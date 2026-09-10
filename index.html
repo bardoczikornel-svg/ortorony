@@ -241,6 +241,33 @@
   .chain-sum{font-size:14.5px;line-height:1.42;margin-top:1px}
   .chain-sum a{color:var(--accent);text-decoration:none}
   .chain-sum a:hover{text-decoration:underline}
+
+  /* ---- company module ---- */
+  .tbl-wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:5px;background:var(--card)}
+  table.val{border-collapse:collapse;width:100%;font-family:"IBM Plex Sans",sans-serif;font-size:12.5px}
+  table.val th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule);white-space:nowrap}
+  table.val th:first-child{position:sticky;left:0;background:var(--card)}
+  table.val td{padding:7px 10px;border-top:1px solid var(--rule);vertical-align:top;color:#333a45;min-width:120px}
+  table.val td.lbl{font-weight:500;color:var(--ink);position:sticky;left:0;background:var(--card);white-space:nowrap}
+  table.val td:nth-child(2){background:#f3f6f7}
+  .cmp-list{list-style:none;margin:12px 0 0;padding:0}
+  .cmp-list li{display:grid;grid-template-columns:78px 1fr auto;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--rule);cursor:pointer}
+  .cmp-list li:first-child{border-top:none}
+  .cmp-list li:hover .cmp-name{color:var(--accent)}
+  .cmp-tick{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:14px}
+  .cmp-name{font-weight:500}
+  .cmp-one{font-size:14px;color:#39414c;margin-top:2px}
+  .cmp-date{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);white-space:nowrap}
+  .cmp-back{font-family:"IBM Plex Sans",sans-serif;font-size:12.5px;color:var(--accent);background:none;border:none;cursor:pointer;padding:0}
+  .cmp-head{grid-column:1/-1;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  .cmp-head .t{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:22px;letter-spacing:.06em}
+  .cmp-head .n{font-family:"Newsreader",serif;font-size:19px}
+  .cmp-head .d{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted)}
+  .cmp-verdict{grid-column:1/-1}
+  .cmp-verdict .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  .cmp-verdict p{font-family:"Newsreader",serif;font-size:19px;line-height:1.35;color:var(--ink)}
+  .cmp-verdict p b{font-weight:600}
+  .tl-wrap .chain{margin-top:2px}
 </style>
 </head>
 <body>
@@ -273,6 +300,19 @@ function section(s){
   if(s.type==='intro'){
     let leg = s.legend?`<div class="legend">${s.legend.map(t=>`<span class="${tagCls(t.k)}">${esc(t.t)}</span>`).join('')}</div>`:'';
     return `<div class="intro-card"><p>${s.html}</p>${leg}</div>`;
+  }
+  if(s.type==='table'){
+    const th = s.columns.map(c=>`<th>${esc(c)}</th>`).join('');
+    const tr = s.rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i===0?'lbl':''}">${esc(c)}</td>`).join('')}</tr>`).join('');
+    const ls = s.letterStyle?` style="${s.letterStyle}"`:'';
+    return `<section class="block"><div class="letter"${ls}>${esc(s.letter)}</div><div><h3>${s.heading}</h3>`
+      +`<div class="tbl-wrap"><table class="val"><thead><tr>${th}</tr></thead><tbody>${tr}</tbody></table></div>`
+      +(s.note?`<div class="caveat">${s.note}</div>`:'')+`</div></section>`;
+  }
+  if(s.type==='timeline'){
+    const ls = s.letterStyle?` style="${s.letterStyle}"`:'';
+    const items = (s.entries||[]).map(e=>`<li class="chain-item kind-${e.kind||'fact'}"><span class="chain-dot"></span><div class="chain-body"><div class="chain-meta"><span class="chain-date">${esc(e.date)}</span> · ${esc(e.source)}</div><div class="chain-sum">${esc(e.summary)}</div></div></li>`).join('');
+    return `<section class="block"><div class="letter"${ls}>${esc(s.letter)}</div><div class="tl-wrap"><h3>${s.heading}</h3><ol class="chain">${items}</ol></div></section>`;
   }
   let inner = '';
   if(s.note) inner += `<p class="caveat" style="font-size:14px;margin:0 0 12px">${s.note}</p>`;
@@ -357,6 +397,26 @@ function rail(c){
   return h + `</div>`;
 }
 function panelHTML(t){
+  if(t.id==='company'){
+    if(!window.__CMP_IDX) return `<div class="empty"><div class="k">Modul 02</div><h3>Vállalati mély-elemzés</h3><p>Betöltés…</p></div>`;
+    if(window.__CMP){
+      const c=window.__CMP, v=c.verdict||{}, m=c.meta||{};
+      const head=`<div class="cmp-head"><button class="cmp-back" data-cmp-back>← lista</button></div>`
+        +`<div class="cmp-head"><span class="t">${esc(m.ticker)}</span><span class="n">${esc(m.name)}</span>`
+        +`<span class="d">${esc(m.date)}${m.exchange?' · '+esc(m.exchange):''}${m.run?' · '+esc(m.run):''}</span>`
+        +(m.follow?`<span class="tag tag--ok">napi követés: be</span>`:`<span class="tag tag--skip">napi követés: ki</span>`)+`</div>`;
+      const verdict=v.text?`<div class="intro-card cmp-verdict"><div class="eyebrow">Verdikt <span class="pill pill--${v.state||'transition'}">${esc(v.label||'')}</span></div><p>${v.text}</p></div>`:'';
+      const main=`<div class="col-main">${(c.sections||[]).map(section).join('')}</div>`;
+      const aside=c.rail?`<aside>${c.rail.map(rail).join('')}</aside>`:'';
+      return head+verdict+main+aside;
+    }
+    const rows=window.__CMP_IDX.map((a,i)=>`<li data-cmp="${i}"><span class="cmp-tick">${esc(a.ticker)}</span>`
+      +`<div><span class="cmp-name">${esc(a.name)}</span> <span class="pill pill--${a.state||'transition'}" style="font-size:9.5px">${esc(a.state||'')}</span><div class="cmp-one">${esc(a.oneliner)}</div></div>`
+      +`<span class="cmp-date">${esc(a.date)}</span></li>`).join('');
+    return `<div class="empty" style="max-width:none"><div class="k">Modul 02</div><h3>Vállalati mély-elemzés</h3>`
+      +`<p>Egy cég, a P–K logika mentén: profil, 5 éves lánc, backlog három szinten, értékeltség a konkurenciához mérve, ellenoldal, katalizátorok.</p>`
+      +`<ul class="cmp-list">${rows||'<li>még nincs elemzés</li>'}</ul></div>`;
+  }
   if(t.empty){
     const e=t.empty;
     return `<div class="empty"><div class="k">${esc(e.k)}</div><h3>${e.heading}</h3><p>${e.text}</p><div class="steps">${e.steps}</div></div>`;
@@ -382,6 +442,7 @@ function renderHero(){
   } else hero.style.display='none';
 }
 function show(id){
+  if(id!=='company') window.__CMP=null;
   ACTIVE=id;
   document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected', b.dataset.id===id));
   renderHero();
@@ -407,6 +468,13 @@ function init(){
   const md=document.getElementById('modal');
   md.addEventListener('click',e=>{ if(e.target===md||e.target.classList.contains('modal-close')) closeModal(); });
   document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeModal(); });
+  stage.addEventListener('click',e=>{
+    const li=e.target.closest('[data-cmp]');
+    if(li&&window.__CMP_IDX){ const a=window.__CMP_IDX[+li.dataset.cmp];
+      fetch('./data/'+a.file,{cache:'no-store'}).then(r=>r.json()).then(c=>{window.__CMP=c; show('company');}).catch(()=>{}); }
+    if(e.target.closest('[data-cmp-back]')){ window.__CMP=null; show('company'); }
+  });
+  fetch('./data/company/index.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).then(ix=>{window.__CMP_IDX=ix; if(ACTIVE==='company') show('company');}).catch(()=>{window.__CMP_IDX=[]; if(ACTIVE==='company') show('company');});
   show(DATA.tabs[0].id);
 }
 const RETIRED = ['sentiment','newsletter','folyamatok']; // Cowork-modulok helyben futnak — a dashboardon nincs fülük
