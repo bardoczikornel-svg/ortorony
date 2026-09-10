@@ -268,6 +268,14 @@
   .cmp-verdict p{font-family:"Newsreader",serif;font-size:19px;line-height:1.35;color:var(--ink)}
   .cmp-verdict p b{font-weight:600}
   .tl-wrap .chain{margin-top:2px}
+  .cmp-launch{display:flex;gap:8px;align-items:center;margin:14px 0 6px;flex-wrap:wrap}
+  .cmp-launch input{font-family:"IBM Plex Mono",monospace;font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:7px 10px;border:1px solid var(--rule);border-radius:4px;width:130px;background:#fff;color:var(--ink)}
+  .cmp-launch input:focus{outline:none;border-color:var(--accent)}
+  .cmp-launch button{font-family:"IBM Plex Sans",sans-serif;font-size:13px;font-weight:500;padding:7px 14px;border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:4px;cursor:pointer}
+  .cmp-launch button:disabled{opacity:.5;cursor:default}
+  .cmp-status{font-family:"IBM Plex Sans",sans-serif;font-size:12.5px;color:var(--muted)}
+  .cmp-status.err{color:var(--riskoff)}
+  .cmp-status.run{color:var(--accent)}
 </style>
 </head>
 <body>
@@ -415,6 +423,7 @@ function panelHTML(t){
       +`<span class="cmp-date">${esc(a.date)}</span></li>`).join('');
     return `<div class="empty" style="max-width:none"><div class="k">Modul 02</div><h3>Vállalati mély-elemzés</h3>`
       +`<p>Egy cég, a P–K logika mentén: profil, 5 éves lánc, backlog három szinten, értékeltség a konkurenciához mérve, ellenoldal, katalizátorok.</p>`
+      +`<div class="cmp-launch"><input id="cmp-ticker" placeholder="TICKER" maxlength="10" autocomplete="off"><button id="cmp-go">Elemzés indítása</button><span class="cmp-status ${window.__CMP_ST?.cls||''}" id="cmp-status">${esc(window.__CMP_ST?.msg||'')}</span></div>`
       +`<ul class="cmp-list">${rows||'<li>még nincs elemzés</li>'}</ul></div>`;
   }
   if(t.empty){
@@ -449,6 +458,27 @@ function show(id){
   document.getElementById('stage').innerHTML = panelHTML(DATA.tabs.find(x=>x.id===id));
   window.scrollTo({top:0,behavior:'instant'});
 }
+function cmpStatus(msg,cls){ window.__CMP_ST={msg,cls}; const el=document.getElementById('cmp-status'); if(el){ el.textContent=msg; el.className='cmp-status '+(cls||''); } }
+async function launchCompany(){
+  const inp=document.getElementById('cmp-ticker'), btn=document.getElementById('cmp-go');
+  const ticker=(inp?.value||'').trim().toUpperCase();
+  if(!/^[A-Z0-9.\-]{1,10}$/.test(ticker)){ cmpStatus('adj meg egy tickert (pl. NVDA)','err'); return; }
+  btn.disabled=true; cmpStatus(`${ticker}: indítás…`,'run');
+  try{
+    const r=await fetch('/api/company',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({ticker})});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok){ cmpStatus(`hiba: ${j.error||r.status}`,'err'); btn.disabled=false; return; }
+  }catch(err){ cmpStatus('hiba: nem érhető el az /api/company végpont','err'); btn.disabled=false; return; }
+  const t0=Date.now(), today=new Date().toISOString().slice(0,10);
+  cmpStatus(`${ticker}: fut (kb. 3–6 perc), a lista magától frissül…`,'run');
+  const poll=async()=>{
+    try{ const ix=await fetch('./data/company/index.json',{cache:'no-store'}).then(r=>r.json());
+      if(ix.some(a=>a.ticker===ticker&&a.date===today)){ window.__CMP_IDX=ix; cmpStatus(`${ticker}: kész`,''); if(ACTIVE==='company'&&!window.__CMP) show('company'); return; }
+    }catch(e){}
+    if(Date.now()-t0<15*60*1000) setTimeout(poll,30000); else cmpStatus(`${ticker}: 15 perc után sincs eredmény — nézd meg az Actions-futást`,'err');
+  };
+  setTimeout(poll,90000);
+}
 function init(){
   const b=DATA.brand||{name:'Őrtorony',sub:''};
   document.getElementById('brand-name').textContent=b.name;
@@ -473,7 +503,9 @@ function init(){
     if(li&&window.__CMP_IDX){ const a=window.__CMP_IDX[+li.dataset.cmp];
       fetch('./data/'+a.file,{cache:'no-store'}).then(r=>r.json()).then(c=>{window.__CMP=c; show('company');}).catch(()=>{}); }
     if(e.target.closest('[data-cmp-back]')){ window.__CMP=null; show('company'); }
+    if(e.target.id==='cmp-go') launchCompany();
   });
+  stage.addEventListener('keydown',e=>{ if(e.key==='Enter'&&e.target.id==='cmp-ticker'){ e.preventDefault(); launchCompany(); } });
   fetch('./data/company/index.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).then(ix=>{window.__CMP_IDX=ix; if(ACTIVE==='company') show('company');}).catch(()=>{window.__CMP_IDX=[]; if(ACTIVE==='company') show('company');});
   show(DATA.tabs[0].id);
 }
