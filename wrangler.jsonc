@@ -1,7 +1,7 @@
 {
   // Őrtorony — Worker + statikus fájlok. A "name" PONTOSAN a meglévő Worker neve legyen
   // (a Cloudflare dashboardon a fülek fölött, a projekt címe), különben új Workert hoz létre.
-  "name": "IDE-A-WORKER-NEVE",
+  "name": "ortorony",
   "main": "worker/index.js",
   "compatibility_date": "2026-09-01",
   "assets": {
