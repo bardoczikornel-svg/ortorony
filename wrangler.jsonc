@@ -4,6 +4,7 @@
   "name": "ortorony",
   "main": "worker/index.js",
   "compatibility_date": "2026-09-01",
+  "keep_vars": true,
   "assets": {
     "directory": "./",
     "binding": "ASSETS",
@@ -12,7 +13,6 @@
   "vars": {
     "GH_REPO": "bardoczikornel-svg/ortorony",
     "GH_BRANCH": "main"
-"keep_vars": true,
   }
   // GH_TOKEN: NEM ide — a dashboardon Secret típussal, az megmarad deployok között.
 }
