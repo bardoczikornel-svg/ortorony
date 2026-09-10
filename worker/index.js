@@ -6,6 +6,14 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
+    // GET /api/health — melyik változó van beállítva (értékek nélkül)
+    if (url.pathname === '/api/health') {
+      return json({
+        GH_TOKEN: !!env.GH_TOKEN, GH_REPO: env.GH_REPO || null, GH_BRANCH: env.GH_BRANCH || null,
+        ASSETS: !!env.ASSETS, keys: Object.keys(env), access_header: !!request.headers.get('cf-access-jwt-assertion')
+      });
+    }
+
     if (url.pathname === '/api/company') {
       if (request.method !== 'POST') return json({ error: 'POST kell' }, 405);
       // Cloudflare Access mögött vagyunk — az Access-JWT hiánya gyanús.
@@ -14,7 +22,8 @@ export default {
       const body = await request.json().catch(() => ({}));
       const ticker = String(body.ticker || '').trim().toUpperCase();
       if (!/^[A-Z0-9.\-]{1,10}$/.test(ticker)) return json({ error: 'érvénytelen ticker' }, 400);
-      if (!env.GH_TOKEN || !env.GH_REPO) return json({ error: 'GH_TOKEN / GH_REPO nincs beállítva' }, 500);
+      const missing = ['GH_TOKEN', 'GH_REPO'].filter(k => !env[k]);
+      if (missing.length) return json({ error: 'hiányzik: ' + missing.join(', ') + ' — látott kulcsok: ' + Object.keys(env).join(', ') }, 500);
 
       const r = await fetch(`https://api.github.com/repos/${env.GH_REPO}/actions/workflows/company.yml/dispatches`, {
         method: 'POST',
