@@ -12,6 +12,7 @@
   "vars": {
     "GH_REPO": "bardoczikornel-svg/ortorony",
     "GH_BRANCH": "main"
+"keep_vars": true,
   }
   // GH_TOKEN: NEM ide — a dashboardon Secret típussal, az megmarad deployok között.
 }
