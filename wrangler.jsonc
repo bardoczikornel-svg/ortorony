@@ -1,0 +1,17 @@
+{
+  // Őrtorony — Worker + statikus fájlok. A "name" PONTOSAN a meglévő Worker neve legyen
+  // (a Cloudflare dashboardon a fülek fölött, a projekt címe), különben új Workert hoz létre.
+  "name": "IDE-A-WORKER-NEVE",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "vars": {
+    "GH_REPO": "IDE-A-REPO",
+    "GH_BRANCH": "main"
+  }
+  // GH_TOKEN: NEM ide — a dashboardon Secret típussal, az megmarad deployok között.
+}

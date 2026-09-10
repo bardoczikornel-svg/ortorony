@@ -1,0 +1,11 @@
+# ezek nem kerülnek fel statikus fájlként
+.github/
+scripts/
+prompts/
+worker/
+functions/
+wrangler.jsonc
+package.json
+package-lock.json
+node_modules/
+.assetsignore
