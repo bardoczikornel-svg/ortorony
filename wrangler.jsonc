@@ -10,7 +10,7 @@
     "run_worker_first": ["/api/*"]
   },
   "vars": {
-    "GH_REPO": "IDE-A-REPO",
+    "GH_REPO": "bardoczikornel-svg/ortorony",
     "GH_BRANCH": "main"
   }
   // GH_TOKEN: NEM ide — a dashboardon Secret típussal, az megmarad deployok között.
