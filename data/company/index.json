@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "FCELL",
+    "name": "FuelCell Energy, Inc.",
+    "date": "2026-09-11",
+    "file": "company/FCELL-2026-09-11.json",
+    "oneliner": "A Fit Energy-szerződés és a 3,6 milliárd dolláros backlog megnyitja az adatközpont-energia sztorit, de a Q3-as 17 millió dolláros Fit Energy Phase 0 veszteség és a két értékpapír-vizsgálat mutatja, hogy a termelési költs",
+    "state": "transition"
+  },
+  {
     "ticker": "WULF",
     "name": "TeraWulf Inc.",
     "date": "2026-09-11",

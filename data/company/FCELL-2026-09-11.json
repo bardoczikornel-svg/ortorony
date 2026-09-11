@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "ticker": "FCELL",
+    "date": "2026-09-11",
+    "run": "on-demand (GitHub Actions)",
+    "currency": "USD",
+    "name": "FuelCell Energy, Inc.",
+    "exchange": "NASDAQ",
+    "follow": true
+  },
+  "verdict": {
+    "state": "transition",
+    "label": "Adatközpont-fordulat, de a gazdaságosság még nem áll össze",
+    "text": "A Fit Energy-szerződés és a <b>3,6 milliárd dolláros</b> backlog megnyitja az adatközpont-energia sztorit, de a Q3-as <b>17 millió dolláros</b> Fit Energy Phase 0 veszteség és a két értékpapír-vizsgálat mutatja, hogy a termelési költség még a szerződéses ár fölött van."
+  },
+  "sections": [
+    {
+      "letter": "P",
+      "heading": "Profil",
+      "body": [
+        "A FuelCell Energy 1969-ben alakult Danbury-ban (Connecticut) Energy Research Corporation néven, 1992-ben tőzsdére lépett, jelenlegi neve alatt karbonát-üzemanyagcellás erőműveket tervez, gyárt, telepít és szervizel, emellett szilárd-oxid elektrolízis (SOEC) technológiát fejleszt hidrogén-előállításra.",
+        "Székhely: Danbury, Connecticut; tőzsde: Nasdaq (FCEL); vezérigazgató: Jason Few (2019 augusztusa óta CEO).",
+        "A 2025. október 31-én zárult üzleti évben az összbevétel 158,2 millió dollár volt, 41 százalékkal magasabb az előző évi 112,1 millió dollárnál; ebből a termékbevétel 69,1 millió dollár (a teljes bevétel mintegy 44 százaléka), amelyet elsősorban a dél-koreai GGE- és CGN-platformokra szállított modulok LTSA-bevétele hajtott.",
+        "A legutóbbi (2026 Q3, július 31-ig tartó) negyedévben a bevétel-összetétel: termék 18,0 millió, termelés (generation, saját erőművek) 8,8 millió, szerviz 2,4 millió, fejlett technológia (Advanced Technology, DOE-programok, SOEC) 3,8 millió dollár — ez egy negyedéves pillanatkép, nem az éves bontás.",
+        "A cég szerint mintegy 629 alkalmazottat foglalkoztat."
+      ]
+    },
+    {
+      "type": "timeline",
+      "letter": "T",
+      "heading": "Az elmúlt 5 év",
+      "entries": [
+        {
+          "date": "2021-11",
+          "source": "Korea Times, 2022.08.28",
+          "kind": "fact",
+          "summary": "A POSCO Energy-vel 2020-ban megszakadt koreai licencvita rendeződött: a FuelCell kizárólagos jogot kapott a dél-koreai és ázsiai értékesítésre, cserébe a POSCO Energy jogokat kapott a meglévő telepítések szervizelésére."
+        },
+        {
+          "date": "2023",
+          "source": "Grokipedia / céges közlemények",
+          "kind": "fact",
+          "summary": "Elkészült a Toyota Motor North America Long Beach-i kikötői tri-generációs (áram-hidrogén-víz) üzeme, a cég állítása szerint az első ilyen kereskedelmi telepítés a világon."
+        },
+        {
+          "date": "2024-11-08",
+          "source": "SEC 8-K, 2024.11.07",
+          "kind": "fact",
+          "summary": "Hatályba lépett az 1-a-30 arányú fordított részvényösszevonás, amelynek célja a Nasdaq minimum árfolyam-követelményének teljesítése volt; a kintlévő részvényszám 611,3 millióról kb. 20,4 millióra csökkent."
+        },
+        {
+          "date": "2025 Q1 (2025-03)",
+          "source": "FuelCell Energy sajtóközlemény, 2025.03.11",
+          "kind": "fact",
+          "summary": "A cég globális átszervezést jelentett be, amelynek nyomán csökkentek a működési költségek, miközben a bevétel nőtt az előző év azonos negyedévéhez képest."
+        },
+        {
+          "date": "2025-11-26",
+          "source": "10-K FY2025 / MarketScreener összefoglaló",
+          "kind": "fact",
+          "summary": "Lezárult a második EXIM (US Export-Import Bank) projektfinanszírozási tranzakció a koreai hosszú távú szervizszerződésekhez (LTSA) kapcsolódó kötelezettségek támogatására."
+        },
+        {
+          "date": "2026-06-23",
+          "source": "FuelCell Energy / Fit Energy közös közlemény, 2026.06.23",
+          "kind": "fact",
+          "summary": "Stratégiai megállapodás a Fit Energy USA-val akár 380 MW adatközponti üzemanyagcella-teljesítmény szállítására, azonnali előleggel egy 30 MW-os kezdő (Phase 0) fázisra."
+        },
+        {
+          "date": "2026-07-09",
+          "source": "FuelCell Energy sajtóközlemény, 2026.07.09",
+          "kind": "fact",
+          "summary": "Együttműködés bejelentése a Siemensszel skálázható üzemanyagcella-alapú energiamegoldások közös feltárására; a részletek egyelőre nem nyilvánosak."
+        },
+        {
+          "date": "2026-07-09",
+          "source": "Kaplan Fox / Johnson Fistel közlemények, 2026.09.03-04",
+          "kind": "fact",
+          "summary": "A cég lezárt egy jegyzési garanciavállalással biztosított részvénykibocsátást 21 dollár/részvény áron, 12,32 millió részvényre, kb. 245,5 millió dolláros nettó bevétellel."
+        },
+        {
+          "date": "2026-09-02",
+          "source": "FuelCell Energy 8-K, 2026.09.02",
+          "kind": "fact",
+          "summary": "A Q3 FY2026 gyorsjelentésben a cég 17 millió dolláros készlet- és beszerzési kötelezettség-terhelést közölt a Fit Energy Phase 0 fázisával kapcsolatban, mert a gyártási költség meghaladta a szerződéses árat; a részvény aznap kb. 15,7 százalékot esett."
+        },
+        {
+          "date": "2026-09-03/04",
+          "source": "Newsfile / NewMediaWire közlemények",
+          "kind": "fact",
+          "summary": "A Johnson Fistel és a Kaplan Fox & Kilsheimer ügyvédi irodák vizsgálatot indítottak, hogy a júliusi részvénykibocsátás tájékoztatója megfelelően feltárta-e a Fit Energy-megállapodás várható gazdaságosságát."
+        }
+      ]
+    },
+    {
+      "letter": "A",
+      "heading": "Pozíció",
+      "body": [
+        "A FuelCell Energy a stacionárius, hálózat mögötti (behind-the-meter) alap-teljesítményű energiaellátás egyik kevés amerikai gyártója, amely most próbálja a koreai LTSA-bevételre épülő, ciklikus modellét az AI-adatközpontok folyamatos, nagy teljesítményigényére átállítani; a szektorban méretben messze elmarad a Bloom Energytől, de technológiailag (karbonát cella + SOEC) és a Torrington-i gyártóbázis bővítésével próbál relevánsabbá válni, miközben a végrehajtási és költségkockázat még nyitott kérdés."
+      ]
+    },
+    {
+      "letter": "B",
+      "heading": "Mi történt",
+      "items": [
+        {
+          "lead": "A Q3 FY2026 (2026. július 31-ig) bevétele 33,0 millió dollár, 29 százalékkal kevesebb, mint egy évvel korábban.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A termékbevétel visszaesett a dél-koreai modulszállítások alacsonyabb üteme miatt.",
+          "src": [
+            "FuelCell Energy 8-K",
+            "2026.09.02"
+          ]
+        },
+        {
+          "lead": "A bruttó veszteség 24,5 millió dollárra nőtt, ebből 17 millió dollár a Fit Energy Phase 0 készlet- és kötelezettségterhelés.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A gyártási költség és rezsi meghaladta a Fit Energy-szerződésben rögzített árat 37 MW-os éves termelési ütem mellett.",
+          "src": [
+            "FuelCell Energy 8-K / earnings call",
+            "2026.09.02"
+          ]
+        },
+        {
+          "lead": "A készpénzállomány 737,3 millió dollárra ugrott, vállalati (nem projekt-szintű) adósság nélkül.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A júliusi 245,5 millió dolláros részvénykibocsátás és a korábbi negyedévi tőkebevonások töltötték fel a kasszát.",
+          "src": [
+            "Q3 FY2026 earnings call átirat",
+            "2026.09.02"
+          ]
+        },
+        {
+          "lead": "Két ügyvédi iroda (Johnson Fistel, Kaplan Fox) vizsgálatot indított a júliusi részvénykibocsátás tájékoztatása miatt.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A vizsgálat arra irányul, hogy a kibocsátáskor ismert volt-e már a Fit Energy Phase 0 gazdaságtalansága.",
+          "src": [
+            "Newsfile / NewMediaWire közlemények",
+            "2026.09.03-04"
+          ]
+        },
+        {
+          "lead": "A negyedév után aláírták az első Capacity Reservation Agreement-et egy nagy adatközpont-üzemeltetővel, 75 MW-os texasi projektre.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Előlegfizetéssel biztosított, de a pénzügyi feltételeket nem hozták nyilvánosságra.",
+          "src": [
+            "FuelCell Energy 8-K",
+            "2026.09.02"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "heading": "Capex- és marzs-pálya",
+      "body": [
+        "A cég a FY2026 capex-sávot 20-30 millió dollárról 10-20 millió dollárra csökkentette, a menedzsment szerint ez szállítási ütemezési, nem végrehajtási kérdés.",
+        "A Torrington-i 500 MW-os kapacitásbővítés becsült teljes költsége 200-275 millió dollár, 24 hónapos kivitelezéssel, és a cég szerint teljesen finanszírozott a jelenlegi készpénzállományból.",
+        "Vezetői célkitűzés: pozitív korrigált EBITDA elérése a 2027-es üzleti év negyedik negyedévében, feltéve, hogy a termelési ütem eléri a 100 MW/év célt 2026 októberére, a lefoglalt (awarded) backlog egy része szerződötté (committed) válik, és a gyártási költség csökken — ez vezetői célkitűzés, nem szerződött garancia, így becslésnek minősül.",
+        "A Q3 FY2026 bruttó marzsa mélyen negatív maradt (kb. -74 százalék a 33 millió dolláros bevételen 24,5 millió dolláros bruttó veszteséggel), amit a Fit Energy Phase 0 egyszeri terhelése torzít, de a mögöttes termelési költség is a piaci ár fölött van jelenleg."
+      ]
+    },
+    {
+      "letter": "BL",
+      "heading": "Backlog & pipeline",
+      "items": [
+        {
+          "lead": "Jelentett (committed) backlog: 1,3 milliárd dollár 2026. július 31-én, kb. 4,1 százalékkal magasabb egy évvel korábbinál.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Filingből és sajtóközleményből származó, szerződéses adat; tartalmazza a Fit Energy 30 MW-os elköteleződését.",
+          "src": [
+            "FuelCell Energy 8-K",
+            "2026.09.02"
+          ]
+        },
+        {
+          "lead": "Bejelentett, de opcionális szerződés: 2,4 milliárd dolláros awarded capacity backlog, jórészt a Fit Energy akár 350 MW-os opciójából.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A menedzsment maga hangsúlyozta, hogy az awarded capacity nem szilárd megrendelés és nem garantált bevétel — ez teljes szerződéses érték (TCV), nem éves bevétel.",
+          "src": [
+            "Q3 FY2026 earnings call átirat",
+            "2026.09.02"
+          ]
+        },
+        {
+          "lead": "Pipeline / tárgyalás: kb. 10 GW aktív ajánlati (proposal) volumen az üzleti év eddigi részében, ebből kb. 97 százalék adatközponti célú.",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "A vezérigazgató saját szavaival élő indikátor, nem eredmény; a konverziós ráta ismeretlen és korábban is elmaradt a pipeline méretétől.",
+          "src": [
+            "Q3 FY2026 earnings call átirat (Yahoo Finance)",
+            "2026.09.09"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "heading": "Termékciklus & ellátási lánc",
+      "body": [
+        "A Torrington-i (Connecticut) gyár bővítése 500 MW-os éves kapacitásra 2028 júniusára tervezett; közbenső cél az évesített 100 MW-os termelési ütem elérése 2026 októberére, szemben a Q3-ban mért kb. 37 MW-os szinttel.",
+        "A jelenlegi alacsony volumen mellett a gyártási költség és rezsi a Fit Energy-szerződésben rögzített ár fölött van, ez okozta a Q3-as 17 millió dolláros terhelést — ez a legfontosabb rövid távú szűk keresztmetszet.",
+        "A 7,4 MW-os Groton-projekt a teljes negyedévben üzemen kívül volt egy tervezett, szabványos 2,5 MW-os blokkokra történő korszerűsítés miatt, amelyet a cég a 2027-es üzleti évre vár befejezni.",
+        "A Siemensszel 2026 júliusában bejelentett együttműködés korai fázisú, skálázható megoldások közös feltárására irányul; konkrét szerződéses vagy pénzügyi részlet nincs adat."
+      ]
+    },
+    {
+      "letter": "E",
+      "heading": "Kereslet / ügyfélkoncentráció",
+      "body": [
+        "A termékbevétel történelmileg erősen a dél-koreai LTSA-szállításoktól (GGE, illetve a CGN-Yulchon platform) függ, ezek adták a legutóbbi lezárt üzleti év termékbevételének döntő részét.",
+        "Az új backlog-növekedés zöme egyetlen ügyféltől, a Fit Energy USA LP-től származik (akár 380 MW opcióval), ami új, koncentrált függőséget hoz létre egy még bizonytalan gazdaságosságú megállapodásban.",
+        "A Toyota Motor North America Long Beach-i tri-generációs projektje továbbra is zászlóshajó-referencia, de nem tömeges bevételi forrás.",
+        "Pontos, számszerűsített top-ügyfél bevétel-arány nem áll rendelkezésre a felhasznált forrásokból — nincs adat."
+      ]
+    },
+    {
+      "letter": "F",
+      "heading": "Szabályozás & geopolitika",
+      "body": [
+        "A cég 2025 novemberében lezárta második EXIM (US Export-Import Bank) projektfinanszírozási ügyletét, amely a koreai LTSA-kötelezettségeket támogatja — ez az amerikai exportfinanszírozási politikától való függést jelzi.",
+        "Két értékpapír-jogi vizsgálat (Johnson Fistel, Kaplan Fox & Kilsheimer) folyik a 2026 júliusi részvénykibocsátás tájékoztatása körül; egyelőre vizsgálati szakaszban, kereset benyújtásáról nincs megerősített adat.",
+        "A 2020-ban megszakadt, majd 2021 végén rendezett POSCO Energy-licencvita mutatja, hogy a koreai piaci jelenlét korábban már jogi kockázatot hordozott.",
+        "Az amerikai szövetségi tiszta energia adókedvezmények (pl. beruházási adójóváírás) jelenlegi státuszáról friss, megerősített adat nincs a felhasznált forrásokban."
+      ]
+    },
+    {
+      "type": "table",
+      "letter": "G",
+      "heading": "Értékeltség — a cég, konkurencia, szektor",
+      "columns": [
+        "",
+        "FCEL",
+        "BE (Bloom Energy)",
+        "PLUG (Plug Power)",
+        "BLDP (Ballard Power)",
+        "Szektor-medián (közelítés)"
+      ],
+      "rows": [
+        [
+          "Piaci kapitalizáció",
+          "kb. 1,2-1,33 Mrd USD",
+          "kb. 79,1 Mrd USD",
+          "kb. 3,07 Mrd USD",
+          "kb. 0,71 Mrd USD",
+          "kb. 3,1 Mrd USD"
+        ],
+        [
+          "P/S (TTM, közelítés)",
+          "5,07x",
+          "kb. 13,4x (2026 eleji adat, azóta tovább emelkedett az árfolyam)",
+          "3,86x",
+          "nincs adat",
+          "kb. 5,1x"
+        ],
+        [
+          "P/E (TTM)",
+          "veszteséges, n.a.",
+          "303,1x",
+          "veszteséges, n.a.",
+          "-9,11x (veszteséges)",
+          "n.a."
+        ],
+        [
+          "Bruttó marzs (utolsó jelentett negyedév)",
+          "kb. -74% (Fit Energy terheléssel torzítva)",
+          "nincs pontos adat a forrásokból",
+          "kb. 0% (közel break-even)",
+          "nincs adat",
+          "—"
+        ],
+        [
+          "Nettó készpénz/adósság",
+          "nettó készpénz, kb. +584 M USD (737,3 M USD kp. - 153,6 M USD adósság, 2026.07.31)",
+          "nincs adat",
+          "nincs adat",
+          "nincs adat",
+          "—"
+        ]
+      ],
+      "note": "Források: Morningstar (2026.09.05), Yahoo Finance (2026.09.09), Robinhood (2026.09.07), FuelCell Energy Q3 FY2026 earnings call (2026.09.02), 24/7 Wall St. (2026.08.06). A P/S és P/E arányok árfolyam-pillanatképek, közelítésnek minősülnek; a BE 2026 eleji P/S-adata azóta valószínűleg elavult, mert a részvény jelentősen emelkedett."
+    },
+    {
+      "letter": "H",
+      "heading": "Amit figyelmen kívül hagynék",
+      "list": [
+        {
+          "t": "A napi árfolyam-kilengések (napi 8-20 százalékos mozgások hírekre) — inkább kis kapitalizációjú, magas short-érdekeltségű kereskedési mintázat, mint fundamentális jel.",
+          "k": "mood"
+        },
+        {
+          "t": "A 8-32 dolláros elemzői célár-szórás önmagában nem informatív a modell bizonytalansága nélkül.",
+          "k": "skip"
+        },
+        {
+          "t": "Meg nem nevezett, jövőbeli hyperscaler-ügyfelekről szóló spekulációk, amíg nincs aláírt szerződés.",
+          "k": "spec"
+        }
+      ]
+    },
+    {
+      "letter": "I",
+      "heading": "Ellenoldal / steelman",
+      "body": [
+        "A bull-tézis szerint a Fit Energy-megállapodás és a texasi 75 MW-os Capacity Reservation Agreement bizonyítja, hogy a hálózat mögötti, gyorsan telepíthető üzemanyagcella-teljesítmény valós választ ad az AI-adatközpontok áramellátási szűk keresztmetszetére, és a Torrington-bővítés ezt skálázhatóvá teszi.",
+        "Az ellenoldal szerint a Q3-as 17 millió dolláros Fit Energy-terhelés pontosan azt mutatja meg, hogy a jelenlegi gyártási költségszint még nem versenyképes a szerződéses árakkal szemben, így a backlog látványos bővülése önmagában nem garantálja a jövedelmezőséget; az awarded capacity backlog nagy része nem szilárd rendelés, a menedzsment maga figyelmeztet erre.",
+        "A két folyamatban lévő értékpapír-jogi vizsgálat arra utal, hogy a piac megkérdőjelezi, mennyire volt átlátható a júliusi tőkebevonás időzítése a Fit Energy-gazdaságosság ismeretében — ez governance-kockázat, amelyre kevesen figyelnek a backlog-fejlécek mögött."
+      ]
+    },
+    {
+      "letter": "J",
+      "heading": "Katalizátorok",
+      "items": [
+        {
+          "lead": "Fit Energy Phase 0 (30 MW) szállításának megkezdése",
+          "date": "2026 Q4 (FY2026 negyedik negyedév)",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ]
+        },
+        {
+          "lead": "100 MW-os évesített termelési ütem elérésének célja Torringtonban",
+          "date": "2026 október",
+          "tags": [
+            {
+              "t": "becslés",
+              "k": "spec"
+            }
+          ]
+        },
+        {
+          "lead": "FY2026 negyedik negyedéves / éves jelentés (2026. október 31-ig tartó időszak)",
+          "date": "várhatóan 2027 január (a korábbi negyedévek mintázata alapján, nem megerősített dátum)",
+          "tags": [
+            {
+              "t": "becslés",
+              "k": "spec"
+            }
+          ]
+        },
+        {
+          "lead": "Esetleges fejlemény a két folyamatban lévő értékpapír-jogi vizsgálatban (pl. csoportos kereset benyújtása)",
+          "date": "nincs megerősített időpont",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "K",
+      "heading": "Kapcsolódás",
+      "body": [
+        "A FuelCell Energy közvetlenül kapcsolódik a hyperscaler/AI-adatközpont capex-lánchoz és a hálózat mögötti (behind-the-meter), gyorsan telepíthető energia rezsimhez, amelyben a hálózati csatlakozási várólisták és a villamosenergia-kapacitáshiány hajtja a keresletet a disztribuált termelés iránt."
+      ]
+    }
+  ],
+  "rail": [
+    {
+      "heading": "Kulcsszámok",
+      "metrics": [
+        {
+          "k": "Árfolyam",
+          "v": "17,76 USD (2026.09.09 záró)"
+        },
+        {
+          "k": "Piaci kapitalizáció",
+          "v": "kb. 1,33 Mrd USD (2026.09.09)"
+        },
+        {
+          "k": "Készpénz (korlátozott+szabad)",
+          "v": "737,3 M USD (2026.07.31), vállalati adósság nélkül"
+        },
+        {
+          "k": "Projekt-szintű adósság",
+          "v": "153,6 M USD (2026.07.31)"
+        },
+        {
+          "k": "Következő jelentés",
+          "v": "becslés: 2027 január (FY2026 Q4/éves)"
+        },
+        {
+          "k": "FY2026 capex-guidance",
+          "v": "10-20 M USD"
+        }
+      ],
+      "note": "Árfolyam és kapitalizáció forrás: Yahoo Finance, 2026.09.09; készpénz/adósság forrás: Q3 FY2026 earnings call, 2026.09.02."
+    },
+    {
+      "heading": "Epistemikus összesítő",
+      "metrics": [
+        {
+          "k": "Megerősítve",
+          "v": "17 tétel"
+        },
+        {
+          "k": "Becslés / nincs megerősítve",
+          "v": "7 tétel"
+        },
+        {
+          "k": "Közhangulat",
+          "v": "1 tétel"
+        },
+        {
+          "k": "Kihagyva",
+          "v": "2 tétel"
+        }
+      ]
+    },
+    {
+      "heading": "Napi követés",
+      "chips": [
+        {
+          "t": "follow: be"
+        },
+        {
+          "t": "FCEL"
+        },
+        {
+          "t": "FuelCell Energy"
+        },
+        {
+          "t": "Fit Energy"
+        },
+        {
+          "t": "Torrington"
+        },
+        {
+          "t": "Jason Few"
+        },
+        {
+          "t": "data center power agreement"
+        }
+      ]
+    },
+    {
+      "heading": "Források",
+      "list": [
+        "SEC 10-Q, 2026.04.30 (Q2 FY2026)",
+        "SEC 10-K, FY2025 (2025.10.31)",
+        "SEC 8-K, 2026.09.02 (Q3 FY2026 eredménybeszámoló)",
+        "SEC 8-K, 2026.06.22-23 (Fit Energy megállapodás)",
+        "FuelCell Energy Q3 FY2026 earnings call átirat, 2026.09.02",
+        "Johnson Fistel / Kaplan Fox & Kilsheimer közlemények, 2026.09.03-04",
+        "Yahoo Finance, Morningstar, Robinhood árfolyam- és kapitalizáció-adatok, 2026.09.05-09"
+      ]
+    }
+  ]
+}
