@@ -92,6 +92,8 @@ napi futása; csak a `follow: true` tételekre keres.
 
 ## SZABÁLYOK
 - Magyarul, tömören. Nincs ügyleti utasítás, nincs célár.
+- A JSON-mezők szövegében SOHA ne használj ASCII idézőjelet (`"`) — idézethez a magyar „ ” páros vagy
+  a ’ jel való. Ugyanez a `src` és `lead` mezőkre. Egy elrontott idézőjel az egész dokumentumot érvénytelenné teszi.
 - `<cite>` és bármilyen markup-tag NEM kerülhet a JSON-mezőkbe (a generate.mjs strip-eli, de a
   prompt szintjén is tiltott).
 - HTML csak `<b>` és `<span class='mono'>` a `body`/`why`/`text` mezőkben.
