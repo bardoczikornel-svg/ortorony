@@ -1,0 +1,506 @@
+{
+  "meta": {
+    "ticker": "WULF",
+    "date": "2026-09-11",
+    "run": "on-demand (GitHub Actions)",
+    "currency": "USD",
+    "name": "TeraWulf Inc.",
+    "exchange": "NASDAQ",
+    "follow": true
+  },
+  "verdict": {
+    "state": "transition",
+    "label": "Bitcoin-bányászból AI-bérbeadó — a végrehajtás a tét",
+    "text": "A TeraWulf a bitcoin-bányászatból egy <b>hiperskálázók által hitelesített, hosszú távú HPC-bérleti platformmá</b> alakul át, miközben a marzs, a tőkeáttétel és a kivitelezési kockázat még nem igazolta vissza a több tíz milliárdos szerződéses háttért."
+  },
+  "sections": [
+    {
+      "letter": "P",
+      "heading": "Profil",
+      "body": [
+        "A TeraWulf (Nasdaq: WULF, székhely: Easton, Maryland; alapítva 2021 februárjában Paul Prager és Nazar Khan által; tőzsdére lépés 2021. december 14-én az IKONICS Corporation-nel végrehajtott fordított egyesüléssel) eredetileg zéró-karbon energiával működő bitcoin-bányász volt, mára energiaközpontú AI-adatközpont-fejlesztővé és -üzemeltetővé alakult.",
+        "A 2025-ös teljes évben a bevétel 168,5 millió dollár volt (+20,3% éves szinten), ebből 16,9 millió dollár már az újonnan indult HPC-bérleti (colocation) szegmensből származott, a többi digitalis asset (bitcoin) bevétel volt. 2026 második negyedévére a HPC-bérlet a bevétel több mint 70%-át adta, míg a digitális asset bevétel gyakorlatilag stagnált.",
+        "A vezetést Paul Prager (elnök-vezérigazgató), Nazar Khan (társalapító, technológiai igazgató) és Patrick Fleury (pénzügyi igazgató) alkotja."
+      ]
+    },
+    {
+      "type": "timeline",
+      "letter": "T",
+      "heading": "Az elmúlt 5 év",
+      "entries": [
+        {
+          "date": "2021-02-08",
+          "source": "TeraWulf vállalati történet / IR",
+          "kind": "fact",
+          "summary": "TeraWulf megalapítása Paul Prager és Nazar Khan által, zéró-karbon bitcoin-bányász profillal."
+        },
+        {
+          "date": "2021-12-14",
+          "source": "TeraWulf sajtóközlemény / SEC 8-K",
+          "kind": "fact",
+          "summary": "Nasdaq-listázás az IKONICS Corporationnel végrehajtott fordított egyesülés (reverse merger) útján, WULF ticker alatt."
+        },
+        {
+          "date": "2025-01-03",
+          "source": "TeraWulf 8-K (havi jelentés)",
+          "kind": "fact",
+          "summary": "Core42-vel HPC-bérleti szerződés több mint 70 MW kapacitásra, több mint 1 milliárd dolláros szerződéses bevétellel a 10 éves futamidő alatt."
+        },
+        {
+          "date": "2025-08-14",
+          "source": "TeraWulf sajtóközlemény",
+          "kind": "fact",
+          "summary": "Fluidstackkel 200+ MW, 10 éves HPC-bérleti megállapodás mintegy 3,7 milliárd dolláros szerződéses bevétellel; Google 1,8 milliárd dolláros hitelbiztosítékot ad, kb. 8%-os TeraWulf-részesedésért cserébe."
+        },
+        {
+          "date": "2025-08-18",
+          "source": "TeraWulf sajtóközlemény",
+          "kind": "fact",
+          "summary": "Fluidstack lehívja a CB-5 bővítési opciót (+160 MW), a szerződéses összeg 6,7 milliárd dollárra nő, Google backstopja 3,2 milliárd dollárra, részesedése 14%-ra emelkedik."
+        },
+        {
+          "date": "2025-10-28",
+          "source": "TeraWulf / GlobeNewswire 8-K",
+          "kind": "fact",
+          "summary": "Fluidstackkel közös vállalat az Abernathy (Texas) telephelyen, 168 MW, 25 éves lízing, kb. 9,5 milliárd dolláros szerződéses bevétel; Google 1,3 milliárd dolláros backstopot ad."
+        },
+        {
+          "date": "2026-02-02",
+          "source": "TeraWulf sajtóközlemény",
+          "kind": "fact",
+          "summary": "Megállapodás a marylandi Morgantown erőmű megvásárlásáról, cél az akár 1 GW-os Chesapeake Data Campus kialakítása."
+        },
+        {
+          "date": "2026-02-26",
+          "source": "TeraWulf FY2025 eredményközlemény",
+          "kind": "fact",
+          "summary": "2025-ös teljes éves bevétel 168,5 millió dollár (+20,3%), nettó veszteség 661,4 millió dollár; 522 MW HPC-kapacitásra szóló szerződés és 12,8 milliárd dolláros szerződéses bevétel a jelentés szerint."
+        },
+        {
+          "date": "2026-05-22",
+          "source": "TeraWulf / vállalati közlés",
+          "kind": "fact",
+          "summary": "Muskie Data Campus (kelet-kentucky-i, kb. 1 GW potenciálú telephely) felvásárlása az Industrial Equity Partnerstől."
+        },
+        {
+          "date": "2026-07-06",
+          "source": "SEC 8-K (Exhibit 99.1)",
+          "kind": "fact",
+          "summary": "20 éves, kb. 19 milliárd dolláros (opciókkal akár 33 milliárd dolláros) Anthropic-lízing a Justified Data Campuson (Hawesville, Kentucky); egyidejűleg az Abernathy JV 50,1%-os részesedésének eladása a Fluidstack vezette befektetői csoportnak kb. 530 millió dollárért."
+        },
+        {
+          "date": "2026-07-29",
+          "source": "FERC-határozat / sajtó",
+          "kind": "fact",
+          "summary": "A FERC jóváhagyja a Morgantown erőmű tulajdonjogának átruházását, de az engedély kifejezetten nem terjed ki adatközponti építésre vagy új termelésre."
+        },
+        {
+          "date": "2026-08-24",
+          "source": "GlobeNewswire / CNN piaci hírfolyam",
+          "kind": "fact",
+          "summary": "Kentucky Public Service Commission jóváhagyja a Justified Data Campus 482 MW-os áramellátási megállapodását."
+        }
+      ]
+    },
+    {
+      "letter": "A",
+      "heading": "Pozíció",
+      "body": [
+        "A TeraWulf a bitcoin-bányászból AI-hosztolóvá váló szektor egyik legagresszívebb szereplője: stratégiája a barnamezős, már meglévő ipari/erőművi telephelyek (Lake Mariner NY, egykori alumíniumkohó Hawesville-ben KY, Muskie KY, egykori olajerőmű Morgantownben MD) újrahasznosítására épül, amivel gyors hozzáférést tud kínálni az AI-laborok számára amúgy szűkös hálózati kapacitáshoz. A pozícióját a hiperskálázói hitelmegerősítés (Google backstop és részvényopciók) és a kiemelkedően hosszú, 20-25 éves bérleti konstrukciók különböztetik meg a tisztán spekulatív bányász társaktól, miközben a tényleges, jelenlegi bevétele még töredéke a bejelentett szerződéses hátérnek."
+      ]
+    },
+    {
+      "letter": "B",
+      "heading": "Mi történt",
+      "items": [
+        {
+          "lead": "CB3 üzembe állt a Lake Mariner campuson, 102 MW bevételtermelő kritikus IT-kapacitással, ami aktiválta a Google 600 millió dolláros hitelbiztosítékát a Fluidstack-lízinghez.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Első konkrét bizonyíték arra, hogy a Fluidstack-szerződések ténylegesen bevételt termelnek, nem csak papíron léteznek.",
+          "src": [
+            "TeraWulf Q2 2026 eredményközlemény / earnings call",
+            "2026-08-05"
+          ]
+        },
+        {
+          "lead": "20 éves, kb. 19 milliárd dolláros (opciókkal 33 milliárd dolláros) Anthropic-lízing a Justified Data Campuson, 401 MW kritikus IT-kapacitásra.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A teljes szerződéses érték (TCV) meghaladja a cég akkori piaci kapitalizációját, de a bevétel csak 2027 második felétől kezd befolyni.",
+          "src": [
+            "SEC 8-K (Exhibit 99.1)",
+            "2026-07-06"
+          ]
+        },
+        {
+          "lead": "Az Abernathy JV 50,1%-os részesedésének eladása a Fluidstack vezette befektetői csoportnak, kb. 530 millió dollárért.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Tőkekivonás egy már felfutó projektből, amit a nagyobb, kizárólagos tulajdonú kampuszokba forgatnak vissza.",
+          "src": [
+            "TeraWulf sajtóközlemény",
+            "2026-07-06"
+          ]
+        },
+        {
+          "lead": "Q2 2026 GAAP nettó vesztesége 939,9 millió dollár, ebből 755,7 millió dollár nem készpénzes tétel a Google-warrantok valós érték-változásából; a HPC-bérleti marzs mindössze 28% volt a hosszú távú 85%-os céllal szemben.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A fejjelentés mögött a tényleges üzemi kép még messze van az érett, magas marzsú állapottól.",
+          "src": [
+            "TeraWulf Q2 2026 earnings call transcript",
+            "2026-08-05"
+          ]
+        },
+        {
+          "lead": "A Kentucky Public Service Commission jóváhagyta a Justified Data Campus 482 MW-os áramellátási megállapodását.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Fontos szabályozói lépés az Anthropic-kampusz megvalósíthatóságához.",
+          "src": [
+            "GlobeNewswire / CNN piaci hírfolyam",
+            "2026-08-24"
+          ]
+        },
+        {
+          "lead": "Szeptember első felében két igazgatósági tag (Catherine Motz, Walter Carter) összesen közel 3 millió dollár értékben adott el részvényeket, a vezérigazgató pedig nettó eladó volt az elmúlt 12 hónapban.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Az insider-eladás önmagában nem feltétlenül negatív jelzés (tervezett programok is lehetnek), de kontextusként érdemes követni a magas értékeltség mellett.",
+          "src": [
+            "Investing.com / StockTitan Form 4 közlések",
+            "2026-09-01–2026-09-08"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "heading": "Capex- és marzs-pálya",
+      "body": [
+        "Megerősített céltűzés: évi 250-500 MW új szerződött kapacitás a évtized végéig — ezt a Q2 2026 jelentés is megerősítette.",
+        "A Wolf Compute projektnél a teljes fajlagos beruházási költség kb. 9,1 millió dollár/MW-ra emelkedett a 2025 októberében finanszírozott 8,6 millió dollár/MW-hoz képest, amit a cég a villanyszerelői munkaerőhiánnyal (kb. 1000 fős állományra bővült csapat) indokol — ez megerősített, cég által közölt adat.",
+        "A HPC-bérleti szegmens hosszú távú marzscélja 85%, szemben a Q2 2026-os tényleges 28%-kal; a különbséget a bérbeadás előtti üzemeltetési és fejlesztési költségek magyarázzák — ez is cégoldali, megerősített adat, de a marzs-konvergencia időzítése és mértéke egyelőre elemzői becslés.",
+        "Az elemzői konszenzus 2026-ra még veszteséget vár (EPS becslés kb. -0,18 USD a következő negyedévre) — ez becslés, nem cégoldali guidance."
+      ]
+    },
+    {
+      "letter": "BL",
+      "heading": "Backlog & pipeline",
+      "items": [
+        {
+          "lead": "Anthropic — Justified Data Campus lízing: kb. 19 milliárd dollár szerződéses bevétel a 20 éves alapfutamidőre, opciókkal akár 33 milliárd dollár.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "SEC 8-K-ban közölt, de ez teljes szerződéses érték (TCV), nem éves bevétel; a tényleges bevételtermelés csak 2027 H2-től indul.",
+          "src": [
+            "SEC 8-K",
+            "2026-07-06"
+          ]
+        },
+        {
+          "lead": "Fluidstack — Lake Mariner (CB3-CB5) lízingek: kb. 6,7 milliárd dollár + a 2026-os szerződésmódosítások révén további 500+ millió dollár.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "TCV, nem éves bevétel; a CB3 már bevételtermelő, CB4-CB5 még építés alatt.",
+          "src": [
+            "TeraWulf sajtóközlemények és Q2 2026 earnings call",
+            "2025-08-18 / 2026-08-05"
+          ]
+        },
+        {
+          "lead": "Core42 — HPC lízing: 70+ MW, több mint 1 milliárd dollár TCV a 10 éves futamidőre.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A legkorábbi, már teljesen bevételtermelő HPC-szerződés.",
+          "src": [
+            "TeraWulf 8-K (2025-01-03)"
+          ]
+        },
+        {
+          "lead": "Nemzetközi (észak-európai) adatközpont-fejlesztés.",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "A vezérigazgató a Q2 2026 hívásban csak vizsgálati fázisról beszélt, szerződés vagy telephely nélkül.",
+          "src": [
+            "TeraWulf Q2 2026 earnings call transcript",
+            "2026-08-05"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "heading": "Termékciklus & ellátási lánc",
+      "body": [
+        "Következő fordulópontok: CB4/CB5 energizálása Lake Marinernél 2026 második felében; Justified Data Campus (Hawesville, KY) kezdeti kapacitása 2027 H2-ben, teljes 401 MW 2028 elején; Muskie (KY) kezdeti szolgáltatás 2028 Q4-ben; Chesapeake (Morgantown, MD) 2030-ra tervezett indítás, további engedélyek függvényében.",
+        "Fő szűk keresztmetszet a villanyszerelői/kivitelezői munkaerőhiány, amit a cég maga is megerősített a fajlagos költségnövekedés okaként.",
+        "A colocation-modellben az ügyfelek hozzák saját GPU-jukat, így a chip-ellátási lánc kockázata elsősorban az ügyfelek (Anthropic, Fluidstack mögötti Google/AI-fejlesztők), nem közvetlenül a TeraWulf oldalán jelentkezik."
+      ]
+    },
+    {
+      "letter": "E",
+      "heading": "Kereslet / ügyfélkoncentráció",
+      "body": [
+        "A HPC-bevétel gyakorlatilag három ügyfélre (illetve az őket hitelesítő partnerekre) korlátozódik: Fluidstack (Google-backstoppal), Anthropic és a korábbi Core42-szerződés — pontos bevétel-megoszlást a cég nem közöl.",
+        "Ez a koncentráció szektorszinten is jellemző (pl. a Core Scientificnél a colocation-bevétel 100%-a a CoreWeave-től származik), tehát nem TeraWulf-specifikus anomália, de strukturális kockázat marad.",
+        "A digitális asset (bitcoin-bányászati) bevétel nem ügyfélfüggő, hanem a BTC-árfolyamtól és a hálózati nehézségi szinttől függ, és súlya folyamatosan csökken a teljes mixben."
+      ]
+    },
+    {
+      "letter": "F",
+      "heading": "Szabályozás & geopolitika",
+      "body": [
+        "A FERC 2026. július 29-én jóváhagyta a Morgantown erőmű tulajdonjogának átruházását, de a határozat kifejezetten nem engedélyez adatközponti építést, új vagy visszaállított termelést, vagy a PJM-kapacitásjogok módosítását — ezek külön eljárást igényelnek.",
+        "Marylandi helyi ellenállás (Charles County, környezetvédők, Baltimore Banner-riportok) a hálózati terhelés és az örökölt szennyezés miatt; a projekt kimenetele bizonytalan.",
+        "Kentucky-ban simább volt az út: a Kentucky PSC 2026. augusztus 24-én jóváhagyta a Justified Data Campus 482 MW-os áramellátási megállapodását.",
+        "Közvetlen exportkontroll-kitettség korlátozott, mivel a colocation-modellben az ügyfelek hozzák a saját számítási hardverüket."
+      ]
+    },
+    {
+      "type": "table",
+      "letter": "G",
+      "heading": "Értékeltség — a cég, konkurencia, szektor",
+      "columns": [
+        "",
+        "WULF",
+        "CIFR",
+        "CORZ",
+        "HUT",
+        "Szektor-medián (közelítés)"
+      ],
+      "rows": [
+        [
+          "Piaci kapitalizáció",
+          "~8,05 Mrd USD (2026-09-10)",
+          "~6,71–9,13 Mrd USD (2026-08)",
+          "~6,67 Mrd USD (2026-07)",
+          "~9,56 Mrd USD (2026-09-02) / ~16,25 Mrd CAD (2026-09-09)",
+          "~7-9 Mrd USD"
+        ],
+        [
+          "Nettó adósság / EV",
+          "Nettó adósság ~2,7 Mrd USD (2026-06-30); EV ~10,7 Mrd USD (közelítés)",
+          "—",
+          "EV ~9,30 Mrd USD (2026-07)",
+          "—",
+          "—"
+        ],
+        [
+          "EV/Sales (kb., trailing/fwd vegyesen)",
+          "~60x (FY2025 168,5M USD bevételre vetítve, közelítés)",
+          "~7,9x fwd (2026 eleji elemzői becslés)",
+          "~7,9x FY2026E (elemzői becslés)",
+          "P/S a történelmi ~12,8x medián fölött (leírás szerint)",
+          "~8-15x (közelítés, torzítva a pre-revenue HPC-építés miatt)"
+        ],
+        [
+          "EV/EBITDA",
+          "n.a. (negatív adj. EBITDA, -18,3M USD Q2 2026)",
+          "~10,2x fwd (2026 eleji becslés)",
+          "n.a. (nagy adózás előtti veszteség)",
+          "n.a. (unprofitable)",
+          "—"
+        ],
+        [
+          "Fő ügyfél / backlog-jelleg",
+          "Fluidstack (Google-backstop), Anthropic, Core42 — TCV ~19-27 Mrd USD (megerősítve, nem éves bevétel)",
+          "AWS, Fluidstack — TCV kb. 8,5 Mrd USD (elemzői becslés)",
+          "CoreWeave — colocation-bevétel 100%-a innen (elemzői jelentés)",
+          "Fluidstack, Nvidia/Anthropic-Lambda — TCV ~19,6-25 Mrd USD (sajtó)",
+          "—"
+        ]
+      ],
+      "note": "A táblázat vegyes dátumú, aggregátor- és elemzői forrásokból (stockanalysis.com, Seeking Alpha, GuruFocus, Investing.com) származó adatokat kombinál — ezek közelítésnek tekintendők, nem egységes időpontú, auditált mérőszámok. A HPC-szektorban a hagyományos EV/Sales és EV/EBITDA mutatók torzítottak, mert a cégek pre-revenue infrastruktúrát építenek több tíz milliárdos, de csak évek múlva befolyó szerződéses bevétel mögé."
+    },
+    {
+      "letter": "H",
+      "heading": "Amit figyelmen kívül hagynék",
+      "list": [
+        "Napi insider-eladási hírek önmagukban, tervezett (10b5-1) programok esetén",
+        "Rövid távú bitcoin-árfolyam-mozgások hatása, mivel a digitális asset szegmens súlya folyamatosan csökken a bevételi mixben",
+        "Az elemzői célár-szórás ($22-40 USD közötti sávok) mint önálló szignál"
+      ]
+    },
+    {
+      "letter": "I",
+      "heading": "Ellenoldal / steelman",
+      "body": [
+        "A HPC-bérleti marzs (28%) még messze van a 85%-os céltól, és a fajlagos építési költség emelkedik (9,1M USD/MW), ami a munkaerőhiány miatt tovább nőhet, és időben eltolhatja a megtérülést.",
+        "A teljes adósság 5,7-5,8 milliárd dollár (konvertibilis kötvények anyavállalati szinten + szenior fedezett kötvények a WULF Compute-nál), miközben az adj. EBITDA továbbra is negatív — ez tőkeáttételi kockázat egy még be nem érett üzletnél.",
+        "A marylandi Morgantown/Chesapeake terv helyi és szabályozói ellenállásba ütközik, a FERC-jóváhagyás kifejezetten nem terjed ki az adatközponti építésre — a projekt teljes megvalósulása bizonytalan.",
+        "A hangzatos, több tíz milliárdos szerződéses összegek 20-25 éves TCV-k, nem éves bevételek; a tényleges negyedéves bevétel (44,8M USD) töredéke a piaci kapitalizációnak, ami komoly kivitelezési kockázatot áraz be előre.",
+        "Az igazgatósági és vezetői részvényeladások sűrűsödése a magas értékeltség mellett óvatosságra inthet."
+      ]
+    },
+    {
+      "letter": "J",
+      "heading": "Katalizátorok",
+      "items": [
+        {
+          "lead": "Q3 2026 eredményközlés, várhatóan 2026. november 16-án.",
+          "tags": [
+            {
+              "t": "becslés",
+              "k": "spec"
+            }
+          ],
+          "why": "Több adatszolgáltató (TradingView, Investing.com) is ezt a dátumot jelzi, de a cég hivatalos megerősítése még nem történt meg.",
+          "src": [
+            "TradingView / Investing.com",
+            "2026-09"
+          ]
+        },
+        {
+          "lead": "CB4/CB5 energizálása a Lake Mariner campuson 2026 második felében.",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Cégoldali ütemterv, amit a Q2 2026 jelentés is megerősített.",
+          "src": [
+            "TeraWulf Q2 2026 earnings release",
+            "2026-08-05"
+          ]
+        },
+        {
+          "lead": "További szabályozói lépések a Morgantown/Chesapeake projektnél (állami/környezetvédelmi engedélyek, PJM-kapacitáspiaci döntések).",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "A FERC-jóváhagyás csak a tulajdonátruházásra vonatkozott, a további engedélyezési út kimenetele nyitott.",
+          "src": [
+            "FERC-határozat / helyi sajtó",
+            "2026-07-29"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "K",
+      "heading": "Kapcsolódás",
+      "body": [
+        "A TeraWulf a hyperscaler capex-lánc egyik közvetlen haszonélvezője (Google hitelbiztosíték és részvényopciók, Anthropic mint bérlő), és ugyanabba a barnamezős-energia + AI-bérbeadás rezsimbe illeszkedik, mint a Core Scientific-CoreWeave, a Cipher-AWS/Fluidstack és a Hut 8-Nvidia/Anthropic-Lambda párosok. Emellett a magas tőkeáttétel miatt közvetlenül érzékeny a kamatpálya és a hitelpiaci hangulat alakulására is."
+      ]
+    }
+  ],
+  "rail": [
+    {
+      "heading": "Kulcsszámok",
+      "metrics": [
+        {
+          "k": "Ár",
+          "v": "16,20 USD (2026-09-10)"
+        },
+        {
+          "k": "Piaci kapitalizáció",
+          "v": "~8,05 Mrd USD (2026-09-10)"
+        },
+        {
+          "k": "Nettó adósság",
+          "v": "~2,7 Mrd USD (2026-06-30)"
+        },
+        {
+          "k": "Következő jelentés",
+          "v": "2026-11-16 (becsült, Q3 2026)"
+        },
+        {
+          "k": "Guidance",
+          "v": "évi 250-500 MW új szerződött HPC-kapacitás (megerősítve)"
+        }
+      ],
+      "note": "Árfolyam- és kapitalizációadat aggregátorból (Robinhood, TradingView), 2026-09-10 körüli állapot."
+    },
+    {
+      "heading": "Epistemikus összesítő",
+      "metrics": [
+        {
+          "k": "megerősítve",
+          "v": "~18 tétel"
+        },
+        {
+          "k": "becslés / nincs megerősítve",
+          "v": "~5 tétel"
+        },
+        {
+          "k": "közhangulat",
+          "v": "~2 tétel"
+        }
+      ]
+    },
+    {
+      "heading": "Napi követés",
+      "chips": [
+        "follow: be",
+        "TeraWulf",
+        "WULF",
+        "Lake Mariner",
+        "Fluidstack",
+        "Anthropic",
+        "Justified Data Campus",
+        "Morgantown",
+        "Chesapeake Data Campus",
+        "Muskie",
+        "Google warrantok"
+      ]
+    },
+    {
+      "heading": "Források",
+      "list": [
+        "SEC 8-K, TeraWulf Q2 2026 eredményközlemény (2026-08-05)",
+        "SEC 8-K, Anthropic-lízing és Abernathy-eladás bejelentése (2026-07-06)",
+        "TeraWulf FY2025 eredményközlemény (2026-02-26)",
+        "TeraWulf sajtóközlemények — Fluidstack/Google szerződések (2025-08-14, 2025-08-18, 2025-10-28)",
+        "FERC-határozat a Morgantown tulajdonátruházásról (2026-07-29)",
+        "Kentucky Public Service Commission jóváhagyás (2026-08-24)",
+        "TeraWulf Q2 2026 earnings call transcript (Motley Fool / Seeking Alpha, 2026-08-05)"
+      ]
+    }
+  ]
+}

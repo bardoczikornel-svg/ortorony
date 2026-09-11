@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "WULF",
+    "name": "TeraWulf Inc.",
+    "date": "2026-09-11",
+    "file": "company/WULF-2026-09-11.json",
+    "oneliner": "A TeraWulf a bitcoin-bányászatból egy hiperskálázók által hitelesített, hosszú távú HPC-bérleti platformmá alakul át, miközben a marzs, a tőkeáttétel és a kivitelezési kockázat még nem igazolta vissza a több tíz milliárd",
+    "state": "transition"
+  },
+  {
     "ticker": "IREN",
     "name": "IREN Limited",
     "date": "2026-09-10",
