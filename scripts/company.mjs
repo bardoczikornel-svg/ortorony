@@ -51,7 +51,7 @@ const res = await fetch('https://api.anthropic.com/v1/messages', {
   headers: { 'content-type': 'application/json', 'x-api-key': KEY, 'anthropic-version': '2023-06-01' },
   body: JSON.stringify({
     model: MODEL,
-    max_tokens: 16000,
+    max_tokens: 32000,
     system,
     messages: [{ role: 'user', content: user }],
     tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 25 }]
@@ -59,15 +59,52 @@ const res = await fetch('https://api.anthropic.com/v1/messages', {
 });
 if (!res.ok) { console.error('API hiba', res.status, await res.text()); process.exit(1); }
 const data = await res.json();
+console.log(`stop_reason: ${data.stop_reason} · output tokens: ${data.usage?.output_tokens} · keresések: ${(data.content||[]).filter(b=>b.type==='server_tool_use').length}`);
+if (data.stop_reason === 'max_tokens') console.error('FIGYELEM: a válasz elérte a max_tokens határt — a JSON valószínűleg csonka.');
 
 // --- szöveg kinyerése + cite-strip + JSON kivágás (mint a generate.mjs-ben) ---
 let text = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('\n');
 text = text.replace(/<\/?cite[^>]*>/g, '').replace(/```json|```/g, '');
 const a = text.indexOf('{'), z = text.lastIndexOf('}');
-if (a < 0 || z < 0) { console.error('nincs JSON a válaszban:\n', text.slice(0, 800)); process.exit(1); }
+if (a < 0 || z < 0) { console.error('nincs JSON a válaszban. A válasz eleje:\n', text.slice(0, 1500)); process.exit(1); }
 let doc;
-try { doc = JSON.parse(text.slice(a, z + 1)); }
-catch (e) { fs.writeFileSync(path.join(DIR, `${ticker}-${today}.raw.txt`), text); console.error('JSON parse hiba:', e.message, '— nyers válasz mentve .raw.txt-be'); process.exit(1); }
+const candidate = text.slice(a, z + 1)
+  .replace(/,\s*([}\]])/g, '$1');          // záró vessző javítása
+try { doc = JSON.parse(candidate); }
+catch (e) {
+  console.error('JSON parse hiba:', e.message, '— javító kör kényszerített eszközhívással…');
+  doc = await repairJson(candidate, e.message);
+}
+
+// --- javító kör: a modell tool_use-ként adja vissza, az API garantálja az érvényes JSON-t ---
+async function repairJson(broken, errMsg) {
+  const schema = {
+    type: 'object',
+    properties: {
+      meta: { type: 'object' }, verdict: { type: 'object' },
+      sections: { type: 'array', items: { type: 'object' } },
+      rail: { type: 'array', items: { type: 'object' } }
+    },
+    required: ['meta', 'verdict', 'sections', 'rail']
+  };
+  const r = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-api-key': KEY, 'anthropic-version': '2023-06-01' },
+    body: JSON.stringify({
+      model: MODEL, max_tokens: 32000,
+      system: 'Egy hibás JSON-dokumentumot kapsz. Add vissza PONTOSAN ugyanazt a tartalmat érvényes JSON-ként az emit_company eszközön keresztül. Ne rövidíts, ne hagyj ki tételt, ne fogalmazz át — csak a szintaxist javítsd (idézőjelek escape-elése, vesszők, zárójelek).',
+      messages: [{ role: 'user', content: `Parse-hiba: ${errMsg}\n\nHibás JSON:\n${broken}` }],
+      tools: [{ name: 'emit_company', description: 'A javított cégelemzés-dokumentum', input_schema: schema }],
+      tool_choice: { type: 'tool', name: 'emit_company' }
+    })
+  });
+  if (!r.ok) { console.error('javító hívás API hiba', r.status, await r.text()); process.exit(1); }
+  const d = await r.json();
+  const tu = (d.content || []).find(b => b.type === 'tool_use');
+  if (!tu) { fs.writeFileSync(path.join(DIR, `${ticker}-${today}.raw.txt`), broken); console.error('a javító kör nem adott tool_use blokkot — nyers mentve .raw.txt-be'); process.exit(1); }
+  console.log('javító kör sikeres.');
+  return tu.input;
+}
 
 // --- meta normalizálás ---
 doc.meta = Object.assign({ ticker, date: today, run: 'on-demand (GitHub Actions)', currency: 'USD' }, doc.meta || {});
