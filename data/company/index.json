@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "IREN",
+    "name": "IREN Limited",
+    "date": "2026-09-14",
+    "file": "company/IREN-2026-09-14.json",
+    "oneliner": "IREN a bitcoin-bányászatot 2026 végére leépíti, és a helyére 4 milliárd dolláros szerződött ARR-t épít, de a negyedéves AI Cloud árbevétel ($70,5m) még messze van az ígért futamráta-szinttől.",
+    "state": "transition"
+  },
+  {
     "ticker": "FCELL",
     "name": "FuelCell Energy, Inc.",
     "date": "2026-09-11",
