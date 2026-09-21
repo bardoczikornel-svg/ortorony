@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "WULF",
+    "name": "TeraWulf Inc.",
+    "date": "2026-09-21",
+    "file": "company/WULF-2026-09-21.json",
+    "oneliner": "A cég többtíz-milliárd dolláros, hosszú futamú bérleti szerződéseket kötött Google-fedezetű és Anthropic-tenantokkal, de a bevétel döntő része még csak 2027–2028-ban kezd befolyni, miközben a mérleg már most 5,7–5,8 mill",
+    "state": "transition"
+  },
+  {
     "ticker": "IREN",
     "name": "IREN Limited",
     "date": "2026-09-14",
