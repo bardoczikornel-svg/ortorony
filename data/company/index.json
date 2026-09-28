@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "FCELL",
+    "name": "FuelCell Energy, Inc.",
+    "date": "2026-09-28",
+    "file": "company/FCELL-2026-09-28.json",
+    "oneliner": "A cég három hónap alatt 1,14 milliárd dollárról 3,6 milliárd dollárra tolta a backlogot egy adatközponti szerződéssel, de a kapacitáshiány miatt már az első fázison veszteséget termel, ami pereket és élénk árfolyam-ingad",
+    "state": "transition"
+  },
+  {
     "ticker": "WULF",
     "name": "TeraWulf Inc.",
     "date": "2026-09-21",
