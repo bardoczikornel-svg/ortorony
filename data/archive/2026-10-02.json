@@ -1320,10 +1320,6 @@
       "label": "Archívum",
       "archive": [
         {
-          "date": "2026-10-02",
-          "file": "archive/2026-10-02.json"
-        },
-        {
           "date": "2026-10-01",
           "file": "archive/2026-10-01.json"
         },
