@@ -1,0 +1,537 @@
+{
+  "meta": {
+    "ticker": "IREN",
+    "date": "2026-10-05",
+    "run": "on-demand (GitHub Actions)",
+    "currency": "USD",
+    "name": "IREN Limited",
+    "exchange": "NASDAQ",
+    "follow": true
+  },
+  "verdict": {
+    "state": "transition",
+    "label": "Bitcoin-bányászból AI-felhő-platform — a váltás számokban is mérhető, de a finanszírozás még mindig adósság-vezérelt",
+    "text": "A Q4 FY26-ban az <b>AI Cloud bevétel először előzte meg</b> a Bitcoin-bányászati bevételt, miközben a vállalat 25-30 milliárd dolláros FY27 capexet és erősen koncentrált (Microsoft, NVIDIA) ügyfélkört kezel."
+  },
+  "sections": [
+    {
+      "letter": "P",
+      "heading": "Profil",
+      "body": [
+        "IREN Limited egy vertikálisan integrált AI-felhő platform: saját földterületen, saját hálózati csatlakozással rendelkező adatközpontokat épít és üzemeltet, ezekbe GPU-alapú számítási kapacitást telepít, és erre szoftveres menedzselt szolgáltatásokat (Mirantis-akvizíció óta orchestration és enterprise support) kínál. FY26-ban (2026.06.30-ig lezárt év) a teljes árbevétel 707,0 millió USD volt, ebből a Bitcoin-bányászat 578,2 millió USD (kb. 82%), az AI Cloud Services pedig 128,8 millió USD (kb. 18%, éves szinten közel 8x növekedés). A Q4 FY26-ban (2026. ápr-jún) az AI Cloud bevétel (70,5M USD) először haladta meg a Bitcoin-bányászati bevételt (66,7M USD).",
+        "Székhely: Sydney, Ausztrália (55 Market Street). Tőzsde: Nasdaq (ticker: IREN), IPO 2021.11.19. Alapítva 2018.11.06-án Daniel Roberts és William Roberts testvérpár által, eredetileg Iris Energy Pty Ltd néven; a cég 2024.11.27-én vette fel az IREN Limited nevet. Vezetés: Daniel Roberts és William Roberts co-CEO-k, Anthony Lewis CFO."
+      ]
+    },
+    {
+      "type": "timeline",
+      "letter": "T",
+      "heading": "Az elmúlt 5 év",
+      "entries": [
+        {
+          "date": "2021-11-19",
+          "source": "SEC / IREN 10-K",
+          "kind": "fact",
+          "summary": "Nasdaq IPO lezárása Iris Energy Limited néven."
+        },
+        {
+          "date": "2024-11-27",
+          "source": "SEC 10-K / Wikipedia",
+          "kind": "fact",
+          "summary": "Névváltás Iris Energy Limitedről IREN Limitedre, az AI-felhő pivot formalizálása."
+        },
+        {
+          "date": "2024-09",
+          "source": "US bírósági döntés / Wikipedia",
+          "kind": "fact",
+          "summary": "Amerikai bíróság elutasítja az IPO körüli részvényesi class actiont, nem talált szándékos félretájékoztatásra utaló bizonyítékot."
+        },
+        {
+          "date": "2025-11-03",
+          "source": "IREN 8-K / DCD",
+          "kind": "fact",
+          "summary": "5 éves, 9,7 milliárd USD összértékű GPU-felhő szerződés a Microsofttal (20%-os előlegfizetéssel), párhuzamosan 5,8 milliárd USD-s GPU-beszerzési megállapodás a Dell-lel."
+        },
+        {
+          "date": "2026-03-04",
+          "source": "IREN sajtóközlemény",
+          "kind": "fact",
+          "summary": "50 000+ NVIDIA B300 GPU megrendelése, a flotta 150 000 GPU-ra bővül; 9,3 milliárd USD friss finanszírozás; 2026-os ARR-cél 3,7 milliárd USD-ra emelve."
+        },
+        {
+          "date": "2026-05-05/08-04",
+          "source": "IREN 8-K / StorageNewsletter",
+          "kind": "fact",
+          "summary": "Mirantis felhő-szoftver vállalat felvásárlásának bejelentése (kb. 625M USD részvényben), majd lezárása augusztus 4-én."
+        },
+        {
+          "date": "2026-05-07",
+          "source": "IREN 8-K / CNBC",
+          "kind": "fact",
+          "summary": "5 éves, 3,4 milliárd USD-s managed GPU-felhő szerződés az NVIDIA-val, emellett 5GW-os stratégiai partnerség és 30 millió IREN-részvény lehívási joga az NVIDIA számára 70 USD-s áron (max. 2,1 milliárd USD)."
+        },
+        {
+          "date": "2026-07-01",
+          "source": "Benzinga",
+          "kind": "fact",
+          "summary": "Kormányzási vihar: a board kb. 800 millió USD értékű RSU-juttatást hagy jóvá a Roberts testvér co-CEO-knak; Jim Chanos short-seller kritikája nyomán a részvény egy nap alatt kb. 12%-ot esik."
+        },
+        {
+          "date": "2026-07-20",
+          "source": "IREN 8-K",
+          "kind": "fact",
+          "summary": "2,8 milliárd USD új, többéves AI-felhő szerződés vezető AI-fejlesztőkkel; a 2026-os ARR-cél 4 milliárd USD fölé emelve, kb. 85%-a már szerződött."
+        },
+        {
+          "date": "2026-08-13",
+          "source": "IREN 8-K",
+          "kind": "fact",
+          "summary": "Horizon 1 (első 50MW-os folyadékhűtéses childressi telephely) átadva és elfogadva a Microsoft által; NVIDIA Exemplar Cloud minősítés GB300 NVL72-n."
+        },
+        {
+          "date": "2026-08-27",
+          "source": "IREN FY26 eredményközlemény / SEC 8-K",
+          "kind": "fact",
+          "summary": "FY26 zárás: 707M USD bevétel, 702,6M USD nettó veszteség (638,8M USD nem készpénz-jellegű leírással); új, meg nem nevezett frontier AI labor-szerződés; 4 milliárd USD szerződött ARR célkitűzés 2026-ra."
+        },
+        {
+          "date": "2026-08-28",
+          "source": "Blue Owl Capital sajtóközlemény",
+          "kind": "fact",
+          "summary": "Blue Owl (és PIMCO) vezette 2,4 milliárd USD-s GPU-finanszírozás (1,2Mrd hitel + 1,2Mrd kötvény, kb. 9%-os kamat) a mackenzie-i (BC) Blackwell Ultra-telepítéshez."
+        },
+        {
+          "date": "2026-09-14/09-26",
+          "source": "JPMorgan elemzői jelentés / Yahoo Finance",
+          "kind": "estimate",
+          "summary": "JPMorgan kettős (Underweight-ről Overweight-re) emelést hajt végre, 46-ról 65 USD-s célárral, 2030-ra 24 milliárd USD bevételt és kb. 65%-os EBITDA-marzst modellezve."
+        }
+      ]
+    },
+    {
+      "letter": "A",
+      "heading": "Pozíció",
+      "body": [
+        "Az úgynevezett 'neocloud' szegmensben (CoreWeave, Nebius, Applied Digital, Cipher Mining) IREN azon kevesek közé tartozik, amelyek a teljes vertikumot - földterület, hálózati csatlakozás, adatközpont-építés, GPU-üzemeltetés és immár (Mirantis révén) szoftveres menedzselt szolgáltatás - saját kézben tartják, több mint 5GW-nyi fejlesztési potenciállal Észak-Amerikában. Ez versenyelőnyt ad a kapacitás-kiépítés sebességében (lásd Horizon 1 gyors átadása), ugyanakkor azt is jelenti, hogy a tőkeigény és a végrehajtási kockázat is a vállalatnál csapódik le, miközben a bevétel koncentrációja (Microsoft, NVIDIA) egyelőre magas marad."
+      ]
+    },
+    {
+      "letter": "B",
+      "heading": "Mi történt",
+      "items": [
+        {
+          "lead": "Q4 FY26 bevétel 137,2 millió USD, elmaradt a kb. 157 milliós piaci konszenzustól",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Az AI Cloud bevétel szekvenciálisan duplázódott (33,6M → 70,5M USD), de a Bitcoin-bányászati bevétel a decommissionálás miatt visszaesett (111,2M → 66,7M USD).",
+          "src": [
+            "IREN FY26 eredményközlemény / SEC 8-K",
+            "2026-08-27"
+          ]
+        },
+        {
+          "lead": "Horizon 1 átadva és elfogadva a Microsoft által, NVIDIA Exemplar Cloud minősítés",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Az elfogadás elindítja a havi számlázást; ez az első élesben teljesítő egység a 9,7 milliárd USD-s Microsoft-szerződésből.",
+          "src": [
+            "IREN 8-K",
+            "2026-08-13"
+          ]
+        },
+        {
+          "lead": "Új, meg nem nevezett frontier AI labor-szerződés, a 2026-os ARR-cél 4 milliárd USD fölé emelve",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            },
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "A szerződés létezését a cég megerősítette, de az ügyfél kiléte és a pontos szerződéses érték nem nyilvános - ez elemzői kritika tárgya is (transzparencia-hiány).",
+          "src": [
+            "IREN FY26 eredményközlemény / SEC 8-K",
+            "2026-08-27"
+          ]
+        },
+        {
+          "lead": "FY27 capex-irányszám 25-30 milliárd USD-ra emelve",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A menedzsment a 4 milliárd USD-s ARR-cél kiszolgálásához jelentősen megemelte a tőkeköltés-tervet a korábbi szintekhez képest.",
+          "src": [
+            "BTIG elemzői összefoglaló / Benzinga",
+            "2026-08-28"
+          ]
+        },
+        {
+          "lead": "Mirantis felhő-szoftver cég felvásárlásának lezárása",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Kb. 12,6 millió IREN-részvény plusz készpénz/RSU ellenében; a szoftver-réteg erősítését szolgálja, több száz meglévő vállalati ügyfelet hoz be.",
+          "src": [
+            "IREN 8-K",
+            "2026-08-04"
+          ]
+        },
+        {
+          "lead": "2,4 milliárd USD GPU-finanszírozás a Blue Owl és a PIMCO vezetésével",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "1,2 milliárd USD hitel és 1,2 milliárd USD kötvény, kb. 9%-os fix kamattal - jelentősen drágább, mint a Microsoft-szerződéshez kötött, befektetési kategóriájú (kb. 6%-os) finanszírozás.",
+          "src": [
+            "Blue Owl Capital sajtóközlemény",
+            "2026-08-28"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "heading": "Capex- és marzs-pálya",
+      "body": [
+        "Megerősített vállalati irányszám: FY27 capex 25-30 milliárd USD (2026.08.27-i közlés). FY26 Adjusted EBITDA 245,7 millió USD (35%-os marzs), szemben az FY25-ös 269,7 millió USD-vel (54%-os marzs) - a marzsromlást a platform-beruházás és a létszámbővítés okozza az AI Cloud bevétel felfutása előtt. A finanszírozás kétszintű: a Microsofthoz kötött GPU-kapacitásra kb. 6%-os súlyozott kamatú, befektetési kategóriájú hitel (kb. 3,6 milliárd USD) + előlegek fedezik a kapcsolódó capex kb. 90-96%-át; a nem befektetési kategóriájú ügyfelekhez kötött kapacitásra (pl. Mackenzie) drágább, kb. 9%-os finanszírozás (2,8 milliárd USD, ebből 2,4Mrd Blue Owl/PIMCO) jut. A cég szerint a legutóbbi 3 éves szerződések MW-onként 20 millió USD feletti bevételt (kb. 2 éves megtérülés), az aktív tárgyalások pedig kb. 25 millió USD/MW szintet céloznak - ez megerősített, de nem GAAP-mutató (ARR-alapú vezetői becslés).",
+        "Elemzői becslés (nem vállalati guidance): a JPMorgan modellje 2030-ra kb. 24 milliárd USD bevételt és kb. 65%-os EBITDA-marzst feltételez egy kb. 2065MW-os platformon - ez messze túlmutat a jelenlegi 707 millió USD-s bázison, és erősen függ a jövőbeli árazás és a kapacitás-kiépítés ütemétől."
+      ]
+    },
+    {
+      "type": "table",
+      "letter": "BL",
+      "heading": "Backlog & pipeline",
+      "columns": [
+        "Szint",
+        "Tétel",
+        "Összeg / státusz",
+        "Címke"
+      ],
+      "rows": [
+        [
+          "Jelentett ARR (nem GAAP-bevétel)",
+          "Szerződött ARR 2026-os kapacitásra + operatív ARR ma",
+          "4 milliárd USD szerződött (2026-ra); 1 milliárd USD már operatív (2026.08.26-i állapot)",
+          "megerősítve"
+        ],
+        [
+          "Bejelentett szerződések (TCV, nem éves bevétel)",
+          "Microsoft 5 éves GPU-felhő szerződés",
+          "9,7 milliárd USD teljes szerződéses érték, 20% előleg",
+          "megerősítve"
+        ],
+        [
+          "Bejelentett szerződések (TCV, nem éves bevétel)",
+          "NVIDIA 5 éves managed cloud szerződés",
+          "3,4 milliárd USD teljes szerződéses érték",
+          "megerősítve"
+        ],
+        [
+          "Bejelentett szerződések (TCV, nem éves bevétel)",
+          "2026.07.20-i új AI-fejlesztői szerződéscsomag (Cohere, Perplexity, Figure AI, Together AI, Fal AI, Hume AI stb.)",
+          "2,8 milliárd USD összesített érték",
+          "megerősítve"
+        ],
+        [
+          "Pipeline / tárgyalás",
+          "2027-es kapacitás egy jelentős részére késői fázisú tárgyalások új ügyfelekkel",
+          "nincs konkrét összeg",
+          "nincs megerősítve"
+        ],
+        [
+          "Pipeline / tárgyalás",
+          "2028-as kapacitásra finanszírozási és ügyfél-tárgyalások párhuzamosan",
+          "nincs konkrét összeg",
+          "nincs megerősítve"
+        ]
+      ],
+      "note": "Az ARR a cég saját, nem GAAP operatív mutatója (GPU-óradíj × 8760 óra, kommisszionált GPU-kra vetítve); a társaság kifejezetten jelzi, hogy ez nem helyettesíti a GAAP-bevételt. A TCV (teljes szerződéses érték) többéves összeg, nem éves bevétel."
+    },
+    {
+      "letter": "D",
+      "heading": "Termékciklus & ellátási lánc",
+      "body": [
+        "A childressi (Texas) campuson a Horizon 1-4 folyadékhűtéses, egyenként 50MW-os egységek épülnek a Microsoft-szerződés kiszolgálására: Horizon 1 átadva (2026.08), Horizon 2 commissioning alatt, Horizon 3-4 késői építési fázisban, cél a 2026 Q4-es átadás. A GPU-ellátás NVIDIA-ra (GB300 NVL72, B300, Blackwell Ultra) és Dell Technologies beszerzési szerződésekre épül (kb. 5,8 milliárd USD a Microsoft-kapacitásra, kb. 1,6 milliárd USD a Blackwell-kapacitásra). Az NVIDIA egyszerre beszállító, ügyfél (3,4 milliárd USD-s szerződés) és leendő részvényes (jog 30 millió részvény vásárlására) - ezt a körkörösséget több elemző (pl. JPMorgan) kritikusan értékeli, mert korlátozza a független megítélhetőséget.",
+        "A fő hatalmi/kapacitás-bővülés a nyugat-texasi Sweetwater hub-ra épül (Sweetwater 1: 1400MW, energizálva 2026-ban; Sweetwater 2: 600MW, 2027-es energizálás), emellett egy fejlesztés alatt álló 1,6GW-os oklahomai telephely bővíti a portfóliót. A teljes bejelentett fejlesztési csővezeték meghaladja az 5GW-ot, de ennek kevesebb mint 10%-a van ma ténylegesen szerződve - a szűk keresztmetszet tehát nem a földterület/áram, hanem a GPU-beszerzés és a hálózati csatlakozás ütemezése."
+      ]
+    },
+    {
+      "letter": "E",
+      "heading": "Kereslet / ügyfélkoncentráció",
+      "body": [
+        "A bevétel-potenciál messze a Microsoft-szerződésre összpontosul (9,7 milliárd USD TCV, kb. 1,9 milliárd USD átlagos éves bevétel teljes kiépítés esetén), amit az NVIDIA 3,4 milliárd USD-s szerződése egészít ki. A cég az elmúlt negyedévekben tudatosan diverzifikálta az ügyfélkört: Cohere, Perplexity, Figure AI, Together AI, Fireworks AI, Fal AI, Hume AI, Prometheus, Higgsfield AI és egy meg nem nevezett frontier AI labor - ezek egyedi bevétel-részesedése nem közölt, így a tényleges koncentráció mértéke nem megerősíthető. A Bitcoin-bányászati szegmens (a bevétel még mindig 82%-a FY26-ban) gyakorlatilag ügyfél nélküli, önálló hálózati tevékenység, amely folyamatosan háttérbe szorul az AI Cloud javára."
+      ]
+    },
+    {
+      "letter": "F",
+      "heading": "Szabályozás & geopolitika",
+      "body": [
+        "A legnagyobb kapacitásbővítés (Childress, Sweetwater) a texasi ERCOT hálózaton és a Public Utility Commission of Texas szabályozási keretein belül zajlik - ezek a szervek döntik el, milyen ütemben köthetők be új, gigawattos terhelések, ami közvetlenül befolyásolja, mikor kezdődik a tényleges számlázás (elemzői értékelés, nem vállalati kockázatjelzés). A társaság ausztrál jog szerint bejegyzett, de amerikai értékpapírjogi szabályok szerint jelent (foreign private issuer jellegű konstrukció Nasdaq-listázással). 2024 szeptemberében egy, az IPO körüli állítólagos félretájékoztatásra hivatkozó részvényesi class actiont amerikai bíróság elutasított. 2026 nyarán kormányzási vita bontakozott ki a Roberts testvér co-CEO-k kb. 800 millió USD-s RSU-juttatása körül, amit Jim Chanos short-seller nyilvánosan bírált - ez nem jogi/szabályozói kockázat, hanem befektetői bizalmi kérdés."
+      ]
+    },
+    {
+      "type": "table",
+      "letter": "G",
+      "heading": "Értékeltség — IREN, konkurencia, szektor (közelítés, aggregátor-adatok)",
+      "columns": [
+        "",
+        "IREN",
+        "CoreWeave (CRWV)",
+        "Nebius (NBIS)",
+        "Cipher Mining (CIFR)"
+      ],
+      "rows": [
+        [
+          "Piaci kapitalizáció",
+          "16,46 Mrd USD (2026.10.02)",
+          "~48 Mrd USD (2026.09.28)",
+          "~66,0 Mrd USD (2026.10.02)",
+          "6,52 Mrd USD (2026.10.04)"
+        ],
+        [
+          "Enterprise Value",
+          "~19,2 Mrd USD",
+          "~94 Mrd USD",
+          "~61-65 Mrd USD (forrásfüggő)",
+          "—"
+        ],
+        [
+          "EV/Sales (TTM)",
+          "~27,2x",
+          "~8,7x",
+          "~43,5x (P/S, TTM)",
+          "—"
+        ],
+        [
+          "EV/EBITDA (TTM)",
+          "nem értelmezhető (torzított, nagyon alacsony EBITDA-bázis)",
+          "~14,8x",
+          "~328x (torzított, alacsony jövedelmezőség)",
+          "—"
+        ],
+        [
+          "P/E (TTM)",
+          "n/a (nettó veszteség)",
+          "n/a (nettó veszteség)",
+          "~190-920x (forrásfüggő, torzított)",
+          "negatív (-5,7x)"
+        ],
+        [
+          "Megjegyzés",
+          "Short interest kb. 27% a floatból (2026.09), részvényszám +41,6% egy év alatt",
+          "Microsoft ~ a bevétel túlnyomó részét adja korábbi években",
+          "Erős növekedés, de alacsony abszolút jövedelmezőség",
+          "Bitcoin-bányászatból AI-hosting felé mozdul, mint IREN"
+        ]
+      ],
+      "note": "Minden adat harmadik féltől (stockanalysis.com, multiples.vc, Robinhood, Yahoo Finance) származó, 2026. szeptember vége - október eleje közötti pillanatfelvétel; ezek közelítések, és a neocloud-szegmensben a rendkívül alacsony vagy negatív jövedelmezőség miatt az EV/EBITDA és P/E mutatók sok esetben nem informatívak. Szektor-medián nem számítható megbízhatóan a kis mintaelemszám és a torz szórás miatt."
+    },
+    {
+      "letter": "H",
+      "heading": "Amit figyelmen kívül hagynék",
+      "list": [
+        {
+          "t": "A CoreWeave/Nebius/IREN együttmozgása napi szektor-hangulat alapján (pl. GPU-árazási félelmek, Applied Digital hírek begyűrűzése) - ez korrelációs zaj, nem IREN-specifikus fundamentum.",
+          "k": "skip"
+        },
+        {
+          "t": "A Meta esetleges 'felesleges compute' viszonteladásáról szóló spekuláció - egyelőre be nem jelentett, nem megerősített fenyegetés.",
+          "k": "mood"
+        },
+        {
+          "t": "Heti célár-módosítások egyes brókercégektől (pl. B. Riley, Rothschild) - ezek inkrementális véleménykorrekciók, nem alapváltozást jelző események.",
+          "k": "skip"
+        }
+      ]
+    },
+    {
+      "letter": "I",
+      "heading": "Ellenoldal / steelman",
+      "body": [
+        "A bull-tézis legnagyobb vakfoltja a finanszírozási szerkezet: FY27-re 25-30 milliárd USD capexet vállalt a cég úgy, hogy 2026.06.30-án 7,6 milliárd USD készpénzzel rendelkezett, a különbséget pedig jórészt adósság (6-9%-os kamattal) és ügyfél-előlegek fedezik. Ha az AI-kereslet lassul, vagy a GPU-árazás (jelenleg 20-25 millió USD/MW) csökken, a megtérülési számítás gyorsan romolhat. Az NVIDIA egyszerre beszállító, ügyfél és leendő részvényes - ez a körkörös viszony torzíthatja a szerződéses feltételek valódi piaci árát, amit elemzők (JPMorgan) is jeleztek. A részvényszám egy év alatt 41,6%-kal nőtt, miközben a short interest a float kb. 27%-a - ez a bizalmi kérdéseket is jelzi, amit a 2026 nyári, 800 millió USD-s vezetői RSU-juttatás körüli kormányzási vita tovább erősített. Amire kevesen figyelnek: a cég jelenleg kevesebb mint 10%-át szerződtette az 5GW+ portfóliójának - ha az árazási erő tartható, az elméleti felső határ sokszorosa a jelenlegi 4 milliárd USD-s ARR-célnak, de ez egyelőre feltételezés, nem szerződött tény."
+      ]
+    },
+    {
+      "letter": "J",
+      "heading": "Katalizátorok",
+      "items": [
+        {
+          "lead": "Q1 FY27 eredményközlés",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A következő ütemezett negyedéves jelentés, amely az első visszajelzést adja a Horizon 2-4 kommersszionálásáról.",
+          "src": [
+            "TipRanks earnings naptár",
+            "2026-12-01"
+          ]
+        },
+        {
+          "lead": "4 milliárd USD-s ARR-cél operatívvá válása",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A cég saját célkitűzése szerint a szerződött 2026-os kapacitásnak 2026.12.31-ig kell teljes mértékben operatívvá válnia.",
+          "src": [
+            "IREN FY26 eredményközlemény",
+            "2026-08-27"
+          ]
+        },
+        {
+          "lead": "Horizon 3-4 (Childress) átadása a Microsoftnak",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A vállalat 2026 Q4-re célozza a fennmaradó két 50MW-os egység kereskedelmi üzembe állítását.",
+          "src": [
+            "IREN FY26 eredményközlemény",
+            "2026-08-27"
+          ]
+        },
+        {
+          "lead": "Új 2027-es kapacitásra vonatkozó szerződések bejelentése",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "A menedzsment késői fázisú tárgyalásokról számolt be, de konkrét szerződés még nem publikus.",
+          "src": [
+            "IREN FY26 eredményközlemény / BTIG összefoglaló",
+            "2026-08-27"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "K",
+      "heading": "Kapcsolódás",
+      "body": [
+        "IREN egyszerre kapcsolódik a <b>hyperscaler capex-lánchoz</b> (Microsoft mint fő AI Cloud-ügyfél), a <b>saját szilícium / GPU-ellátási lánchoz</b> (NVIDIA mint beszállító, ügyfél és leendő részvényes, Dell mint integrátor), valamint az <b>energia/grid-lánchoz</b> (ERCOT Texas, BC Hydro Kanadában) - a cég sorsa így egyszerre függ az AI-beruházási ciklus tartósságától és a helyi hálózati engedélyezés ütemétől."
+      ]
+    }
+  ],
+  "rail": [
+    {
+      "heading": "Kulcsszámok",
+      "metrics": [
+        {
+          "k": "Árfolyam",
+          "v": "41,76 USD (2026-10-02 záró)"
+        },
+        {
+          "k": "Piaci kapitalizáció",
+          "v": "16,46 Mrd USD"
+        },
+        {
+          "k": "Készpénz (2026-06-30)",
+          "v": "7,6 Mrd USD"
+        },
+        {
+          "k": "Részvényszám",
+          "v": "394,06 millió (2026-08-14)"
+        },
+        {
+          "k": "Következő jelentés",
+          "v": "2026-12-01 (Q1 FY27)"
+        },
+        {
+          "k": "FY27 capex-irányszám",
+          "v": "25-30 Mrd USD"
+        }
+      ],
+      "note": "Árfolyam és kapitalizáció forrása: stockanalysis.com / iren.com, 2026-10-02."
+    },
+    {
+      "heading": "Epistemikus összesítő",
+      "metrics": [
+        {
+          "k": "Megerősítve",
+          "v": "~18 tétel"
+        },
+        {
+          "k": "Becslés / nincs megerősítve",
+          "v": "~6 tétel"
+        },
+        {
+          "k": "Közhangulat",
+          "v": "~2 tétel"
+        },
+        {
+          "k": "Kihagyva",
+          "v": "~3 tétel"
+        }
+      ]
+    },
+    {
+      "heading": "Napi követés",
+      "chips": [
+        {
+          "t": "follow: be"
+        },
+        {
+          "t": "IREN"
+        },
+        {
+          "t": "Iris Energy"
+        },
+        {
+          "t": "Childress"
+        },
+        {
+          "t": "Sweetwater"
+        },
+        {
+          "t": "Horizon"
+        },
+        {
+          "t": "Daniel Roberts"
+        },
+        {
+          "t": "William Roberts"
+        }
+      ]
+    },
+    {
+      "heading": "Források",
+      "list": [
+        "IREN Ltd 10-K, FY2026 (SEC EDGAR, 2026-08-27)",
+        "IREN Reports FY26 Results, 8-K (SEC EDGAR, 2026-08-27)",
+        "IREN Delivers Horizon 1 to Microsoft, 8-K (SEC EDGAR, 2026-08-13)",
+        "IREN Secures $9.7bn AI Cloud Contract with Microsoft, 8-K (SEC EDGAR, 2025-11-03)",
+        "IREN Business Update and Q3 FY26 Results (GlobeNewswire, 2026-05-07)",
+        "Blue Owl Managed Funds Lead $2.4 Billion AI Factory Financing for IREN (Blue Owl Capital, 2026-08-28)",
+        "Microsoft signs $9.7bn cloud capacity deal with Iren (Data Center Dynamics, 2025-11-03)"
+      ]
+    }
+  ]
+}

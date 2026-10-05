@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "IREN",
+    "name": "IREN Limited",
+    "date": "2026-10-05",
+    "file": "company/IREN-2026-10-05.json",
+    "oneliner": "A Q4 FY26-ban az AI Cloud bevétel először előzte meg a Bitcoin-bányászati bevételt, miközben a vállalat 25-30 milliárd dolláros FY27 capexet és erősen koncentrált (Microsoft, NVIDIA) ügyfélkört kezel.",
+    "state": "transition"
+  },
+  {
     "ticker": "FCELL",
     "name": "FuelCell Energy, Inc.",
     "date": "2026-09-28",
