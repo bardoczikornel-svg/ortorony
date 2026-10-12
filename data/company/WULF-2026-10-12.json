@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "ticker": "WULF",
+    "date": "2026-10-12",
+    "run": "on-demand (GitHub Actions)",
+    "currency": "USD",
+    "name": "TeraWulf Inc.",
+    "exchange": "NASDAQ",
+    "follow": true
+  },
+  "verdict": {
+    "state": "transition",
+    "label": "Bitcoin-bányászból hiperskálázó AI-bérbeadó — a szerződéses könyv már hiperskálázó méretű, a cash flow még nem",
+    "text": "A WULF három éven belül tiszta bitcoin-bányászból <b>Fluidstack/Google, Core42/G42 és Anthropic által kötött, több tíz milliárd dolláros bérleti könyvvel</b> rendelkező energiainfrastruktúra-üzemeltetővé vált, miközben a tényleges HPC-bevétel még csak a teljes árbevétel kisebb részét adja és a mérleg erősen tőkeáttételes."
+  },
+  "sections": [
+    {
+      "letter": "P",
+      "heading": "Profil",
+      "body": [
+        "A TeraWulf Inc. 2021-ben alakult, székhelye Easton, Maryland, a Nasdaqon a WULF tickeren jegyzik; 2021 decemberében egy IKONICS Corporationnel végrehajtott fordított egyesüléssel vált tőzsdeivé. Elnök-vezérigazgató Paul Prager.",
+        "A cég TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States, and also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy.",
+        "2025-ös teljes éves árbevétele 168,5 millió dollár volt 2025-ben, szemben a 2024-es 140,1 millió dollárral, ebből a digitális eszköz (bitcoin) bevétel 151,6 millió dollár volt, a fennmaradó rész pedig az újonnan induló HPC-bérleti szegmensből 16,9 millió dollár származott.",
+        "Fő telephelye a New York állambeli Lake Mariner (volt szénerőmű-terület), emellett két kentucky-i campust épít (Hawesville/Justified, Grayson/Muskie); a bitcoin-bányászat ma már másodlagos, opportunista tevékenység a HPC-bérbeadás mellett."
+      ]
+    },
+    {
+      "type": "timeline",
+      "letter": "T",
+      "heading": "Az elmúlt 5 év",
+      "entries": [
+        {
+          "date": "2021-06-25",
+          "source": "SEC 8-K / sajtóközlemény",
+          "kind": "fact",
+          "summary": "TeraWulf és az IKONICS Corporation bejelenti a fordított egyesülési megállapodást, amely a WULF tickeren tőzsdére viszi a céget."
+        },
+        {
+          "date": "2021-12-14",
+          "source": "SEC 8-K12B",
+          "kind": "fact",
+          "summary": "Az egyesülés lezárul, az IKONICS részvényei törlésre kerülnek, a TeraWulf Nasdaq-listázott társasággá válik."
+        },
+        {
+          "date": "2022-03",
+          "source": "SEC 10-K (FY2024)",
+          "kind": "fact",
+          "summary": "A TeraWulf megkezdi a tényleges bitcoin-bányászatot a Lake Mariner telephelyen."
+        },
+        {
+          "date": "2025-01",
+          "source": "SEC 8-K / sajtóközlemény",
+          "kind": "fact",
+          "summary": "Hosszú távú adatközponti bérleti szerződés a Core42-vel (G42 leányvállalat), 60 MW kritikus IT-kapacitás a Lake Mariner telephelyen, kb. 1 milliárd dolláros szerződéses bevétellel."
+        },
+        {
+          "date": "2025-08-13",
+          "source": "SEC 8-K",
+          "kind": "fact",
+          "summary": "200+ MW, 10 éves bérleti szerződés a Fluidstackkel, kb. 3,7 milliárd dolláros garantált (akár 8,7 milliárdos) szerződéses bevétellel; a Google 1,8 milliárd dollárig fedezi a Fluidstack kötelezettségeit, cserébe kb. 8 százalékos WULF-részesedést kap warrantokon keresztül."
+        },
+        {
+          "date": "2025-10-22",
+          "source": "SEC 8-K / sajtóközlemény",
+          "kind": "fact",
+          "summary": "A WULF Compute LLC leányvállalat lezárja a 3,2 milliárd dolláros, 7,75 százalékos 2030-as lejáratú fedezett zöldkötvény-kibocsátást a Lake Mariner bővítés finanszírozására."
+        },
+        {
+          "date": "2025-10-28",
+          "source": "SEC 8-K / sajtóközlemény",
+          "kind": "fact",
+          "summary": "Új 168 MW-os Abernathy (Texas) HPC közös vállalat a Fluidstackkel, 25 éves bérlettel, kb. 9,5 milliárd dolláros szerződéses értékkel; a Google backstopja 1,3 milliárd dollárral nő."
+        },
+        {
+          "date": "2026-02-26",
+          "source": "SEC 8-K / éves jelentés",
+          "kind": "fact",
+          "summary": "FY2025 eredmény: 168,5 millió dolláros árbevétel, 522 MW szerződött kritikus IT-kapacitás kb. 12,8 milliárd dolláros összbevétellel, 6,5 milliárd dollár hosszú távú finanszírozás lezárva."
+        },
+        {
+          "date": "2026-05",
+          "source": "sajtóközlemény",
+          "kind": "fact",
+          "summary": "A TeraWulf megvásárolja a kentucky-i Muskie Data Campust (Grayson, kb. 308 acre) fázisos AI/HPC fejlesztésre."
+        },
+        {
+          "date": "2026-06 (korai)",
+          "source": "sajtó (Ars Technica, 2026-09-07)",
+          "kind": "fact",
+          "summary": "Tűz üt ki egy még be nem fejezett épületben a Lake Mariner campuson; nem volt sérült, de a tűzoltók működő riasztó, oltórendszer és használható tűzcsap nélkül találták a helyszínt."
+        },
+        {
+          "date": "2026-07-06",
+          "source": "SEC 8-K",
+          "kind": "fact",
+          "summary": "20 éves, kb. 401 MW-os, kb. 19 milliárd dolláros bérleti szerződés az Anthropickal a Hawesville-i (Kentucky) Justified Data campusra; egyúttal a TeraWulf eladja 50,1 százalékos Abernathy-részesedését a Fluidstack vezette befektetői csoportnak kb. 530 millió dollárért."
+        },
+        {
+          "date": "2026-08-05",
+          "source": "SEC 8-K / Q2 jelentés",
+          "kind": "fact",
+          "summary": "Q2 2026 eredmény: 44,8 millió dolláros árbevétel (HPC-bérlet 71 százalék), 755,7 millió dolláros nem készpénzes warrant-átértékelési veszteség, 939,9 millió dolláros nettó veszteség."
+        },
+        {
+          "date": "2026-10-05",
+          "source": "SEC 8-K / sajtóközlemény",
+          "kind": "fact",
+          "summary": "A Kentucky Powerrel kötött módosított megállapodás megduplázza a Muskie campus szerződött teljesítményét 500 MW-ról 1 GW-ra, és 2029-re gyorsítja a második fázist."
+        }
+      ]
+    },
+    {
+      "letter": "A",
+      "heading": "Pozíció",
+      "body": [
+        "A WULF a bitcoin-bányászati örökségéből kiindulva vált olyan energiainfrastruktúra-üzemeltetővé, amely brownfield (volt ipari/erőművi) telephelyeken, már meglévő hálózati csatlakozással gyorsít fel AI-adatközpont-fejlesztést; a modell lényege, hogy a WULF építi és üzemelteti az épületet és az áramellátást, a bérlő (Fluidstack, Core42, Anthropic) hozza a GPU-kat, a hitelkockázatot pedig jellemzően harmadik fél (Google) fedezi. Ez a szűk keresztmetszetet — a hálózati kapacitás és az építési sebesség — teszi a cég versenyelőnyévé, miközben a bevétel-realizálás évekkel elmarad a szerződéskötéstől, és a cég erősen eladósodott a felépítés finanszírozására."
+      ]
+    },
+    {
+      "letter": "B",
+      "heading": "Mi történt",
+      "items": [
+        {
+          "lead": "Muskie campus szerződött teljesítménye megduplázódott 1 GW-ra",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "A Kentucky Powerrel október 1-jén aláírt módosított megállapodás szerint a kapacitás 500 MW-ról 1 GW-ra nő, a második 500 MW-os fázis pedig 2029-re gyorsul 2030-ról, de ez a Kentucky Public Service Commission jóváhagyásától függ.",
+          "src": [
+            "TeraWulf/Kentucky Power sajtóközlemény és 8-K",
+            "2026-10-05"
+          ]
+        },
+        {
+          "lead": "A Lake Mariner campuson történt júniusi tűzeset biztonsági hiányosságokat tárt fel",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Az Ars Technica szeptemberi riportja szerint a helyszínen nem volt működő riasztó- és oltórendszer, a közeli tűzcsapok pedig nem szolgáltattak vizet; a TeraWulf szerint azóta Knox-boxokat és vészhelyzeti csomagokat telepített, de a helyi tűzoltóparancsnok augusztusban még nem látta a munka elkészültét.",
+          "src": [
+            "Ars Technica nyomán másodközlések (pl. valueaddvc.com, artiverse.ca)",
+            "2026-09-07 / 2026-09"
+          ]
+        },
+        {
+          "lead": "Vezetői és igazgatósági részvényeladások, Form 144 bejelentések halmozódnak",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Paul Prager vezérigazgató 137 500 részvényt adott el (kb. 2,35 millió dollár), Walter E. Carter igazgató 130 626 részvényt (kb. 1,98 millió dollár), és több Form 144 bejelentés jelzett további tervezett eladásokat szeptember-október folyamán.",
+          "src": [
+            "SEC Form 4 / Form 144 nyomán piaci összefoglalók",
+            "2026-09-23 – 2026-10-08"
+          ]
+        },
+        {
+          "lead": "A részvény a 29,84 dolláros 52 hetes csúcsról 13-14 dollár közelébe esett",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Az esés a teljes, tőkeigényes AI-adatközpont szektort sújtó, kamatérzékenységi eladási hullám része volt, nem csak cégspecifikus hír.",
+          "src": [
+            "piaci adatszolgáltatók (Yahoo Finance, CNN Markets)",
+            "2026-10-09"
+          ]
+        },
+        {
+          "lead": "Morgan Stanley 65 dollárra emelte a célárat",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "Egyetlen elemzői vélemény, nem vállalati közlés; a konszenzus célár ennél jóval alacsonyabb (kb. 33 dollár).",
+          "src": [
+            "TipRanks nyomán CNN Markets",
+            "2026-10-07/08"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "heading": "Capex- és marzs-pálya",
+      "body": [
+        "Megerősített (vállalati) vezetői kommentár szerint a WULF Compute projektköltség 9,1 millió dollár megawattonként, az eredeti 8-10 millió dolláros sávon belül maradt a villamos munkaerő-korlátok ellenére.",
+        "A Q2 2026-os állapot szerint 2,3 milliárd dollár készült el a WULF Compute projektből, a fennmaradó 1,7 milliárd dollár kétharmada már lekötött.",
+        "A HPC-bérleti szegmens jelentett nyeresége a negyedévben kb. 28 százalék volt, szemben a hosszú távú kb. 85 százalékos céllal — a különbséget a felfutási (pre-revenue) és fejlesztési költségek magyarázzák.",
+        "Az éves SG&A-guidance 75-100 millió dollár közötti sávban maradt a Q2-ben; ez vállalati, nem elemzői becslés. Az elemzői konszenzus (pl. Alpha Spread modellje) 2028-ra pozitív, néhány száz millió dolláros EBITDA-t vetít előre, ez azonban harmadik féltől származó <b>becslés</b>, nem vállalati guidance."
+      ]
+    },
+    {
+      "type": "table",
+      "letter": "G",
+      "heading": "Értékeltség — a cég, konkurencia, szektor",
+      "columns": [
+        "",
+        "WULF",
+        "IREN",
+        "CIFR",
+        "CORZ"
+      ],
+      "rows": [
+        [
+          "Piaci kapitalizáció",
+          "~6,9 Mrd USD (2026-10-09)",
+          "~17,3 Mrd USD (aktuális)",
+          "~8,2 Mrd USD (2026-10 eleje)",
+          "~6,3 Mrd USD (2026-10 eleje)"
+        ],
+        [
+          "EV/árbevétel (ttm, közelítés)",
+          "~63x",
+          "~27x",
+          "—",
+          "—"
+        ],
+        [
+          "EV/EBITDA (ttm)",
+          "negatív (EBITDA ~ -271 M USD)",
+          "~28x",
+          "—",
+          "pozitív EBITDA, pontos szorzó nem megerősíthető"
+        ],
+        [
+          "P/S (ttm, közelítés)",
+          "~41x",
+          "~20x",
+          "—",
+          "—"
+        ],
+        [
+          "Jövedelmezőség",
+          "negatív, nagy nem készpénzes warrant-veszteségekkel terhelve",
+          "az egyetlen a négy közül pozitív ttm nyereséggel",
+          "negatív, magas tőkeáttétel (~10x adósság/saját tőke)",
+          "pozitív EBITDA, de kisebb bevételbázis"
+        ]
+      ],
+      "note": "Minden szorzószám aggregátor (Yahoo Finance Key Statistics, Alpha Spread, portfolioslab) adata, 2026 október eleji vagy korábbi lekérdezésekből — ezek <b>közelítés</b>, nem vállalati filing-adat; a CIFR és CORZ egyes celláinál a forrás nem adott megbízható, azonos időpontú EV/árbevétel és EV/EBITDA adatot, ezért a mező „—”."
+    },
+    {
+      "letter": "BL",
+      "heading": "Backlog & pipeline",
+      "items": [
+        {
+          "lead": "A cég nem publikál GAAP szerinti RPO-t vagy backlogot; a szerződéses összegeket sajtóközleményekben, a lízingek teljes futamidejére vetítve adja meg (TCV, nem éves bevétel).",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "",
+          "src": [
+            "TeraWulf sajtóközlemények",
+            "2025-2026"
+          ]
+        },
+        {
+          "lead": "Core42 (G42): 60 MW kritikus IT, kb. 1,0 milliárd dolláros szerződéses összbevétel, 10+5+5 éves futamidő",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "TCV, nem éves bevétel; a tényleges bérleti bevétel 2025-ben indult.",
+          "src": [
+            "TeraWulf befektetői prezentáció / SEC 8-K",
+            "2025-01, frissítve 2025-11"
+          ]
+        },
+        {
+          "lead": "Fluidstack (Lake Mariner): kb. 360-380 MW, kb. 6,7 milliárd dolláros szerződéses összbevétel, akár 16 milliárdig hosszabbítással",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "TCV, Google 3,2 milliárd dolláros backstoppal fedezve.",
+          "src": [
+            "TeraWulf sajtóközlemény (CB-5 bővítés)",
+            "2025-10"
+          ]
+        },
+        {
+          "lead": "Anthropic (Justified, Hawesville KY): kb. 401 MW, 20 éves bérlet, kb. 19 milliárd dolláros szerződéses összbevétel",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "TCV a kezdeti futamidőre; a tényleges bevételáramlás csak 2027 második felétől indul.",
+          "src": [
+            "SEC 8-K",
+            "2026-07-06"
+          ]
+        },
+        {
+          "lead": "A platform teljes szerződéses bevétele a vállalati befektetői anyag szerint kb. 27+ milliárd dollár",
+          "tags": [
+            {
+              "t": "megerősítve",
+              "k": "ok"
+            }
+          ],
+          "why": "Nem GAAP, vállalati összesítés, több lízing együttes TCV-je.",
+          "src": [
+            "TeraWulf Q2 2026 befektetői prezentáció (8-K EX-99.2)",
+            "2026-08-05"
+          ]
+        },
+        {
+          "lead": "Muskie campus 2 GW-ig terjedő bővítése aktív tárgyalások alatt, de ebből csak 1 GW szerződött",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "A vezetés a Q2 2026 hívásban optimizmust fejezett ki a 2 GW-os bővítésről, ez azonban tárgyalási stádiumú, nem szerződött kapacitás.",
+          "src": [
+            "TeraWulf Q2 2026 earnings call",
+            "2026-08-05"
+          ]
+        },
+        {
+          "lead": "További Fluidstack-kapacitás-bővítés a Lake Mariner campuson folyamatban lévő egyeztetés tárgya",
+          "tags": [
+            {
+              "t": "nincs megerősítve",
+              "k": "spec"
+            }
+          ],
+          "why": "A felek nyilatkozata szerint tárgyalnak, de nincs aláírt szerződés.",
+          "src": [
+            "TeraWulf sajtóközlemény (CB-5)",
+            "2025-10"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "heading": "Termékciklus & ellátási lánc",
+      "body": [
+        "A következő fordulópontok: a Lake Mariner CB-4 commissioning alatt, a CB-5 építés alatt áll a frissített, ügyfél-igazított ütemterv szerint; a Hawesville-i Justified campus első kapacitása 2027 második felében, a teljes 401 MW 2028 elejére várható; a Muskie első 500 MW-os fázisa 2028-ra, a második 2029-re (PSC-jóváhagyástól függően) célzott.",
+        "Fő szűk keresztmetszet a hálózati csatlakozás és az építési ütem: a Kentucky Power egy 765 kV/345 kV-os alállomást épít a Muskie kiszolgálására, a Q2 2026 hívás pedig villamos szakmunkaerő-hiányra hivatkozott a Lake Mariner ütemezésnél.",
+        "A WULF nem vásárol GPU-kat — ez a bérlők (Fluidstack, Core42, Anthropic) dolga —, így a cég beszállítói kitettsége elsősorban építőipari, elektromos berendezés- és transzformátor-beszállítókra korlátozódik, nem félvezető-ellátási láncra."
+      ]
+    },
+    {
+      "letter": "E",
+      "heading": "Kereslet / ügyfélkoncentráció",
+      "body": [
+        "A szerződéses HPC-bevétel gyakorlatilag három ügyfélre koncentrálódik: a Google által hitelkockázatilag fedezett Fluidstack, a G42-höz kötődő Core42, és a közvetlenül szerződő Anthropic. Ez rendkívül magas ügyfélkoncentrációt jelent — egy-egy bérlő nemteljesítése vagy csúszása aránytalanul nagy hatással lenne a bevételre, még ha a Google-backstop a Fluidstack-kitettség jelentős részét fedezi is."
+      ]
+    },
+    {
+      "letter": "F",
+      "heading": "Szabályozás & geopolitika",
+      "body": [
+        "A Muskie campus Kentucky Powerrel kötött megállapodásának második fázisa a Kentucky Public Service Commission jóváhagyásától és a Kentucky Power építési ütemétől függ, ahogy a lakossági téli számlakedvezmény-csomag is.",
+        "A Lake Mariner telephelyen a helyi önkormányzat (Somerset) és a tűzoltóság nyilvánosan feszegeti a munkahely-ígéretek és a tényleges foglalkoztatás közti eltérést, illetve a tűzbiztonsági felkészültséget — ez egyelőre kommunikációs/reputációs, nem szabályozói szankciós kockázat.",
+        "A Core42 az Egyesült Arab Emírségekhez kötődő G42 leányvállalata; ennek esetleges amerikai export-kontroll vagy AI-chip-szabályozási vonatkozásairól konkrét, megerősített fejlemény a keresésben nem került elő — ez `nincs adat`."
+      ]
+    },
+    {
+      "letter": "H",
+      "heading": "Amit figyelmen kívül hagynék",
+      "list": [
+        "Napi, szinte azonos szövegű kereskedési hírek a Form 144 bejelentésekről (több aggregátor oldal ugyanazt az eseményt írja körbe naponta) — ez zaj, nem új információ.",
+        "Egy-egy nap 5-7 százalékos szektorszintű eladási hullámok, amikor az egész AI-adatközpont csoport (IREN, CORZ, APLD) együtt mozog kamatváltozásra — ez makro-szentiment, nem WULF-specifikus fundamentum.",
+        "Rövid távú opciós pozicionálási hírek (put/call arányok, opciós szentiment) — kereskedési zaj, nem befektetési tézis."
+      ]
+    },
+    {
+      "letter": "I",
+      "heading": "Ellenoldal / steelman",
+      "body": [
+        "A bull-tézis szinte teljes egészében jövőbeli, 2027-2030 közötti bevétel-realizálásra épül: a 19 milliárd dolláros Anthropic-szerződés csak 2027 második felében kezd bevételt termelni, miközben a TTM árbevétel mindössze kb. 165-168 millió dollár — a jelenlegi piaci kapitalizáció (kb. 7 milliárd dollár) így elsősorban a jövőbeli végrehajtásra, nem a jelenlegi cash flow-ra árazódik.",
+        "A mérleg erősen tőkeáttételes: a 2025 végi állapot szerint a teljes adósság 5,7 milliárd dollár (2,5 milliárd konvertibilis kötvény a TeraWulfnál, 3,2 milliárd fedezett kötvény a WULF Compute-nál), nettó adósság pedig kb. 2,0 milliárd dollár volt — azóta a kötelezettségállomány feltehetően tovább nőtt az új beruházásokkal.",
+        "A Google-warrantok és a konvertibilis kötvények jelentős hígítást okoznak (a Google pro forma kb. 14 százalékos tulajdonrészt szerez), amihez vezetői és igazgatósági részvényeladások társulnak — ez a bennfentesek rövid távú meggyőződését illetően vegyes jelzés.",
+        "A Lake Mariner tűzeset rávilágított egy strukturális kormányzási kérdésre: a telephely földjét a vezérigazgató, Paul Prager 99,9 százalékban tulajdonolt cége adja bérbe a TeraWulfnak, miközben a négyszereplős (WULF–Fluidstack–Google–Anthropic) felelősségi lánc elmosódott vészhelyzeti felelősséget eredményezett.",
+        "A short interest rendkívül magas (becslések szerint 25-40 százalék közötti sávban mozog forrástól függően), ami jelzi, hogy a piac egy jelentős szegmense kifejezetten a végrehajtási és tőkeáttételi kockázatra fogad."
+      ]
+    },
+    {
+      "letter": "J",
+      "heading": "Katalizátorok",
+      "items": [
+        {
+          "lead": "Q3 2026 gyorsjelentés",
+          "date": "2026-11-09 (becsült)",
+          "src": [
+            "Yahoo Finance earnings naptár",
+            "2026-10"
+          ]
+        },
+        {
+          "lead": "Kentucky PSC döntés a Muskie második fázisának gyorsított (2029-es) ütemezéséről",
+          "date": "2026 Q4 - 2027 eleje (várható)",
+          "src": [
+            "Kentucky Power / TeraWulf sajtóközlemény",
+            "2026-10-05"
+          ]
+        },
+        {
+          "lead": "CB-4/CB-5 Lake Mariner üzembe helyezési mérföldkövek",
+          "date": "2026 Q4 - 2027",
+          "src": [
+            "TeraWulf Q2 2026 earnings call"
+          ]
+        },
+        {
+          "lead": "Esetleges további Fluidstack-kapacitásbővítés bejelentése a Lake Marineren",
+          "date": "nincs megerősített dátum",
+          "src": [
+            "TeraWulf sajtóközlemény (CB-5)",
+            "2025-10"
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "K",
+      "heading": "Kapcsolódás",
+      "body": [
+        "A WULF elsődlegesen a <b>hyperscaler capex</b> és AI-infrastruktúra-bővülési lánchoz kötődik (Fluidstack/Google, Core42/G42, Anthropic bérlők révén), másodsorban pedig a <b>kamatpálya</b> rezsimhez: a magas tőkeáttétel és a hosszú megtérülési horizont miatt a részvény 2026 október eleji esése közvetlenül a kamatvárakozások romlásához kötődött a szektortársakkal (IREN, CORZ) együtt mozogva."
+      ]
+    }
+  ],
+  "rail": [
+    {
+      "heading": "Kulcsszámok",
+      "metrics": [
+        {
+          "k": "Árfolyam",
+          "v": "13,77 USD (2026-10-09 záró)"
+        },
+        {
+          "k": "Piaci kapitalizáció",
+          "v": "~6,9 Mrd USD"
+        },
+        {
+          "k": "Nettó adósság",
+          "v": "~2,0 Mrd USD (2025-12-31-i állapot, azóta nőhetett)"
+        },
+        {
+          "k": "Következő jelentés",
+          "v": "2026-11-09 (becsült)"
+        },
+        {
+          "k": "Guidance",
+          "v": "WULF Compute projektköltség 8-10 M USD/MW; SG&A 75-100 M USD/év"
+        }
+      ],
+      "note": "Árfolyam- és piaci kapitalizáció-adat harmadik féltől (Yahoo Finance, CNN Markets), 2026-10-09 körüli lekérdezésből."
+    },
+    {
+      "heading": "Epistemikus összesítő",
+      "metrics": [
+        {
+          "k": "megerősítve",
+          "v": "~24 tétel"
+        },
+        {
+          "k": "becslés / nincs megerősítve",
+          "v": "~7 tétel"
+        },
+        {
+          "k": "közhangulat",
+          "v": "2-3 tétel (árfolyam-szentiment, insider-overhang narratíva)"
+        }
+      ]
+    },
+    {
+      "heading": "Napi követés",
+      "chips": [
+        {
+          "t": "follow: be"
+        },
+        {
+          "t": "WULF"
+        },
+        {
+          "t": "Lake Mariner"
+        },
+        {
+          "t": "Fluidstack"
+        },
+        {
+          "t": "Anthropic"
+        },
+        {
+          "t": "Muskie"
+        },
+        {
+          "t": "Core42"
+        },
+        {
+          "t": "Google backstop"
+        }
+      ]
+    },
+    {
+      "heading": "Források",
+      "list": [
+        "SEC 10-Q (2026-06-30) — Note 17 Segments",
+        "SEC 10-K (FY2025, 2026-02-27)",
+        "SEC 8-K — Anthropic Justified Data Campus Lease (2026-07-06)",
+        "SEC 8-K — Fluidstack/Google Abernathy JV (2025-10-28)",
+        "SEC 8-K — WULF Compute 3,2 Mrd USD Senior Secured Notes (2025-10-16/22)",
+        "TeraWulf Q2 2026 sajtóközlemény és befektetői prezentáció (2026-08-05)",
+        "TeraWulf / Kentucky Power sajtóközlemény — Muskie 1 GW (2026-10-05)",
+        "Ars Technica nyomán másodközlések — Lake Mariner tűzeset (2026-09-07 körül)"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "WULF",
+    "name": "TeraWulf Inc.",
+    "date": "2026-10-12",
+    "file": "company/WULF-2026-10-12.json",
+    "oneliner": "A WULF három éven belül tiszta bitcoin-bányászból Fluidstack/Google, Core42/G42 és Anthropic által kötött, több tíz milliárd dolláros bérleti könyvvel rendelkező energiainfrastruktúra-üzemeltetővé vált, miközben a tényle",
+    "state": "transition"
+  },
+  {
     "ticker": "IREN",
     "name": "IREN Limited",
     "date": "2026-10-05",
