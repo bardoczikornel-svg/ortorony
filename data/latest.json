@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-09",
+    "date": "2026-10-13",
     "time": "07:20 CET",
-    "run": "automatikus (2026-10-09T11:37:23.708Z)",
+    "run": "automatikus (2026-10-13T12:24:07.471Z)",
     "demo": false
   },
   "brand": {
@@ -11,8 +11,8 @@
   },
   "regime": {
     "state": "transition",
-    "label": "AI-kereskedés megtorpanása hozam- és olajsokk mellett",
-    "text": "A széles piac (Dow) a csúcsok közelében tartja magát, miközben a <b>mega-cap AI-kereskedésben valódi repedések</b> jelentek meg (OpenAI bevételvita, félvezető-eladási hullám) egy egyidejű olaj- és hozamsokk tetején — ez inkább szektor-rotációs feszültség, mint tiszta risk-off forduló."
+    "label": "AI-kereskedés repedései, de nincs rendszerszintű pánik",
+    "text": "A memóriachip-szegmensben <b>strukturális versenyféltés</b> (kínai CXMT áttörés) söpör végig az ázsiai tech-papírokon, miközben a tágabb piac (bankok, Európa) egyelőre ellenállóbb – ez inkább szektorrotáció, mint tőzsdei rezsimváltás jele."
   },
   "tabs": [
     {
@@ -25,87 +25,73 @@
           "heading": "Tegnap mozgatói",
           "items": [
             {
-              "lead": "OpenAI bevétel-vita lerántja a Nasdaqot",
+              "lead": "Memóriachip-eladási hullám mélyül, dél-koreai tőzsde -6%",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Financial Times jelentése szerint az OpenAI éves szintre vetített bevétele kb. 50 milliárd dollár, nem a korábban jelentett 70 milliárd — a különbség a befektetői számítási módszer eltéréséből fakad, de megingatta az AI-monetizációba vetett bizalmat, és NVDA, ORCL, MSFT-hez köthető papírokat is lehúzott.",
+              "why": "A kínai CXMT bejelentette, hogy áttörést ért el a DRAM-gyártásban, ami versenyfélelmet keltett a Samsunggal és az SK Hynix-szel szemben, és a Kospit a 942 pontos szintre, -6,25%-kal rántotta le.",
               "src": [
-                "CNN / Yahoo Finance / FT",
-                "2026.10.08"
+                "Bloomberg / Investrade",
+                "2026.10.13"
               ]
             },
             {
-              "lead": "S&P 500 és Nasdaq második egymást követő vesztes napja",
+              "lead": "Olajár visszaesés orosz dízel-ígéret miatt, de közel-keleti kockázat marad",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Nasdaq Composite 1,25%-ot, az S&P 500 0,47%-ot esett csütörtökön, miközben a Dow 0,10%-ot emelkedett — a csúcsokról való visszahúzódást az olajár-emelkedés és a hozamok inflációs félelmei magyarázzák.",
+              "why": "A Brent és a WTI is kb. 1%-ot esett, miután Trump bejelentette, hogy Oroszország dízelt szállítana a világpiacra, miközben a Hormuzi-szoros és a Huthi-támadások miatti feszültség továbbra is fennáll.",
               "src": [
-                "CNBC / Washington Post",
-                "2026.10.08"
+                "HDFC Sky",
+                "2026.10.13"
               ]
             },
             {
-              "lead": "Brent/WTI robbanásszerű emelkedés iráni tankertámadások miatt",
+              "lead": "IMF: ne legyünk elégedettek – AI-lassulás és hozamemelkedés kockázata",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Brent 105 dollár fölé, a WTI közel 93 dollárra ugrott (napi +5% körül), miután Irán fokozta a hormuzi-szorosi tankertámadásokat, a part menti öbölbeli termelők pedig vihar miatt is leálltak.",
+              "why": "Az IMF Global Financial Stability Report-ja figyelmeztetett, hogy egy AI-korrekció következményei globálisak lehetnek, mivel a hiperskálázók már a globális befektetési kategóriájú kötvénykibocsátás 10%-át adják, szemben a 2024-es 1%-nál kevesebbel.",
               "src": [
-                "OilPrice.com",
-                "2026.10.08"
+                "Reuters / IMF GFSR",
+                "2026.10.13"
               ]
             },
             {
-              "lead": "Google–Constellation nukleáris megállapodás felpörgeti a szektort",
+              "lead": "Bankszezon rajtja: JPMorgan bevétele elmaradt, UnitedHealth felülmúlta a várakozásokat",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "Az Alphabet két hosszú távú szerződést kötött a Constellation Energyvel (890 MW új, 20 éves és 2700 MW meglévő kapacitásra 15 éves), a CEG részvény ülésközi csúcson 15%-ot emelkedett, és a hír begyújtotta a kisebb SMR-fejlesztők (Oklo, NuScale, NANO) árfolyamát is.",
+              "why": "A JPMorgan részvénye emelkedett annak ellenére, hogy a cég elmaradt a harmadik negyedéves bevételi várakozásoktól, míg az UnitedHealth 3%-ot ugrott a piacnyitás előtt a várakozásokat felülmúló eredmény után.",
               "src": [
-                "Investing.com / 24/7 Wall St.",
-                "2026.10.06"
+                "TheStreet",
+                "2026.10.13"
               ]
             },
             {
-              "lead": "Memóriaár-sokk tovább él: Micron Q4 árazási iránymutatása",
+              "lead": "Nukleáris részvények visszaestek egy hónapos rali után",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Micron október 1-i eredményközlésén jelezte, hogy a hagyományos DRAM szerződéses árak további 10–15%-kal emelkednek Q4-ben Q3-hoz képest, és a kereslet-kínálat egyensúlytalansága 2027–28-ig fennmaradhat.",
+              "why": "A NuScale 7%-ot, az Oklo 6%-ot, a Centrus Energy 4%-ot esett egyetlen nap alatt, miután a szektor egy hónapos emelkedést könyvelt el – ez profitrealizálásra utal, nem a hosszú távú atomenergia-sztori megkérdőjelezésére.",
               "src": [
-                "Tom's Hardware / Tech Insider",
-                "2026.10.05"
-              ]
-            },
-            {
-              "lead": "TSMC rekord bevétel AI-chip kereslet hajtotta",
-              "tags": [
-                {
-                  "t": "megerősítve",
-                  "k": "ok"
-                }
-              ],
-              "why": "A TSMC csütörtökön rekord harmadik negyedéves bevételt jelentett, a 2026 első kilenc hónapjára vonatkozó bevétel 41,1%-kal nőtt éves szinten, a szeptemberi havi eladás pedig 54,6%-kal ugrott.",
-              "src": [
-                "Yahoo Finance",
-                "2026.10.08"
+                "24/7 Wall St.",
+                "2026.10.12"
               ]
             }
           ]
@@ -114,8 +100,8 @@
           "letter": "G",
           "heading": "Tech szektor csomag — félvezető & AI-infra",
           "body": [
-            "A félvezetőipar középtávú trendje továbbra is az AI-infrastruktúra körül forog: a Gartner szerint a szektor idén 1,6 ezer milliárd dolláros bevételt termelhet, 92%-os éves növekedéssel, 2027-re pedig 1,9 ezer milliárdra ugorhat, miközben az AI adatközpontok részesedése a teljes félvezető-bevételből 2026 36,5%-áról 2030-ra 53%-ra nőhet. Ezt a strukturális keresletbővülést erősíti meg a TSMC rekordbevétele és az, hogy kulcsügyfelei — az AMD és az Nvidia — 10–15%, illetve 15%+ áremelést vezetnek be a negyedik negyedévben, amit a TSMC mint a pure-play foundry-piac 73%-át uraló árdiktáló szereplő tesz lehetővé.",
-            "Rövid távon viszont a csütörtöki esés megmutatta a szektor sebezhetőségét: a szoftveroldalon a HUBS leminősítése (JP Morgan) az AI-monetizáció csúszása miatt, az OpenAI-hoz kötődő papírok (ORCL, MSFT) visszaesése az FT bevétel-jelentés nyomán, valamint a memóriaár-sokk (lásd EN/C szekció) mind arra mutatnak, hogy a piac kezdi szétválasztani az 'AI-kapex győzteseit' a bizonytalan megtérülésű szereplőktől. Ugyanakkor az iparági rendezvénynaptár (OCP Global Summit, október 12–15.) és a Marvell, Kioxia bejelentései jelzik, hogy az infrastruktúra-beruházási ciklus (HBM, advanced packaging, custom silicon) egyelőre nem lassul."
+            "A memóriachip-szegmensben a kínai CXMT bejelentett 4F² DRAM-áttörése váltotta ki az eladási hullámot: a Samsung közel 7,8%-ot, a Kospi 6,25%-ot esett, a Nikkei pedig 1,82%-kal 67 777 pontra süllyedt, miközben a Nasdaq 100 határidős kontraktusok is 0,6-0,8%-kal gyengültek a memóriapapírok húzta leértékelődés miatt. Ez versenyféltés, nem keresletösszeomlás: a TrendForce szerint a hagyományos DRAM szerződéses árai a 4. negyedévben még 10-15%-kal, a NAND 15-20%-kal emelkedhetnek tovább, vagyis a szerkezeti memóriahiány egyelőre fennáll, csak az árnövekedés üteme lassul.",
+            "A tágabb AI-infra trend egyelőre intakt: a félvezető ETF (SOXX) szeptemberben 11%-ot, október első két napjában további 3,6%-ot emelkedett az AI-kereslet adatai nyomán, és a szektor P/E-je 43-ra emelkedett. A következő kulcskatalizátor a TSMC október 15-i negyedéves eredményközlése lesz. Ezzel párhuzamosan az IMF kiemelte, hogy a hiperskálázók tőkeáttétele nő – ez strukturális törékenységi pont, amit érdemes figyelni, de egyelőre nem realizálódott sokk."
           ]
         },
         {
@@ -123,22 +109,22 @@
           "letterStyle": "font-size:11px",
           "heading": "Energia szektor — atom & új energia kiemelten",
           "body": [
-            "Az atomenergia-szektor kettészakadt képet mutat. Egyfelől a Google–Constellation megállapodás (890 MW új + 2700 MW meglévő kapacitás, 15–20 éves futamidővel) megerősítette a nagy hiperskálázók hosszú távú, alapterhelésű, karbonszegény energia iránti éhségét, és begyújtotta a kisebb SMR-fejlesztők árfolyamát (NANO Nuclear, Oklo, NuScale +7-8% a bejelentés napján). Másfelől a spekulatív SMR-szegmens 2026-ban brutális visszaesést szenvedett el: a NuScale 48%-ot, az Oklo 51%-ot esett az év eleje óta, és egy friss elemzés szerint a BWX Technologies — diverzifikáltabb, nyereséges üzleti modellje miatt — biztonságosabb módja lehet a nukleáris megújulás kiaknázásának, mint a még kereskedelmi reaktor nélküli fejlesztők. A BWX emellett konkrét szerződést is kapott: a BANR mikroreaktor-technológiáját választották egy kanadai szállítható atomerőmű-projekthez.",
-            "Az új energia (akkumulátoros tárolás, megújuló) oldalán a hajtóerő egyre inkább az AI-adatközpontok elektromosáram-éhsége: a Vistra, NextEra és az Engie is a hálózati méretű akkumulátoros tárolás bővítésével igyekszik kiszolgálni ezt a strukturális keresletnövekedést. Konkrét projektszintű hírek is erősítik a trendet: a GridStor 58 millió dolláros adóhitel-finanszírozást szerzett egy texasi hálózati akkumulátoros projekthez, a Fluence Energy többéves akkumulátor-beszállítói szerződést kötött az EVE Powerrel, az Energy Vault pedig ausztráliai projektjét vitte közelebb az építkezéshez. Mindez inkább lassú, infrastrukturális tőkeallokációs trend, nem napi hír-vezérelt mozgás."
+            "Atomenergia: a kereslet oldali megerősítés hosszú távon szilárd marad – októberben az Oracle részben előfizetett a NextEra Point Beach erőművének kibocsátására, a Google pedig 20 éves áramvásárlási megállapodást (PPA) kötött a Constellationnel mintegy 890 MWe-nyi teljesítménynövelő (uprate) kapacitásra 11 reaktorblokkon Illinois-ban, Pennsylvaniában és New Jersey-ben. Ezzel egy időben a nukleáris részvények (NuScale, Oklo, Centrus) október 12-én visszaestek egy hónapos rali után, ami inkább rövid távú profitrealizálásnak tűnik, mintsem a hosszú távú sztori megkérdőjelezésének – a megerősített PPA-k és a bangladesi Rooppur-1 reaktor kritikussá válása is a szektor strukturális előrehaladását jelzi.",
+            "Új energia / tárolás: a Wood Mackenzie legfrissebb LCOE-jelentése szerint a 4 órás akkumulátoros energiatárolás immár mind a 43 vizsgált piacon olcsóbb, mint a nyíltciklusú gázturbina – ez strukturális árparitás-áttörés a gázkiegyenlítő kapacitással szemben. Ausztráliában a lakossági akkumulátor-telepítések száma 52%-kal nőtt 2026 első felében (276 011 darab), Kínában pedig a LONGi megnyitotta 50 GWh kapacitású tárolásgyártó bázisát, míg Liaoning tartomány 3,15 GW-nyi tárolási projektet ítélt oda a CATL és a CR Power részvételével."
           ]
         },
         {
           "letter": "I",
           "heading": "Ellenoldal / kockázat — steelman",
           "body": [
-            "A legerősebb bear-érv jelenleg az, hogy az AI-kapex narratíva túlfeszítetté vált, és az OpenAI bevétel-vita csak az első repedés lehet: ha a piac vezető szereplőjének monetizációja rendszeresen alulmúlja a befektetői feltételezéseket, az megkérdőjelezheti a teljes beszállítói lánc (félvezető, memória, adatközpont-energia) jelenlegi értékeltségét, amit a befektetési stratéga is megerősített, aki szerint ez végiggyűrűzhet az AI-kiépítés teljes ellátási láncán. Ehhez társul egy makro-kockázat: az iráni Hormuz-szorosi tankertámadások miatt az olajár hirtelen megugrott, ami a 10 éves amerikai hozamot az 5,2–5,3%-os sávban tartja, és egyes elemzők (pl. Fed-kormányzói nyilatkozat) további kamatemelést sem zárnak ki az inflációs cél elérése érdekében — ez a kombináció (magas hozam + magas olaj) klasszikusan megemeli a kockázati eszközök diszkontrátáját. Végül a memóriaár-robbanás (DRAM/NAND) kétélű: rövid távon margin-bővülést hoz a Micronnak és a Samsungnak, középtávon viszont költség-sokként gyűrűzhet be a fogyasztói elektronika és a szélesebb tech-hardver szektor felé, ami a bevétel-minőség vitáját tovább élezheti."
+            "A bika-érv amellett szól, hogy a mostani kiárusítás szűken a dél-koreai memóriaszegmensre és a kínai versenyfélelemre korlátozódik, nem pedig az AI-keresletre általában: a TSMC októberi eredményei és a SOXX szeptemberi/októberi emelkedése azt mutatja, hogy az AI-infra beruházási ciklus egyelőre nem tört meg, és a memóriaárak szerkezeti emelkedése (TrendForce szerint Q4-ben is folytatódik) ellentmond egy közelgő kereslet-összeomlásnak. Az IMF saját stressztesztjei is azt mutatták, hogy a bankok tőkepuffere robusztus maradt még egy hipotetikus AI-lassulás és kötvénypiaci törékenység forgatókönyvében is, bár a globális banki eszközök 22%-át kitevő bankok \"gyenge\" tőkeszintet mutattak, szemben a 2025-ös 18%-kal. Ez azt sugallja, hogy a jelenlegi félvezető-eladási hullám inkább szelektív korrekció, mint rendszerszintű kockázat – de ez önmagában spekulatív olvasat, amíg a TSMC és a többi nagybank eredményei meg nem erősítik."
           ]
         },
         {
           "letter": "C",
           "heading": "Ma figyelendő",
           "body": [
-            "Három tényezőt érdemes figyelni strukturális szempontból, nem napi zajként: (1) további OpenAI/Anthropic bevétel-összehasonlító jelentések vagy befektetői dokumentum-szivárgások, amelyek megerősíthetik vagy cáfolhatják a monetizációs aggályokat; (2) az olajár és a hormuzi tankertámadások alakulása — ha a kőolajár tartósan 100 dollár fölött marad, az érdemben befolyásolhatja a Fed-várakozásokat és a hozamgörbét; (3) a memóriaár-ciklus további jelei (TrendForce negyedéves frissítések, Samsung/SK Hynix árazási bejelentések) a Q4 2026–2028 kínálati szűkösségről szóló vállalati kommunikáció fényében."
+            "Ma nyitás előtt jelent a Goldman Sachs, a Citigroup és a Wells Fargo (a JPMorgan és az UnitedHealth már tegnap/ma reggel jelentett), ami további irányt adhat a bankszezonnak. Holnap (okt. 14) érkezik a szeptemberi amerikai CPI, csütörtökön a PPI – mindkettő kulcsfontosságú a Fed kamatpálya-várakozásai szempontjából, amit a mostani olajár-volatilitás (Hormuzi-szoros, orosz dízel) tovább bonyolít. Október 15-én jön a TSMC negyedéves eredményjelentése, amely iránymutatást adhat az AI-capex és a memóriapiaci versenyhelyzet alakulásáról. Folytatódó figyelmet érdemel, hogy a dél-koreai memóriachip-eladási hullám átterjed-e a szélesebb amerikai tech-szektorra, illetve hogy a nukleáris szektor visszaesése tartós rotáció vagy csak rövid távú profitrealizálás."
           ]
         }
       ],
@@ -149,36 +135,36 @@
           "metrics": [
             {
               "k": "Fear &amp; Greed",
-              "v": "38 / 100 (Fear zóna, csütörtöki záró, előző nap 42)"
+              "v": "CNN: 46/100 (semleges, okt. 13); eltérő módszertanú CFGI mérő: 65/100 (kapzsiság) – jelentős forrásfüggő szórás"
             },
             {
               "k": "AAII bull–bear",
-              "v": "Bullish 40,3% / Bearish 39,0% (okt. 7-i felmérés, spread +1,3pp)"
+              "v": "nincs friss, ma publikált adat a keresési eredményekben"
             },
             {
               "k": "Put/call arány",
-              "v": "nincs megerősített friss adat"
+              "v": "CNN F&G komponens (Put/Call): 41,6 – félelem zónában"
             },
             {
               "k": "Kripto funding",
-              "v": "nincs friss adat — helyette Crypto Fear&Greed: 63 (Greed), egy nappal korábban 70"
+              "v": "nincs közvetlen funding-adat; Crypto Fear &amp; Greed 56-57 (kapzsiság), csökkenő trendben az elmúlt hét 62-es átlagáról"
             }
           ],
-          "note": "Közelítés, nem pontos pozicionáltság."
+          "note": "Közelítés, nem pontos pozicionáltság. A forrásonként eltérő Fear & Greed-értékek (46 vs. 65) jól mutatják a mérőszám módszertani bizonytalanságát."
         },
         {
           "lt": "H",
           "heading": "Amit figyelmen kívül hagynék",
           "list": [
-            "Napi tankertámadás-számlálás a Hormuzi-szorosnál — a trend (olajár szintje, nem az egyes incidensek) számít",
-            "Az OpenAI $50 vs $70 milliárdos bevétel-vita technikai részletei (számítási módszertan) — maga a bizalmi törés a releváns jel, nem a pontos szám",
-            "Napi SMR-árfolyam kilengések (Oklo, NuScale) a Google-hír után — ezek erősen spekulatív, momentum-vezérelt mozgások egy 40-50%-ot már bezuhant szegmensben"
+            "Egyedi altcoinok órás RSI/MACD-mozgásai (pl. napon belüli technikai jelzések) – ez zaj, nem strukturális elmozdulás.",
+            "12 hónapos olajár-előrejelző modellek napi frissítései – ezek trend-alapú becslések, nem megerősített tények.",
+            "Egyes brókercégek napi 'early look' % címei a bankrészvényeknél nyitás előtt – ezek percenként változnak, érdemi infó csak a zárás után van."
           ]
         },
         {
           "lt": "F",
           "heading": "Rotáció-figyelő",
-          "note": "Gyenge jel: a kereskedési nap belső adatai (Dow +0,10% vs Nasdaq -1,25%, SPY lefelé mozgó részvények 7:5, QQQ 3:2 arányban) defenzívebb, szélesebb piaci kitettség felé mutató rotációt sugallnak a mega-cap AI/félvezető koncentráció rovására — de ez egyetlen kereskedési nap adata, megerősítésre vár a következő néhány ülésnapon."
+          "note": "Van jel: tőke menekül a dél-koreai memóriachip-szegmensből (Kospi -6,25%) a defenzívebb szektorok (egészségügy – UnitedHealth, pénzügyi szektor) és Európa (Stoxx 600 +0,3%) felé, miközben a nukleáris szektor egy hónapos rali után profitrealizáláson megy keresztül. Ez inkább szektoron belüli/szektorok közötti átrendeződés, mint tőzsdei rezsimváltás jele."
         }
       ]
     },
@@ -1319,6 +1305,10 @@
       "id": "archive",
       "label": "Archívum",
       "archive": [
+        {
+          "date": "2026-10-13",
+          "file": "archive/2026-10-13.json"
+        },
         {
           "date": "2026-10-09",
           "file": "archive/2026-10-09.json"
