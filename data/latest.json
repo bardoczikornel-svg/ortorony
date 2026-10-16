@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "time": "07:20 CET",
-    "run": "automatikus (2026-10-15T09:34:16.931Z)",
+    "run": "automatikus (2026-10-16T09:26:44.160Z)",
     "demo": false
   },
   "brand": {
@@ -11,8 +11,8 @@
   },
   "regime": {
     "state": "transition",
-    "label": "Hozamsokk a csúcsról – AI-momentum lassul, védekező rotáció erősödik",
-    "text": "A forró szeptemberi amerikai CPI (3,7% property féléves csúcson) újraélesztette az októberi Fed-kamatemelési félelmeket, és <b>hatodik egymást követő napja esik a félvezető-szektor, miközben a tőke egészségügybe és fogyasztási alapcikkekbe menekül</b> – ez inkább hozamérzékeny profitrealizálás, mint klasszikus pánik-szerű risk-off."
+    "label": "Rotáció a defenzív szektorok felé, AI-kereskedés lehűl",
+    "text": "<b>Átmeneti rotáció</b> zajlik az AI-/félvezető-kereskedésből védekező és ciklikus szektorok felé, miközben a makacs infláció (CPI, PPI) tartós kamatemelési nyomást jelez — egyelőre nem igazolt strukturális trendváltás, inkább pozicionálási korrekció."
   },
   "tabs": [
     {
@@ -25,86 +25,86 @@
           "heading": "Tegnap mozgatói",
           "items": [
             {
-              "lead": "Forró szeptemberi CPI, visszatérő kamatemelési félelmek",
+              "lead": "Forró PPI adat, hozam-hullámvasút",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A szeptemberi éves infláció 3,7%-ra gyorsult (előző hónap 3,4%, konszenzus 3,6%), részben az iráni háború energiapiaci hatásai miatt, ami a swap-piacon 35-45% közé tolta az októberi Fed-kamatemelés esélyét.",
+              "why": "A szeptemberi termelői árindex 6,3%-os éves emelkedéssel jött be, ami a szerda esti forró CPI után tovább erősítette a kamatemelési várakozásokat, a 10 éves hozam szerdai 5,36%-os csúcsról csütörtökön 5,09-5,10%-ra esett vissza.",
               "src": [
-                "CNBC / TheStreet / Strategitz Global Markets Close",
+                "Yahoo Finance / Investrade",
+                "2026.10.15"
+              ]
+            },
+            {
+              "lead": "Globális chip-eladási hullám, SOX 7. vesztes napja",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "A Philadelphia félvezető-index (SOX) hét egymást követő napon esett, összesen kb. 10%-ot hat ülés alatt, ezzel a szektor piaci értéke pályán van, hogy 1 ezermilliárd dollárt veszítsen.",
+              "src": [
+                "Bloomberg / Quartz",
+                "2026.10.14-15"
+              ]
+            },
+            {
+              "lead": "Kínai memóriafenyegetés nyomja az SK Hynixot és a Samsungot",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "A kínai ChangXin Memory Technologies bejelentése egy kisebb helyigényű chipdizájn előrehaladásáról versenyféltést váltott ki, az SK Hynix szöuli részvénye több mint 10%-ot, a Samsung 7,4%-ot esett.",
+              "src": [
+                "Quartz",
                 "2026.10.14"
               ]
             },
             {
-              "lead": "Félvezető-szektor hatodik vesztes napja, ~1000 milliárd dolláros piaci érték olvadt el",
+              "lead": "Rotáció védekező és ciklikus szektorokba",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Philadelphia Semiconductor Index (SOX) szerdán 3,1%-ot esett, hat szakasz alatt kb. 10%-ot veszítve – ez a leghosszabb vesztes sorozat 2025 májusa óta, miközben az IMF a globális AI-korrekció kockázatára figyelmeztetett.",
+              "why": "A Dow +1,08%-ra, a Russell 2000 +1,38%-ra zárt, az egészségügyi szektor (XLV) történelmi csúcsra ért, miközben a Nasdaq csak +0,08%-ot tudott hozni a chipgyengeség miatt.",
               "src": [
-                "Quartz (qz.com)",
-                "2026.10.14"
+                "Yahoo Finance / CNN",
+                "2026.10.15"
               ]
             },
             {
-              "lead": "CoreWeave kötvényei 80 cent alá estek, részvénye -15,5%",
+              "lead": "TSMC rekord negyedév, de óvatos 2027-es hangvétel",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A hangsúly az AI-keresletről az AI-infrastruktúra finanszírozási költségére tolódott; az ASML pozitív eredménye és emelt kilátása sem állította meg az eladási hullámot.",
+              "why": "A TSMC rekord negyedéves teljesítményt jelentett az AI-chipkereslet hajtotta kapacitáshiány miatt, ugyanakkor a 2027-es kilátásokról óvatosabb hangot ütött meg, ami hozzájárult a Nasdaq egyhavi mélypont közeli szintjéhez.",
               "src": [
-                "Strategitz Global Markets Close",
-                "2026.10.14"
+                "GuruFocus / Investrade",
+                "2026.10.15"
               ]
             },
             {
-              "lead": "Oracle -8,83%",
+              "lead": "IMF figyelmeztetés AI-korrekció globális hatásairól",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A magasabb hozamok és az újraéledő kamatemelési várakozások nyomták a felhő-/AI-kiadási sztorit megtestesítő részvényt.",
+              "why": "Az IMF keddi pénzügyi stabilitási jelentésében arra figyelmeztetett, hogy egy AI-korrekció következményei globálisak lehetnek, ami hozzájárult a befektetői óvatossághoz a hét folyamán.",
               "src": [
-                "Yahoo Finance / Motley Fool",
-                "2026.10.14"
-              ]
-            },
-            {
-              "lead": "Védekező rotáció: Egészségügy +2,53%, Alapcikkek +2,22%",
-              "tags": [
-                {
-                  "t": "megerősítve",
-                  "k": "ok"
-                }
-              ],
-              "why": "A két szektor vezette szerdán a kereskedést, míg a technológia (XLK) volt a leggyengébb, kb. -3%-kal.",
-              "src": [
-                "Investrade Market Review",
-                "2026.10.14"
-              ]
-            },
-            {
-              "lead": "Atomenergia-részvények esése emelkedő hozamok mellett a Google-Constellation hír ellenére",
-              "tags": [
-                {
-                  "t": "megerősítve",
-                  "k": "ok"
-                }
-              ],
-              "why": "A NuScale -7%, az Energy Fuels -9%, az Oklo -5% esett, miközben a hosszú hozamok tovább emelkedtek – a leghosszabb futamidejű megtérülésű cégeket sújtva legjobban.",
-              "src": [
-                "24/7 Wall St.",
+                "Quartz (IMF idézve)",
                 "2026.10.14"
               ]
             }
@@ -114,8 +114,8 @@
           "letter": "G",
           "heading": "Tech szektor csomag — félvezető & AI-infra",
           "body": [
-            "A TSMC október 15-én rekord harmadik negyedéves profitot jelentett, a nettó nyereség 68,7%-kal nőtt éves alapon, a működési árrés pedig 58,7%-ra, a 58%-os céltartomány fölé emelkedett – ez megerősíti, hogy az AI-chipkereslet alapszintje változatlanul erős, miközben az árfolyamok esnek. Az Applied Materials vezetése szerint az AI-chipek növekvő komplexitása (tranzisztorszám, sűrűbb interkonnektek, fejlettebb memória-architektúrák) bővülő keresletet teremt a logika-, DRAM- és HBM-gyártó berendezések piacán, vagyis az eszközgyártói oldal továbbra is bővülési pályán van a leépítés ellenére.",
-            "Ezzel párhuzamosan a memóriapiac strukturális szuperciklusban van: a TrendForce szeptember végi előrejelzése szerint a hagyományos DRAM szerződéses árai további 10-15%-kal, a NAND 15-20%-kal emelkedhetnek a negyedik negyedévben, ami egy már egyébként is rendkívüli, 2026 eleje óta tartó áremelkedési hullámra épül. Ugyanakkor kedden Kína ChangXin Memory Technologies vállalata bejelentett egy sűrűbb chip-dizájn terén elért előrelépést, ami versenyféltést váltott ki: a SK Hynix szöuli árfolyama több mint 10%-ot, a Samsung Electronicsé 7,4%-ot esett – ez emlékeztet arra, hogy a memóriaárazási hatalom nem versenytárs nélküli história."
+            "A félvezető-szektor hat-hét egymást követő vesztes napot gyűjtött össze, a piac a magasabb hozamokat, a nyújtott értékeltségeket és az AI-infrastruktúra építésének költségét nevezi meg okként; a Philadelphia-index (SOX) kb. 10%-ot esett ezalatt, és a chipcégek piaci értéke pályán van, hogy 1 ezermilliárd dollárt veszítsen. A CoreWeave és más AI-infra szereplők tőkeköltség-aggodalmak miatt estek tovább, ami átterjedt ipari névre is: a Caterpillar az adatközpont-energiaigény felárának leépülése miatt csúszott lejjebb, a Vertiv pedig célárvágások nyomán esett közel 6%-ot.",
+            "A memóriapiacon a DRAM/HBM-árak továbbra is extrém pályán vannak: a DDR5 kitek ára 2025 közepéhez képest több mint duplájára nőtt, a DDR4 spot chipár október eleji rekordszintre, 46,32 dollárra emelkedett, miközben a HBM3E stack ár is éves szinten kétszámjegyű emelkedést mutat — ezt az AI-adatközpontok kereslete hajtja, amely gyorsabban szívja ki a kínálatot, mint ahogy a gyártók bővíteni tudnak. Ugyanakkor a kínai ChangXin Memory Technologies bejelentett előrelépése egy sűrűbb chipdizájnban versenyféltést váltott ki a memóriapiaci vezetőkkel (SK Hynix, Samsung) szemben, ami éles egynapos esést okozott Szöulban — ez egy strukturális kockázati tényező a memória-oligopólium árazási erejére nézve, amit még nem lehet megerősített trendnek tekinteni."
           ]
         },
         {
@@ -123,22 +123,22 @@
           "letterStyle": "font-size:11px",
           "heading": "Energia szektor — atom & új energia kiemelten",
           "body": [
-            "Az atomenergia-szektorban a legnagyobb strukturális hír, hogy az Alphabet (Google anyavállalata) 15 éves szerződést kötött a Constellation Energy meglévő reaktorainak áramvásárlására, emellett 20 éves megállapodást jövőbeni, 890 megawattnyi új nukleáris kapacitásra, ami 4,3 milliárd dolláros beruházást tesz lehetővé a Constellationnek. A bejelentés napján (október 6.) a Constellation árfolyama 12%-ot ugrott, azóta azonban több mint 3%-kal esett vissza, miközben a szektor többi szereplőjét (NuScale, Oklo, Energy Fuels) a hosszú amerikai hozamok emelkedése súlyosabban sújtotta, mint a tágabb piacot – ez jelzi, hogy a nukleáris növekedési sztori tőkeköltség-érzékeny marad a megrendelésáradat ellenére.",
-            "Az új energia (megújuló) térben a hírfolyam inkább projektszintű, mint makro jellegű: Európában és Ázsiában folytatódik az offshore szél- és naperőmű-fejlesztés (pl. olasz napenergia-engedély, németországi Garzweiler naperőmű-bővítés, tajvani offshore szélturbina-telepítés), miközben az amerikai kormányzat október 14-én megújította a Revolution Wind offshore szélprojekt leállítására irányuló erőfeszítését – ez konkrét szabályozási kockázatjel az amerikai szélenergia-szegmensben. Összességében a projekt-bejelentések üteme nem lassul, de a politikai/szabályozói bizonytalanság az USA-ban nőtt."
+            "Az atomenergia-szegmens hangulatát továbbra is a Google anyavállalata, az Alphabet és a Constellation Energy október eleji 20 éves áramvásárlási megállapodása uralja: a megállapodás 890 megawattnyi új nukleáris kapacitás építését finanszírozza 4,3 milliárd dollár értékben 11 illinoisi, pennsylvaniai és new jersey-i reaktorblokk bővítésével. A Constellation részvénye a bejelentés napján 12%-ot ugrott, azóta viszont több mint 3%-kal visszaesett az eredeti szint fölé emelkedett árfolyamhoz képest. A kisebb, kereskedelmi szempontból még korai fázisú SMR-szereplők (NuScale, Oklo, Energy Fuels) árfolyama rendkívül érzékenynek bizonyult a hosszú hozamokra: amikor a 10 éves hozam 5,26%-ra emelkedett, a NuScale 7%-ot, az Energy Fuels 9%-ot esett egyetlen nap alatt — ez jelzi, hogy a szektor hosszú távú, tőkeigényes sztorija erősen kamatérzékeny marad.",
+            "Az új energia (nap-, szél-, tárolás) oldalán a legkonkrétabb, megerősített fejlemény, hogy az amerikai Energiaügyi Minisztérium támogatást adott egy tervezett, kb. 100 milliárd dolláros AI/HPC-központnak, amely nagymértékben tiszta áramra épít, ami aláhúzza, hogy az adatközpont-kereslet központi szerepet kap a megaprojektek finanszírozásában. Spanyolországban egy szeptemberi kormányrendelet adatközponti energiaellátókra vonatkozó szabályozása már konkrét érdeklődést hozott napelemes fejlesztők (pl. Solaria) felé hosszú távú infrastruktúra-szerződésekre. Ezzel párhuzamosan azonban a megemelkedett kötvényhozamok általános ellenszelet jelentenek a tőkeigényes, hosszú megtérülésű megújuló projekteknek — ez a kettősség (adatközponti kereslet felfelé, finanszírozási költség lefelé húzza az árazást) a szektor fő feszültsége jelenleg."
           ]
         },
         {
           "letter": "I",
           "heading": "Ellenoldal / kockázat — steelman",
           "body": [
-            "A legerősebb ellenérv, hogy a Fed-kamatemelés esélye a swap-piacon is kisebbségi forgatókönyv maradt (35-45% közötti árazás, vagyis a többség még mindig nem emelést vár), így a félvezető-eladás inkább hozam- és duration-érzékeny profitrealizálásnak, nem pedig az AI-kereslet összeomlásának tűnik. Ezt támasztja alá a TSMC rekord negyedéve és az Applied Materials bővülő rendelésállománya is, amelyek a mögöttes fizikai keresletet igazolják árfolyam-visszaesés közepette. Emellett a SOX-index esése egy kivételesen hosszú, 53 kereskedési napos, 1%-nál nagyobb napi esés nélküli szériát követett (a MacroCharts/zerohedge grafikon szerint ez a leghosszabb ilyen sorozat 2020 januárja óta), tehát a jelenlegi korrekció technikai kontextusban inkább egészséges konszolidációnak, mint trendforduló kezdetének is értelmezhető – ez utóbbi azonban spekulatív olvasat, amelyet a következő napok price actionje tud majd megerősíteni vagy cáfolni."
+            "A legerősebb ellenérv amellett szól, hogy a chip-/AI-eladási hullám nem csupán rövid távú profitrealizálás, hanem egy strukturálisabb átértékelés kezdete. Az IMF explicit módon globális következményekkel járó AI-korrekcióról beszélt pénzügyi stabilitási jelentésében, nem egy elszigetelt kockázatról. A hat-hét napos SOX-esés és az ezzel járó, pályán lévő 1 ezermilliárd dolláros piaciérték-veszteség mérete önmagában is arra utal, hogy a befektetők komolyan újraárazzák az AI-capex finanszírozási kockázatát — a CoreWeave-hez hasonló, adóssággal finanszírozott adatközpont-szereplők sebezhetősége, valamint a Caterpillar-eséssel illusztrált, iparra is átterjedő 'adatközpont-energia felár' leépülése azt mutatja, hogy a kockázat már nem csak a szoftver-/chipcégekre korlátozódik. Emellett a kínai ChangXin memóriaipari előrelépése hosszabb távon aláásná a nyugati/koreai memóriagyártók árazási erejét, ami a jelenlegi AI-infrastruktúra-sztori egyik kulcs bevételi pillérét gyengítené. Mindezek együtt azt a forgatókönyvet erősítik, amelyben a jelenlegi rotáció nem átmeneti zajszint, hanem egy hosszabb, több hónapos dekonjunktúra AI-kiadásokban kezdete — ezt a lehetőséget a jelentés nem cáfolja, csak megjegyzi, hogy egyelőre megerősítetlen spekuláció, nem bázisforgatókönyv."
           ]
         },
         {
           "letter": "C",
           "heading": "Ma figyelendő",
           "body": [
-            "Figyelni érdemes a Fed-kamatemelési várakozások továbbgyűrűzését és az esetleges Fed-megszólalásokat, mivel ez volt a tegnapi mozgás elsődleges katalizátora. A TSMC negyedéves hívásának részletei (különösen a 2027-es kapacitás- és árazási kilátás) irányt adhatnak a félvezető-szektor rövid távú hangulatának. Szintén kulcskérdés, hogy a SK Hynix és a Samsung hogyan reagál a kínai ChangXin versenyfenyegetésre a következő kereskedési napokban, valamint hogy a nukleáris szektor részvényei (Constellation, NuScale, Oklo) továbbra is szorosan követik-e a hosszú hozamok mozgását. Az olajpiacon az IEA figyelmeztetése a 2027-ig elhúzódó dízelszűkösségről (az iráni háború ellátási zavarai miatt) továbbra is napirenden marad."
+            "Péntek (okt. 16.) délelőtt amerikai adatok: import-export árindex (szept.), ipari termelés és kapacitáskihasználtság (szept.) 9:15-kor — ezek a hűtő/fűtő inflációs narratívát tovább finomíthatják a CPI/PPI után. Emellett havi opciós lejárat zajlik, ami rövid távon megnövelheti a napon belüli volatilitást technikai (gamma) hatások miatt. Figyelendők a jegybanki beszédek az IMF-találkozó keretében (többek közt Warsh, Bailey, Nagel, Macklem), amelyek további kamatpálya-jelzéseket adhatnak. Szektorszinten kulcskérdés, hogy a félvezető-eladási hullám folytatódik-e egy nyolcadik vesztes nappal, vagy a csütörtöki stabilizáció tartósnak bizonyul."
           ]
         }
       ],
@@ -149,36 +149,37 @@
           "metrics": [
             {
               "k": "Fear &amp; Greed",
-              "v": "32-54 / 100 (szolgáltatónként eltérő, Fear-Neutral sáv)"
+              "v": "31/100 (Fear) — Benzinga, 2026.10.16"
             },
             {
               "k": "AAII bull–bear",
-              "v": "Bull 38,7% / Bear 41,6%, spread -2,9pp (okt.14-i hét)"
+              "v": "38,7% bull / 41,6% bear, spread -2,9pp — AAII, hét vége 2026.10.14"
             },
             {
               "k": "Put/call arány",
-              "v": "CBOE total ~0,83-0,91 (semleges zóna, 9napos átlag 0,85)"
+              "v": "nincs megbízható friss adat a keresésben"
             },
             {
               "k": "Kripto funding",
-              "v": "Crypto F&amp;G 53-68 közt hűlt Greede-ből Neutral felé a CPI után"
+              "v": "Fear &amp; Greed (kripto, Alternative.me): 63 (Greed) — Cryptonomist, 2026.10.16"
             }
           ],
-          "note": "Közelítés, nem pontos pozicionáltság; a Fear&Greed-szolgáltatók (CFGI, fearandgreedgraph, feargreedmeter) jelentősen eltérő értékeket adnak ugyanarra a napra."
+          "note": "Közelítés, nem pontos pozicionáltság."
         },
         {
           "lt": "H",
           "heading": "Amit figyelmen kívül hagynék",
           "list": [
-            "A 'leghosszabb 53 napos sorozat vége' típusú social media grafikonok (MacroCharts/zerohedge) önmagukban mint determinisztikus fordulat-jelzés",
-            "Egyetlen havi CPI-nyomtatás extrapolálása hosszú trendként, amikor az adat jelentős részét egy egyszeri geopolitikai sokk (iráni háború) magyarázza",
-            "Napi egyedi részvény-százalékmozgások (pl. Oracle -8,8%) többnapos megerősítés nélkül"
+            "Egyedi AI-részvények napon belüli kilengései (NVDA, TSLA stb.) — ez zaj, nem strukturális jel.",
+            "Egynapos Dow/Russell-felülteljesítés 'rotáció megerősítve' címkézése — egyetlen kereskedési nap nem trend.",
+            "Mikrokapitalizációjú 'Nuclear Renaissance'-szűrők és hírlevél-stílusú nukleáris sztori-cikkek, amelyek nincsenek konkrét tőzsdei bejelentéshez kötve.",
+            "A 63-as kripto Fear & Greed-re hivatkozó rövid távú technikai (pl. altcoin reziszteciateszt) kereskedési célárak."
           ]
         },
         {
           "lt": "F",
           "heading": "Rotáció-figyelő",
-          "note": "Van jel: egyértelmű tőkekiáramlás a magas bétájú AI-infra/félvezető szektorból (SOX, CoreWeave, Oracle) az védekező szektorokba (egészségügy, alapcikkek), miközben a nemesfémek is estek a reálhozamok és az erős dollár miatt – ez inkább hozamérzékeny, szelektív rotációra utal, nem klasszikus, mindent eladó risk-off állapotra."
+          "note": "Van jel, de egyelőre egynapos: a Dow, a Russell 2000, valamint az egészségügy (XLV), a fogyasztási cikkek (XLP), a pénzügy (XLF) és az alapanyag (XLB) szektorok felülteljesítették a Nasdaqot és a félvezető-indexet csütörtökön; ehhez több hetes megerősítés kellene strukturális rotáció kimondásához."
         }
       ]
     },
@@ -1319,6 +1320,10 @@
       "id": "archive",
       "label": "Archívum",
       "archive": [
+        {
+          "date": "2026-10-16",
+          "file": "archive/2026-10-16.json"
+        },
         {
           "date": "2026-10-15",
           "file": "archive/2026-10-15.json"
