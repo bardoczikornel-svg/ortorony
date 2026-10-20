@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "time": "07:20 CET",
-    "run": "automatikus (2026-10-19T10:27:16.320Z)",
+    "run": "automatikus (2026-10-20T09:47:17.396Z)",
     "demo": false
   },
   "brand": {
@@ -11,8 +11,8 @@
   },
   "regime": {
     "state": "transition",
-    "label": "Defenzív rotációból óvatos AI-visszapattanásba",
-    "text": "A múlt hetet még <b>technológia-vezérelt leértékelődés és defenzív szektor-rotáció</b> jellemezte, hétfőn azonban jelek mutatkoztak arra, hogy egyes szereplők visszavásárolják az AI-papírokat — a kép egyelőre törékeny, nem egyértelmű trendváltás."
+    "label": "Taktikai AI-megkönnyebbülés, törékeny hátszél",
+    "text": "A hétfői AI/memória-rali inkább <b>taktikai megkönnyebbülésnek</b> tűnik a múlt heti tőkeáttétel-sokk után, mint trendfordulónak, amíg a kedd reggeli chip-premarket gyengeség, az európai politikai kockázat és az IMF/BIS által jelzett körkörös AI-finanszírozási aggályok fennállnak."
   },
   "tabs": [
     {
@@ -25,73 +25,87 @@
           "heading": "Tegnap mozgatói",
           "items": [
             {
-              "lead": "Olajár-esés Trump orosz szankciós mentessége nyomán",
+              "lead": "AI/tech megkönnyebbülési rali hétfőn",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A szankciós mentesség több üzemanyag-kínálatot vetít előre, ami lenyomta az olajárat, miközben a részvények és a kötvények profitáltak a mozgásból.",
+              "why": "Az előző heti, június óta legrosszabb tech-hét után az S&P 500 +0,4%-ot, a Nasdaq Composite +1,1%-ot emelkedett, a félvezető- és felhőinfrastruktúra-papírok húzták a piacot.",
               "src": [
-                "Investing.com",
-                "2026.10.18."
+                "Yahoo Finance / AP, CNBC",
+                "2026.10.19"
               ]
             },
             {
-              "lead": "Hat napos chip-eladási hullám után hétfőn visszapattanás-kísérlet",
+              "lead": "Memóriapapírok kétszámjegyű ugrása",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A globális chip-szelloff hetek óta tartó mélypontja után a Nasdaq-határidők emelkedtek, jelezve, hogy egyes befektetők olcsóbbá vált AI-részvényeket kezdtek vásárolni.",
+              "why": "A Micron, a Marvell és a SanDisk is erősen pluszban zárt hétfőn, miután a HBM/DRAM-leértékelődés az előző héten túlzottnak bizonyult.",
               "src": [
-                "CNBC Live Blog",
-                "2026.10.19."
+                "Benzinga",
+                "2026.10.19"
               ]
             },
             {
-              "lead": "Amerikai hozamok estek hétfő reggel",
+              "lead": "Európai tőzsdék esése a hétvégi zavargások után",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A 10 éves amerikai államkötvény-hozam visszaesett a kereskedés elején, ami enyhítette a kamatérzékeny eszközosztályokra nehezedő nyomást.",
+              "why": "A francia és olasz utcai tüntetéshullám nyomán a vezető nyugat-európai indexek több mint 1%-ot estek, a hozamok világszerte emelkedtek.",
               "src": [
-                "CNBC Live Blog",
-                "2026.10.19."
+                "AP/Yahoo Finance, Tőzsdeforum.hu",
+                "2026.10.19"
               ]
             },
             {
-              "lead": "Defenzív rotációval zárult a hét: technológia -7,7%, alapcikkek +5%",
+              "lead": "Olajár-ugrás Houthi-támadások miatt",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A 11 szektor-ETF közül 7 emelkedett, miközben a technológia 7,7%-ot esett a héten — ez a tőke defenzív szektorokba (alapcikkek, energia, egészségügy) áramlását jelzi.",
+              "why": "A WTI több mint 2%-kal emelkedett a Houthi-erők szaúdi energetikai infrastruktúra elleni friss támadásainak hírére.",
               "src": [
-                "Weekend Market Update (algotradealert)",
-                "2026.10.18."
+                "TheStreet",
+                "2026.10.19"
               ]
             },
             {
-              "lead": "Barclays-részvények estek BoE magánhitel-vizsgálat hírére",
+              "lead": "VIX-kilengés a pénteki esés nyomán",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Bank of England állítólag vizsgál egy magánhitelekkel kapcsolatos panaszt a bank ellen, ami nyomás alá helyezte a részvényt és felszínre hozta a magánhitel-piac kockázatait.",
+              "why": "A VIX pénteken 21%-kal 19,99-re ugrott, miközben a Nasdaq a júniusi mélypont óta legrosszabb hetét zárta, -4,5%-kal.",
               "src": [
-                "CNBC Live Blog",
-                "2026.10.19."
+                "Zacks/Yahoo Finance",
+                "2026.10.16-17"
+              ]
+            },
+            {
+              "lead": "Chipek ismét nyomás alatt kedd reggel",
+              "tags": [
+                {
+                  "t": "nincs megerősítve/becslés",
+                  "k": "spec"
+                }
+              ],
+              "why": "Kedd premarketben a Micron, az Intel és a Qualcomm is visszaesett, ami arra utal, hogy a hétfői megkönnyebbülés törékeny lehet.",
+              "src": [
+                "CNBC",
+                "2026.10.20"
               ]
             }
           ]
@@ -100,9 +114,8 @@
           "letter": "G",
           "heading": "Tech szektor csomag — félvezető & AI-infra",
           "body": [
-            "A félvezető-szektor hat egymást követő esési napon volt túl, a Philadelphia Semiconductor Index (SOX) nagyjából 10%-ot veszített, ami a legrosszabb sorozata 2025 májusa óta — az Arm közel 20%-ot, az Applied Materials mintegy 15%-ot, az Intel pedig 11%-ot esett ezalatt. Hétfő reggelre azonban a CNBC szerint a Nasdaq-határidők emelkedtek, mivel egyes befektetők elkezdték megvásárolni az AI-kereskedés visszaesett papírjait — ez egyelőre inkább jel, mint megerősített trendváltás.",
-            "A TSMC rekord negyedévet zárt, és idén akár 64 milliárd dollárt is elkölthet capexre, miközben a piac megosztott abban, hogy a Micronhoz hasonló memóriagyártók jelenlegi AI-vezérelt keresleti hulláma mennyire tartós — a Micron jóval olcsóbb, 5,3-szoros határidős szorzón forog a TSMC 24-szereséhez képest, ami a bizalmatlanság jele.",
-            "A memóriapiacon tovább mélyül a szűkösség: a HBM4 szerződéses ára egy hét alatt 117%-ot ugrott, miközben az AMD vezérigazgatója, Lisa Su hét hónap alatt másodszor utazott Szöulba, hogy HBM4-ellátást biztosítson a Samsungtól. A Barclays szerint a Micron DRAM-kínálata 2028-ig szűkös marad, a DDR5 spot ár októberben havi 8%-ot emelkedett, a DDR4 szerződéses árak pedig a szokásosnál gyorsabban drágulnak, mert a gyártók a HBM-kapacitás bővítése miatt visszafogják a hagyományos DRAM-termelést."
+            "Hétfőn a technológiai és AI-infrastruktúra papírok vezették a piaci fellendülést: a Nasdaq 100 közel 1,8%-ot emelkedett, a memóriapapírok (Micron, Marvell, SanDisk) kétszámjegyű pluszban zártak az előző heti zuhanás után (Benzinga, 2026.10.19). A megkönnyebbülés azonban törékenynek tűnik: kedd reggel a chipgyártók (Micron, Intel, Qualcomm) ismét premarket nyomás alá kerültek (CNBC, 2026.10.20), jelezve, hogy a múlt heti AI-tőkeáttételi aggodalmak csak átmenetileg csitultak, nem tűntek el.",
+            "A memóriapiacon ez nem csak napi zaj, hanem strukturális elmozdulás: a 36 GB-os HBM3E modulok azonnali piaci ára szeptember eleji állapot szerint kb. 2100 dollárra ugrott, négy-ötszörösére a 300-400 dolláros hosszútávú szerződéses árhoz képest (Intuition Labs, 2026.09.04-i állapot). A Goldman Sachs 4,9%-os DRAM-, 5,1%-os HBM- és 4,2%-os NAND-hiányt vetít előre 2026-ra, az SK Hynix 2026-os HBM-kapacitása gyakorlatilag elkelt, a Samsung pedig akár 30%-kal is emeli a HBM4 árát az előző generációhoz képest (TrendForce-alapú iparági jelentések, 2026 ősze). Ez többéves kínálati szűkösségre utal, nem átmeneti árhullámra."
           ]
         },
         {
@@ -110,22 +123,23 @@
           "letterStyle": "font-size:11px",
           "heading": "Energia szektor — atom & új energia kiemelten",
           "body": [
-            "Az atomenergia-szektorban továbbra is zajlanak a nagy AI-vezérelt megállapodások: a Google és a Constellation Energy 890 megawattnyi új reaktorkapacitást célzó, 20 éves áramvásárlási szerződést kötött, amely több mint 4,3 milliárd dolláros beruházást indít el 11 reaktornál, az áram pedig legkorábban 2028-tól kerülhet a PJM-hálózatra. Emellett a Vistra mintegy 4,2 milliárd dolláros DOE-hitelt kapott ohiói és pennsylvaniai reaktorai teljesítménynövelésére, Szlovákiában pedig a Mochovce 4-es blokkja csatlakozott a hálózathoz. Ezzel szemben kockázati jel, hogy az NRC 'megfélemlített munkakörnyezetet' talált a Palisades-telephelyen, ami árnyékot vethet az ottani újraindítási tervekre.",
-            "Az új energiában folytatódik a bővülés: a TotalEnergies és a KKR 1,2 milliárd dollárral, 700 megawattos texasi és ohiói napenergia-projektekkel bővítette közös amerikai vállalatát, Tajvanon pedig teljesen üzembe állt az 1 GW-os Hai Long tengeri szélpark. Ezzel szemben kockázatot jelent az úgynevezett 'támogatási szakadék': a BNEF szerint a 2027. december 31-i üzembe helyezési határidő miatt az amerikai szél- és naperőmű-bővítés a jövőben visszaeshet, ha a projektek nem futnak be időben a jelenlegi támogatási rendszer alatt."
+            "Az Amazon, az American Electric Power és az X-energy október 19-én bejelentette, hogy egy indianai egykori szénerőmű helyén 960 megawattos fejlett nukleáris projektet vizsgálnak – ez az Amazon második megállapodása az X-energyvel, háromszor akkora, mint az első, és illeszkedik az 5 gigawattos, 2039-ig szóló közös céljukba (TechCrunch, Utility Dive, 2026.10.19). Ez követi az Alphabet/Google és a Constellation Energy október eleji, 20 éves PPA-ját, amely 890 megawatt új reaktorkapacitást és 4,3 milliárd dolláros beruházást hoz 11 reaktornál a PJM-hálózaton, 2028-tól induló szállítással (Bloomberg, 2026.10.05-06). A hiperskálázók nukleáris energia iránti kereslete tehát tartós, strukturális trendnek tűnik, nem egyszeri hírnek.",
+            "Az energiatárolás oldalán a Wood Mackenzie október 19-i elemzése szerint a 4 órás akkumulátoros rendszerek (BESS) immár 43, globálisan vizsgált piacon olcsóbbak, mint a nyílt ciklusú gázturbinás csúcserőművek. A globális hálózati méretű BESS-telepítés szeptemberben 61%-kal nőtt éves szinten, az éves kumulált telepítés elérte a 208 GWh-t (Energy-Storage.News, 2026.10.15/20), az ausztrál Akaysha Energy pedig 1,75 milliárd ausztrál dolláros portfólió-szintű refinanszírozást zárt le BESS-projektjeire (2026.10.20). A tárolási kapacitás bővülése és a költséggörbe tartós gáz alá kerülése strukturális elmozdulásnak tűnik."
           ]
         },
         {
           "letter": "I",
           "heading": "Ellenoldal / kockázat — steelman",
           "body": [
-            "A bikapárti narratíva törékenyebb lehet, mint tűnik: a félvezető-index hat nap alatt közel 1000 milliárd dollárnyi piaci értéket veszített, ami arra utal, hogy a kapacitás-bővítési és AI-capex történet már most is magas várakozásokat áraz be — ha a kereslet csak kis mértékben lassul, a korrekció mélyebb lehet. A memória-felár kapcsán maguk az elemzők is óvatosak: a piac nem biztos abban, hogy a jelenlegi AI-infrastruktúra-vezérelt memóriakereslet tartós marad, és ezt diszkontálja is a Micron értékeltségében. Makro oldalon a Fed október 27–28-i ülésére a piaci árazás (előrejelzési piacok alapján, nem megerősített tény) jelenleg túlnyomórészt változatlan kamatszintet valószínűsít, ami kevesebb monetáris támaszt jelenthet, ha a növekedés lassul — ráadásul a kormányzati leállás miatt a Fed is hiányos adatok alapján dönt. Az atomenergia-szektor kapcsán is érdemes óvatosnak lenni: annak ellenére, hogy a techcégek sorra kötnek áramvásárlási megállapodásokat, a nukleáris részvények az elmúlt egy évben jelentős veszteségeket szenvedtek el, ami azt jelzi, hogy a befektetők egy része szkeptikus a projektgazdaságosságot illetően. Az új energia oldalán pedig a 2027 végi támogatási határidő strukturális kockázatot jelent a jövőbeli kapacitásbővülésre."
+            "A kockázati oldal komoly, nem csak zaj: az IMF október 13-i Global Financial Stability Review-ja figyelmeztetett, hogy az AI-kiadási láz esetleges összeomlása piaci zavart okozhatna, kiemelve a körkörös finanszírozási megállapodásokat, amelyekben az AI-cégek egymás befektetőiként, finanszírozóiként és ügyfeleiként is megjelennek. A BIS 2026-os éves jelentése az AI-capex-összeomlást, a körkörös finanszírozás összeomlását és a rekordszuverén adósságot nevezte meg a három legnagyobb pénzügyi stabilitási kockázatként, rámutatva, hogy az AI-cégeknek nyújtott magánhitelek 2010 óta kb. 3 milliárd dollárról 2025-re több mint 40 milliárd dollárra nőttek. Michael Burry nyilvánosan short pozíciót tart az Nvidia és a Micron részvényeiben, a mai AI-tőkeáttételt az 1987-es Black Monday momentum-dinamikájához hasonlítva, miközben a Wall Street-i előrejelzések is szélsőségesen szétnyílnak: a Jefferies 9000 pontos S&P 500-at vár 2027 végére, a Panmure Liberum elemzője viszont 36%-os visszaesést valószínűsít ugyanerre az időszakra.",
+            "Ezzel szemben a bullish steelman érv szerint a mérlegek valójában erősek maradtak: a Microsoft a 2026-os pénzügyi évben 183 milliárd dolláros működési cash flow-t termelt 116 milliárd dolláros capex mellett, így szabad cash flow-pozitív maradt, az Alphabet pedig 2025 elején 11 milliárd dollár alatti hosszú lejáratú adóssággal rendelkezett. Ez azt jelzi, hogy a legnagyobb szereplők finanszírozási tartaléka még mindig jelentős, még ha a capex/cash flow arány egy év alatt 65%-ról 90%-ra nőtt is a négy legnagyobb hiperskálázónál – ez a feszültségi pont, amin a két tábor vitája valójában múlik."
           ]
         },
         {
           "letter": "C",
           "heading": "Ma figyelendő",
           "body": [
-            "Érdemes figyelni, hogy a hétfői, chip-szektorban megjelent 'dip-vásárlás' folytatódik-e, vagy visszatér-e az eladói nyomás a hat napos esési sorozat után. Az amerikai hozamok hétfő reggeli esése és az ebből fakadó kamatérzékeny eszközosztály-reakció szintén kulcskérdés. Az olajár további alakulása a Trump-féle orosz szankciós mentesség nyomán szintén iránymutató lehet a makróra nézve. Középtávon a naptárban kiemelt pont az október 27–28-i Fed-ülés, amelyre a jelenlegi piaci árazás (előrejelzési piacok, nem tényadat) túlnyomórészt kamatváltozatlanságot valószínűsít — ennek megerősítése vagy cáfolata hetekkel előre befolyásolhatja a hangulatot. Végül a VIX múlt heti, körülbelül 20 pontra történő emelkedése után figyelni kell, hogy a volatilitás stabilizálódik vagy tovább emelkedik-e."
+            "A hét kiemelt eseménye a nagyvállalati gyorsjelentési szezon: mintegy 70 S&P 500-tagvállalat jelent a héten, köztük a Tesla, a Netflix és a Meta, ezek iránya meghatározhatja, hogy a hétfői AI-megkönnyebbülés folytatódik-e vagy újra megtörik (CNBC, Portfolio.hu, 2026.10.19). Érdemes figyelni a chipgyártók (Micron, Intel, Qualcomm) premarket irányát is, amely kedd reggel újra gyengült. Geopolitikai oldalon a Houthi-támadások szaúdi energetikai célpontok ellen tovább feszíthetik az olajárat, Európában pedig a francia és olasz tüntetéshullám politikai és költségvetési kockázatként nyomja a kontinentális indexeket és a hozamokat. Mindemellett közeledik a Fed következő kamatdöntése, ami a kockázati eszközök és a kripto irányát is befolyásolhatja."
           ]
         }
       ],
@@ -135,37 +149,37 @@
           "heading": "Szentiment — pillanatkép",
           "metrics": [
             {
-              "k": "Fear &amp; Greed (CNN)",
-              "v": "~18–29 / 100 (félelem, források eltérnek) — 2026.10.16."
+              "k": "Fear &amp; Greed",
+              "v": "23/100, Fear (CNN, 2026.10.20)"
             },
             {
               "k": "AAII bull–bear",
-              "v": "nincs friss, megerősített adat"
+              "v": "39% bika / 42% medve (2026.10. közepe-vége)"
             },
             {
               "k": "Put/call arány",
-              "v": "nincs friss, megerősített adat"
+              "v": "CBOE total 0,88, semleges, 9 napos átlag 0,86 (2026.10.14)"
             },
             {
-              "k": "Kripto Fear &amp; Greed (helyettesítő)",
-              "v": "~53–54 / 100 (semleges) — 2026.10.17–18."
+              "k": "Kripto funding",
+              "v": "BTC perpetual ~0,01%/8h (~10,9% éves), long-túlsúly 63% (2026.10.17)"
             }
           ],
-          "note": "Közelítés, nem pontos pozicionáltság. A CNN-index és egyes másodlagos források (pl. finhacker.cz) eltérő értékeket közöltek ugyanarra a napra, ezért tartományt adtunk meg."
+          "note": "Közelítés, nem pontos pozicionáltság. A Fear&Greed az elmúlt két hétben 18 és 47 között hullámzott, ami a magas napon belüli volatilitást jelzi."
         },
         {
           "lt": "H",
           "heading": "Amit figyelmen kívül hagynék",
           "list": [
-            "Rutinszerű bennfentes Form 144 bejelentések (pl. Workday, DoorDash, Rush Street) — ezek önmagukban nem hordoznak piaci jelzést.",
-            "Kripto mikro-tokenekhez kötődő promóciós sajtóközlemények, amelyek a Fear & Greed index emelkedését marketing-apropóként használják.",
-            "Egynapos kisvállalati árfolyam-kilengések, amelyek nem kapcsolódnak a szektor- vagy makró-trendhez."
+            "A magyar BUX napi ingadozása egy belpolitikai beszédre (Magyar Péter) – lokális zaj, nincs globális piaci relevanciája.",
+            "Egyetlen kereskedési nap premarket chipmozgásai (pl. Micron -2,2%) a gyorsjelentések előtt – trend csak a heti záróval erősíthető meg.",
+            "Az 1987-es 'Black Monday' évfordulós aritmetikai összehasonlítások (pl. 1500+ pontos elméleti S&P-esés) – matematikai gyakorlat, nem előrejelzés."
           ]
         },
         {
           "lt": "F",
           "heading": "Rotáció-figyelő",
-          "note": "Van jel: a múlt héten a technológia (-7,7%) alulteljesített, míg az alapcikkek, energia és egészségügy szektor vezette a felülteljesítést — ez klasszikus defenzív rotációs mintázat, összhangban az emelkedő VIX-szel és a chip-szektor eladási hullámával."
+          "note": "Gyenge jel, inkább szektoron belüli újrarendeződésre utal, mint valódi szektorok közötti rotációra: hétfőn a technológia (XLK +2,0%) és a fogyasztói diszkrecionális vezetett, miközben az ingatlan és a defenzív fogyasztási szektor maradt le, a kisebb kapitalizációjú Russell 2000 pedig alulteljesítette a Nasdaq 100-at (+0,3% vs. +1,75%) – ez inkább visszatérés az AI-témákhoz, mint kiszélesedő, tartós rotáció."
         }
       ]
     },
@@ -1306,6 +1320,10 @@
       "id": "archive",
       "label": "Archívum",
       "archive": [
+        {
+          "date": "2026-10-20",
+          "file": "archive/2026-10-20.json"
+        },
         {
           "date": "2026-10-19",
           "file": "archive/2026-10-19.json"
