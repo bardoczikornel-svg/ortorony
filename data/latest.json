@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "time": "07:20 CET",
-    "run": "automatikus (2026-10-23T09:42:45.453Z)",
+    "run": "automatikus (2026-10-26T10:41:50.878Z)",
     "demo": false
   },
   "brand": {
@@ -11,8 +11,8 @@
   },
   "regime": {
     "state": "risk-off",
-    "label": "Tech-sokk + geopolitikai olajár-löket",
-    "text": "A csütörtöki kereskedést <b>AI-capex félelem és közel-keleti olajsokk</b> együttesen mozgatta kötvénybe menekülést és szektor-rotációt kiváltva, miközben a széles piaci lélegzetvétel (breadth) meglepően pozitív maradt."
+    "label": "Kockázatkerülő hangulat AI-capex szkepticizmus és geopolitikai olajsokk között",
+    "text": "A piac <b>két egymást követő vesztes hetet</b> zárt, a Fear & Greed index extrém félelemben áll, miközben a héten a Fed-döntés és a Big Tech AI-capex jelentések dönthetik el, hogy ez korrekció vagy trendforduló."
   },
   "tabs": [
     {
@@ -25,87 +25,87 @@
           "heading": "Tegnap mozgatói",
           "items": [
             {
-              "lead": "Nasdaq legrosszabb napja június óta",
+              "lead": "Péntek: széles eladási hullám, Dow -650 pont",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Nasdaq Composite 2,6%-ot esett, az S&P 500 1,2%-ot, miközben a félvezetőszektor csaknem 7%-ot zuhant a Meta capex-bejelentése és az AI-adósságfinanszírozási félelmek miatt.",
-              "src": [
-                "Bloomberg / Yahoo Finance",
-                "2026.10.22"
-              ]
-            },
-            {
-              "lead": "Olajár-sokk közel-keleti támadások miatt",
-              "tags": [
-                {
-                  "t": "megerősítve",
-                  "k": "ok"
-                }
-              ],
-              "why": "A Brent 4%-kal 113,17 dollárra emelkedett, öthavi csúcsra, miután Houthi-támadások érték Szaúd-Arábia olajinfrastruktúráját és a Dammam-i repteret, az Aramco pedig evakuálta dhahrani központját.",
-              "src": [
-                "Reuters / Nation Thailand",
-                "2026.10.22"
-              ]
-            },
-            {
-              "lead": "Menekülés a kötvénypiacra, hozamzuhanás",
-              "tags": [
-                {
-                  "t": "megerősítve",
-                  "k": "ok"
-                }
-              ],
-              "why": "A 10 éves amerikai hozam 19,3 bázispontot esett 4,953%-ra, a legnagyobb napi csökkenés 2025 augusztusa óta, ahogy a befektetők biztonságot kerestek.",
-              "src": [
-                "Investrade Market Review",
-                "2026.10.22"
-              ]
-            },
-            {
-              "lead": "Fear & Greed index extrém félelembe fordult",
-              "tags": [
-                {
-                  "t": "megerősítve",
-                  "k": "ok"
-                }
-              ],
-              "why": "A CNN Fear & Greed Index 20-31 közötti tartományba süllyedt (forrástól függően), extrém félelem zónába, a chipszektor leértékelődése és a forró inflációs adat hatására.",
-              "src": [
-                "finhacker.cz / 24/7 Wall St.",
-                "2026.10.22"
-              ]
-            },
-            {
-              "lead": "Nukleáris és AI-energia részvények is estek",
-              "tags": [
-                {
-                  "t": "megerősítve",
-                  "k": "ok"
-                }
-              ],
-              "why": "Az Oklo 4%-ot, a NuScale 3%-ot, a Talen Energy 8,3%-ot esett az adatközponti kapacitásbővítés költségei miatti aggodalmak közepette, annak ellenére, hogy a hosszú távú kereslet-sztori változatlan.",
+              "why": "Az emelkedő olajár és a szektorokon átívelő eladás miatt a Dow több mint 650 pontot esett, az S&P 500 0,5%-ot, a Nasdaq 0,2%-ot vesztett, ezzel mindkét index egymást követő heti veszteséget szenvedett el.",
               "src": [
                 "CNBC",
-                "2026.10.22"
+                "2026.10.25/26"
               ]
             },
             {
-              "lead": "Neocloud és AI-infra nevek is eladásra kerültek",
+              "lead": "Olajár-sokk Irán-félelmek miatt, majd hétfői visszaesés",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Nebius, CoreWeave, IREN és Applied Digital egyaránt 3,6-10% közötti veszteséget mutatott, miközben a kisbefektetők épp az elmúlt héten növelték chipszektor-vásárlásaikat a JPMorgan szerint.",
+              "why": "A Brent pénteken áprilisi csúcsra ugrott amerikai-izraeli Irán-csapás hírek miatt, majd hétfőn 2,2%-ot esett 114,52 dollárra, miután Trump cáfolta a közelgő csapást.",
               "src": [
-                "Pénzcentrum / Bloomberg",
-                "2026.10.22"
+                "CNBC / Investing.com",
+                "2026.10.25-26"
+              ]
+            },
+            {
+              "lead": "Urán/atomenergia ETF-ek 52 hetes mélyponton, miközben Exxon/Chevron csúcson",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Péntek a Global X Uranium, a Sprott Uranium Miners és a VanEck Uranium & Nuclear ETF is 52 hetes mélypontra esett, míg Exxon és Chevron történelmi csúcsot ért el – tiszta éles rotáció a hagyományos fosszilis energia felé az olajsokk nyomán.",
+              "src": [
+                "CNBC",
+                "2026.10.23"
+              ]
+            },
+            {
+              "lead": "Musk: 200+ 'neocloud' cég bukhat el",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Musk vasárnap azt írta, hogy a hitelpiacok gyakorlatilag lezárultak az AI-adatközpont-bevételen kívüli bevétellel nem rendelkező cégek előtt, ami miatt a Nebius, CoreWeave és Iren árfolyama több mint 4%-ot esett hétfő premarketben.",
+              "src": [
+                "CNBC",
+                "2026.10.26"
+              ]
+            },
+            {
+              "lead": "Brazil választás sokkolja a helyi piacokat",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Lula győzelme után a Petrobras 21%-ot, az Itaú Unibanco 26%-ot, az Ambev 19%-ot zuhant premarketben, jelezve a politikai kockázat éles beárazását.",
+              "src": [
+                "CNBC",
+                "2026.10.25"
+              ]
+            },
+            {
+              "lead": "Meta capex-sokk továbbgyűrűzik",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "A Meta negatív szabad cashflow-t jelentett és 135-145 milliárd dollárra emelte a 2026-os capex-sávot, a részvény közel 7%-ot esett csütörtökön, ami előkészítette a mostani AI-ROI vitát.",
+              "src": [
+                "Mitrade Insights",
+                "2026.10.26"
               ]
             }
           ]
@@ -114,9 +114,10 @@
           "letter": "G",
           "heading": "Tech szektor csomag — félvezető & AI-infra",
           "body": [
-            "A félvezetőszektor csütörtökön a Nasdaq 100 legrosszabb napját hozta június óta: az Nvidia 4,4%-ot esett miután Jensen Huang arra utalt, hogy a neocloud-szereplőknek nincs elég működő tőkéjük a növekedés finanszírozásához, a Lam Research pedig 10%-ot zuhant, miután a vezetés 2027-re ellátási lánc korlátokra figyelmeztetett. A Micron tajvani üzemében (Taoyuan) 24 órás sztrájk zajlott – Tajvan első félvezetőipari sztrájkja –, az AI-memória profitelosztása miatt, a szavazók 99%-os támogatásával.",
-            "A memóriapiacon a TrendForce szerint a DRAM szerződéses árak a harmadik negyedévben 13-18%-kal, a NAND árak 10-15%-kal emelkedtek negyedévről negyedévre; a negyedik negyedévre 10-15%-os DRAM- és 15-20%-os NAND-drágulást várnak. Ez lassulás a korábbi, akár 90-95%-os ugrásokhoz képest, de a strukturális szűkösség – amit az AI-szerverek HBM-kereslete hajt – a várakozások szerint 2027-ig, egyes elemzők szerint akár tovább is fennmaradhat.",
-            "Az AI-capex vita középpontjában a Meta új, nem szavazati jogú részvénykibocsátása áll az AI-bővítés finanszírozására, ami újraélesztette az adósságfinanszírozási aggodalmakat. Ezzel párhuzamosan az Nvidia a berlini GTC-n hat beszállítóval (IBIDEN, Samsung Electro-Mechanics, Unimicron, Amkor, SPIL, KYEC) kötött kapacitásbővítési megállapodást a szubsztrát- és csomagolási kapacitás többszörözésére, jelezve, hogy az infrastruktúra-beruházási ütem rövid távon nem lassul, még ha a tőkepiaci reakció ideges is."
+            "A memóriapiac strukturális szűkössége folytatódik: a DDR4 spot ár október közepén új csúcsot ért el (~46 dollár), ami a november 2025-ös szinthez képest nagyjából 277%-os emelkedést jelent, és a Barclays elemzése szerint a Micron-féle DRAM-hiány akár 2028-2029-ig is elhúzódhat, mivel a HBM-gyártás kapacitást von el a hagyományos DRAM-tól. Ez megerősített, árfolyam-releváns strukturális tényező, nem spekuláció.",
+            "A félvezető-berendezés gyártók (pl. Lam Research) október 21-i jelentése után éles eladási hullám indult a szektorban, mivel a befektetők a szállítási határidők és a hyperscaler-capex megtérülésének időzítése miatt aggódnak – ez jelzi, hogy az AI-infra beruházási ciklus már nem kap automatikus piaci bizalmat.",
+            "A hét kulcseseménye megerősített, de kimenete spekulatív: az Alphabet és a Microsoft szerdán (okt. 28), az Amazon csütörtökön (okt. 29) jelent, együttesen közel 800 milliárd dolláros éves hyperscaler-capex mellett – a piac azt teszteli, hogy a felhő-bevétel és a megrendelés-állomány (pl. Microsoft ~678 milliárd dolláros RPO-ja) igazolja-e a kiadásokat.",
+            "A Musk-féle neocloud-figyelmeztetés (200+ cég bukásának kockázata, Gartner szerint 2030-ra a szereplők 80%-a megszűnhet önállóan működni) strukturális hitelkockázatot jelez a specializált AI-GPU-bérbeadó szegmensben – ez megerősített nyilatkozat, de a tényleges csődhullám időzítése és mértéke spekulatív."
           ]
         },
         {
@@ -124,22 +125,22 @@
           "letterStyle": "font-size:11px",
           "heading": "Energia szektor — atom & új energia kiemelten",
           "body": [
-            "A nukleáris szektor a csütörtöki általános AI-infra leértékelődésben osztozott – az Oklo és a NuScale is esett –, miközben az elemzői konszenzus megosztott: a Morgan Stanley 378 dollárra emelte a Constellation Energy célárát (Overweight), a Citi viszont csökkentette az Oklo és a SMR célárait a szektor rövid távú ellenszele miatt. Strukturális oldalon a hosszú távú urán ár 96,50 dollár/font szeptember végén, meghaladva a 2007-es nominális csúcsot, és a szeptember 30-i amerikai–koreai keretmegállapodás akár 120 milliárd dolláros koreai beruházást irányozhat elő nyolc nagy amerikai nukleáris projekthez – ezek inkább spekulatív, hosszabb távú katalizátorok, nem napi hírek.",
-            "Az új energia térben a figyelem rövid távon az olajár-sokkra terelődött, de a strukturális beruházási hírfolyam nem állt meg: az X-Energy, az Amazon és az American Electric Power partnerségben fejlesztene egy 960 MW-os SMR-projektet Indianában, az akkumulátoros tárolásban pedig az ausztrál Akaysha Energy 1,75 milliárd ausztrál dollárnyi portfólió-finanszírozást zárt le, a Fluence pedig új vattenfalli tárolási megbízást kapott. Ezek azt jelzik, hogy az AI-adatközpontok áramkereslete hosszabb távon tartja a beruházási étvágyat, még ha a részvényárak rövid távon a szélesebb tech-leértékelődéssel együtt mozognak is."
+            "Atomenergia: rövid távon éles negatív árfolyam-reakció volt megerősíthető — az urán- és atomenergia-ETF-ek, valamint olyan nevek mint Centrus, Oklo, NuScale, Energy Fuels és BWX Technologies 52 hetes mélypontra estek péntek, miközben a Wall Street-i céláresések vegyesek (Citi lefelé az Oklónál 33 dollárra, a NuScale-nél 4 dollárra, miközben a Morgan Stanley felfelé a Constellation Energynél 378 dollárra). Ezzel párhuzamosan a strukturális kereslet oldala erős marad: október 25-én új hír jelent meg az amerikai védelmi tárca és a NASA mikroreaktor-finanszírozásáról, október 19-én pedig az X-Energy, Amazon és American Electric Power bejelentette egy 960 MW-os SMR-projekt fejlesztését Indianában — ez utóbbiak megerősített, hosszú távú keresleti jelek, amelyek egyelőre nem tükröződnek az árfolyamokban.",
+            "Új energia (akkumulátoros tárolás, napenergia): a szektor strukturális növekedése megerősített — a BloombergNEF szerint a globális energiatárolás 2026-ban 45%-os éves növekedési ugrást láthat, 2036-ra 3,1 TW kumulált kapacitással, Ausztráliában a NEM hálózati csatlakozási sor éves szinten 43%-kal, 80,9 GW-ra nőtt, túllépve a jelenlegi hálózati kapacitást, túlnyomórészt akkumulátoros tárolási projektek miatt. Németországban a gazdasági minisztérium törvényileg kívánja biztosítani az adatközpontok hálózati hozzáférését, miután a négy TSO csak az első félévben 346 csatlakozási kérelmet kapott 147 GW értékben, túlnyomórészt tárolási szereplőktől. Ellenpélda, hogy a lakossági szegmens nem egységesen egészséges: a német Sonnen (korábban Shell tulajdonában) október 23-án fizetésképtelenséget jelentett be, ami jelzi, hogy a nagyüzemi/hálózati tárolás és a lakossági szegmens eltérő ütemben fejlődik."
           ]
         },
         {
           "letter": "I",
           "heading": "Ellenoldal / kockázat — steelman",
           "body": [
-            "A medve-forgatókönyv ellenpontja: a piaci szélesség (breadth) valójában pozitív volt csütörtökön, az egyenlő súlyozású index és a Dow Jones tartotta magát, miközben hat a tizenegy S&P-szektor közül emelkedett (élen a Consumer Staples +3%-kal, valamint a Healthcare, REIT és pénzügyi szektorokkal) – ez inkább szelektív AI-kockázat-leépítésre, mint átfogó piaci pánikra utal. Az olajár-emelkedést elemzők kifejezetten \"kockázati prémiumnak\" nevezik, mivel a tényleges termeléskiesés minimális, a közel-keleti export továbbra is nagyrészt zavartalanul folyik, így a sokk gyorsan visszafordulhat, ahogy korábbi hasonló geopolitikai riasztásoknál történt. Emellett a zuhanó hozamok és a jövő heti, várhatóan változatlan kamatdöntésű Fed-ülés tompíthatja a finanszírozási költség-sokkot, amely az AI-capex aggodalmak hátterében áll."
+            "A bikapárti érv szerint a jelenlegi visszaesés túlzó: a Meta, Microsoft és Alphabet megerősített, hatalmas megrendelés-állománnyal (pl. Alphabet ~514 milliárd dolláros felhő-backlog) rendelkezik, ami alátámasztja a capex-et, és a hagyományos energiaszektor (Exxon, Chevron) rekord profitabilitása azt mutatja, hogy a reálgazdaság nem recesszióban van. A medvepárti (steelman) ellenérv ennél élesebb: a hitelpiacok már ténylegesen szelektálnak — Musk megerősített nyilatkozata szerint a bankok gyakorlatilag elzárták a finanszírozást az AI-adatközponti bevételen kívüli jövedelem nélküli cégek elől, ami egy hitel-vezérelt, nem csak multiplikátor-alapú AI-infra korrekciót vetít előre. Emellett a Fed szigorító torzítása (decemberre ~45%-ra árazott kamatemelés valószínűség) tartósan magas reálhozamokat tarthat fenn, ami nyomás alatt tartja a hosszú duration-ű növekedési részvényeket, míg az olajár-sokk (bár hétfőn enyhült) stagflációs kockázatot hordoz, ha az iráni geopolitikai feszültség újraéleszthető."
           ]
         },
         {
           "letter": "C",
           "heading": "Ma figyelendő",
           "body": [
-            "Figyelni érdemes, hogy a közel-keleti helyzet (Houthi-támadások, Aramco-evakuálás, Hormuzi-szorosi incidensek) tovább eszkalálódik-e, mert ez közvetlenül mozgatja az olajárat és azon keresztül az inflációs várakozásokat. A jövő heti Fed-ülés felé vezető kommentárok, a folytatódó Micron-sztrájk kimenetele, valamint a TrendForce további DRAM/NAND árfrissítései is iránymutatóak lehetnek a memória-ciklus és az AI-capex narratíva szempontjából. Érdemes követni, hogy a tegnapi szektor-rotáció (tech/kommunikáció kontra defenzív szektorok és kötvények) folytatódik-e, vagy csak egynapos pozícionálási reakció volt."
+            "A hét legfontosabb, megerősített naptári eseménye a Fed FOMC-döntése szerdán (okt. 28, 14:00 ET) — a piac ~90%-ra árazza a tartást 3,75-4,00% között, miközben decemberre már jelentős kamatemelési valószínűséget áraz be. Ugyanezen a napon jelent az Alphabet és a Microsoft zárás után, csütörtökön az Amazon — ezek a jelentések döntik el, hogy a ~800 milliárd dolláros éves hyperscaler-capex megtérülése hihető-e a piac számára. Emellett figyelendő az EKB (csütörtök) és a BoJ (péntek) kamatdöntése, valamint bármilyen újabb fejlemény az Irán-Izrael-USA geopolitikai szálon, mivel ez közvetlenül mozgatja az olajárat és azon keresztül a szektor-rotációt."
           ]
         }
       ],
@@ -149,38 +150,37 @@
           "heading": "Szentiment — pillanatkép",
           "metrics": [
             {
-              "k": "Fear &amp; Greed",
-              "v": "kb. 20–31 / 100 (extrém félelem, forrásfüggő)"
+              "k": "Fear &amp; Greed (részvény)",
+              "v": "21/100 – extrém félelem (okt. 23, egyes korrelált mérők szerint 49 körül semleges)"
             },
             {
               "k": "AAII bull–bear",
-              "v": "bika 36,9% (előző hét 38,7%), semleges 17,3%"
+              "v": "Bika 36,9% / Medve 45,8%, spread -8,9pp (okt. 21-i hét)"
             },
             {
-              "k": "Put/call arány",
-              "v": "nincs megerősített friss adat"
+              "k": "Put/call arány (CBOE total)",
+              "v": "~0,88-0,93, semleges-enyhén félénk (adat 1-2 napos késéssel)"
             },
             {
-              "k": "Kripto funding",
-              "v": "kripto F&G ~50–55 (semleges), nem funding-ráta"
+              "k": "Kripto Fear &amp; Greed",
+              "v": "~50-53, semleges (okt. 25-26)"
             }
           ],
-          "note": "Közelítés, nem pontos pozicionáltság."
+          "note": "Közelítés, nem pontos pozicionáltság. Figyelemre méltó megosztottság: retail (AAII) medvés, miközben a profi NAAIM-expozíciós index 87,7-re emelkedett, szeptember vége óta a legmagasabbra."
         },
         {
           "lt": "H",
           "heading": "Amit figyelmen kívül hagynék",
           "list": [
-            "Egyedi, egynapos Fear & Greed kilengések önmagukban, forrásonként eltérő értékekkel (20 vs. 27 vs. 31)",
-            "Egyetlen részvény (pl. Meta, Tesla) napi %-os mozgása a szélesebb szektorkontextus nélkül",
-            "Az olajár napon belüli csúcsai/mélypontjai headline-kockázatból, mielőtt tényleges ellátási adat megerősítené a kiesést",
-            "Kisbefektetői FOMO-vásárlási mintázatok a leépülés előtti napokban — zajnak tekintendő, nem strukturális jelzésnek"
+            "A neocloud-részvények (CoreWeave, Nebius, Iren) egynapos premarket mozgása egyetlen Musk-tweet nyomán — fejlécvezérelt zaj, nem önmagában strukturális adat.",
+            "A brazil ADR-ek (Petrobras, Itaú, Ambev) egynapos zuhanása a választás után — politikai átárazás, nem globális makro-jel.",
+            "A kripto Fear & Greed napi 3-4 pontos ingadozása (50↔54 között) — túl zajos egynapos alapon értékelni."
           ]
         },
         {
           "lt": "F",
           "heading": "Rotáció-figyelő",
-          "note": "Van jel: csütörtökön egyértelmű defenzív rotáció zajlott a tech/kommunikációs szektorból (XLK -3,3%, XLC -1,4%) a Consumer Staples, Utilities, Healthcare, REIT és pénzügyi szektorok, valamint a hosszú lejáratú kötvények felé, ami klasszikus risk-off / duration-keresési mintázat geopolitikai és AI-capex sokk mellett."
+          "note": "Van jel: éles rotáció zajlik az energián belül — hagyományos fosszilis (Exxon, Chevron csúcson) az atomenergia/tiszta energia ETF-ek (52 hetes mélyponton) rovására, az olajár-sokk geopolitikai prémiuma miatt, nem fundamentális okokból. Emellett a félvezető-berendezés és memória-beszállítói kör (pl. Lam Research) alulteljesít a nagy felhőszolgáltatókhoz (MSFT, GOOGL) képest a capex-megtérülési jelentések előtt — ez a kockázatkerülés tipikus, minőség felé mutató rotációs mintázata a tech-szektoron belül."
         }
       ]
     },
@@ -1322,6 +1322,10 @@
       "label": "Archívum",
       "archive": [
         {
+          "date": "2026-10-26",
+          "file": "archive/2026-10-26.json"
+        },
+        {
           "date": "2026-10-23",
           "file": "archive/2026-10-23.json"
         },
@@ -1436,10 +1440,6 @@
         {
           "date": "2026-09-09",
           "file": "archive/2026-09-09.json"
-        },
-        {
-          "date": "2026-09-08",
-          "file": "archive/2026-09-08.json"
         }
       ]
     }
