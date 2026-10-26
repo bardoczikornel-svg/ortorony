@@ -1,5 +1,13 @@
 [
   {
+    "ticker": "FCELL",
+    "name": "FuelCell Energy, Inc.",
+    "date": "2026-10-26",
+    "file": "company/FCELL-2026-10-26.json",
+    "oneliner": "A molten carbonate technológiás, évtizedek óta veszteséges FuelCell Energy agresszíven az AI-adatközponti helyszíni áramellátásra áll át, ám a Q3 FY2026 gyártási árazási hibája és az azt követő részvényesi kereset megmut",
+    "state": "transition"
+  },
+  {
     "ticker": "WULF",
     "name": "TeraWulf Inc.",
     "date": "2026-10-12",
