@@ -1,0 +1,1446 @@
+{
+  "meta": {
+    "date": "2026-10-27",
+    "time": "07:20 CET",
+    "run": "automatikus (2026-10-27T10:10:15.537Z)",
+    "demo": false
+  },
+  "brand": {
+    "name": "Őrtorony",
+    "sub": "napi piac- & szektor-jelentés · zajszűrő"
+  },
+  "regime": {
+    "state": "transition",
+    "label": "AI-relief rally Fed-döntés árnyékában",
+    "text": "A piac tegnap az Anthropic IPO-bejelentésre és új AI-tőkeemelésekre (Meta, SpaceX) árazott be egy élénk megkönnyebbülési rallyt a félvezető-szektorban, de ez <b>törékeny, finanszírozás-vezérelt fellendülés</b>, amit a szerdai Fed-döntés és a Big Tech negyedéves jelentések hétvégéje azonnal próbára tehet."
+  },
+  "tabs": [
+    {
+      "id": "tech",
+      "label": "Napi jelentés",
+      "hero": true,
+      "sections": [
+        {
+          "letter": "B",
+          "heading": "Tegnap mozgatói",
+          "items": [
+            {
+              "lead": "Anthropic nyilvánosan benyújtotta Nasdaq-IPO-ját (ticker: ANT)",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "A Claude-ot fejlesztő cég 16,29 milliárd dolláros féléves bevételt (+1304% éves alapon) és 80,7 milliárd dolláros nettó veszteséget jelentett a dokumentumban, ami új lendületet adott az AI-kereskedésnek.",
+              "src": [
+                "CNBC",
+                "2026.10.26"
+              ]
+            },
+            {
+              "lead": "Meta 95 milliárd dolláros tőkebevonást jelentett be AI-beruházásokra",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "A finanszírozást saját cash flow, befektetési kategóriájú hitel és részvénytőke keverékéből tervezi fedezni az adatközpont-bővítéshez.",
+              "src": [
+                "CNBC",
+                "2026.10.26"
+              ]
+            },
+            {
+              "lead": "A SpaceX 40 milliárd dolláros hitelmegállapodást zárt le AI-chipekre",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Elon Musk hétvégi bejelentése szerint a cég adóssággal finanszírozza AI-számítási kapacitás bővítését, miközben a részvény maga enyhén esett a hírre.",
+              "src": [
+                "CNBC / cappnotes",
+                "2026.10.26"
+              ]
+            },
+            {
+              "lead": "Ázsiai félvezető-részvények ralliztak",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "A Samsung és az SK Hynix 5% feletti emelkedést hozott, a koreai Kospi 4,4%-ot, a japán Nikkei 225 pedig 2,2%-ot erősödött az Anthropic-hír nyomán.",
+              "src": [
+                "GuruFocus",
+                "2026.10.26"
+              ]
+            },
+            {
+              "lead": "Bank of America felminősítette a memóriaszektort, kiemelten a Micront",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Az elemző a Micron vezetésével folytatott egyeztetések után arra számít, hogy a memóriakínálat 2027-2028-ban is szűkös marad.",
+              "src": [
+                "CNBC",
+                "2026.10.26"
+              ]
+            },
+            {
+              "lead": "Brazil Bovespa -13,88%",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Lula újraválasztása a második fordulóban éles helyi eladási hullámot váltott ki, ami jól mutatja, hogy a tegnapi kép nem volt egységesen kockázatkereső globálisan.",
+              "src": [
+                "cappnotes.substack",
+                "2026.10.26"
+              ]
+            }
+          ]
+        },
+        {
+          "letter": "G",
+          "heading": "Tech szektor csomag — félvezető & AI-infra",
+          "body": [
+            "Az iShares Semiconductor ETF (SOXX) közel 3 százalékot emelkedett, az Nvidia 2,4, a Micron 3, a Broadcom 2,3, az AMD pedig 2,8 százalékot erősödött, miután az Anthropic IPO-bejelentése újraélesztette az AI-kereskedést egy olyan időszak után, amikor a szektor a csúcsától mintegy 25 százalékkal lejjebb, technikai medvepiacon tartózkodott. Az AI-optikai nevek közül a Lumentum és a Coherent különösen erős napot zárt.",
+            "A memóriapiacon strukturális szűkösség uralkodik: a Samsung és az SK Hynix HBM-, DRAM- és NAND-kapacitása lényegében elfogyott 2026-ra, a HBM4 szerződéses ára pedig egy hét alatt akár 117 százalékkal ugrott, a Korea Economic Daily szerint 2027-re további 121 százalékos éves drágulásra számítanak. A Gartner szerint a kombinált DRAM- és SSD-árak 130 százalékkal emelkedhetnek 2026 végére, ami 17 százalékos PC-áremelkedést vetít előre.",
+            "Ezzel párhuzamosan a Microsoft önkéntes távozási programot indított mintegy 60 ezer alkalmazott, a cég teljes amerikai, kanadai, indiai és brit létszámának 27 százaléka számára, miközben a 2027-es pénzügyi évre irányuló tőkeberuházási (capex) iránymutatása körülbelül 175 milliárd dollár, az AI-kapacitás pedig több mint 80 százalékkal bővülhet - vagyis a költséghatékonysági nyomás és a rekordméretű beruházás egyszerre van jelen."
+          ]
+        },
+        {
+          "letter": "EN",
+          "letterStyle": "font-size:11px",
+          "heading": "Energia szektor — atom & új energia kiemelten",
+          "body": [
+            "Az Amazon, az X-energy és az amerikai AEP közösen jelentette be hétfőn, hogy egy indianai, korábban szénerőműként üzemelt telephelyen 12 kis moduláris reaktort (SMR) építenek egy 960 megawattos atomerőmű részeként, ami az AI-adatközpontok energiaigényét hivatott kiszolgálni. Emellett Dél-Korea az IAEA szöuli miniszteri konferenciáján bejelentette, hogy globális SMR-beszállítói központtá kívánja fejleszteni magát, 2035-re tűzve ki a könnyűvizes SMR kereskedelmi hasznosítását, míg a Roszatom 2027-re célozza meg két 1000 MW-os uzbegisztáni blokk teljes körű építésének indítását. Ezzel szemben a tőzsdén jegyzett NuScale (SMR) részvénye az elmúlt egy évben 87 százalékot esett, jelezve, hogy a szektor narratívája és a tőzsdei árazás komoly szétválást mutat.",
+            "Az új energia oldalán a SEIA elemzése szerint a nap- és tárolókapacitás bővülése nyáron 42 százalékkal csökkentette a nagykereskedelmi árakat Texasban és 51 százalékkal Kaliforniában. Az AI-adatközpontok egyben a lítium-ion tárolók új nagy felvevőivé váltak: a rack-szintű tartalék akkumulátorok importja az USA-ba 2026 első hét hónapjában 131 százalékkal nőtt éves alapon. Ugyanakkor az E2 kutatása szerint 2025 óta 86,6 milliárd dollárnyi tiszta energiás beruházást mondtak vissza vagy csökkentettek, ami 8,2 milliárd dollárral meghaladja az új beruházásokat — ez a szektor finanszírozási kettősségét jelzi."
+          ]
+        },
+        {
+          "letter": "I",
+          "heading": "Ellenoldal / kockázat — steelman",
+          "body": [
+            "A Gartner szerint akár 3,5 billió dollárnyi AI-infrastrukturális beruházás értékvesztésnek lehet kitéve 2030 végéig, mivel a becsült 8,5 billió dolláros szükséges bevétellel szemben az AI-adatközpontoknak tulajdonítható bevétel legfeljebb 3,6 billió dollárra rúghat — vagyis a megtérülési matematika jelentősen elmarad a beruházási ütemtől egészen a 2030-as évekig. Ezt erősíti, hogy a chicagói Fed elnöke, Austan Goolsbee nyíltan figyelmeztetett: az AI-beruházási boom túlfűtheti a gazdaságot és beágyazott inflációs várakozásokat okozhat, miközben a Fed szerdai (október 28-i) kamatdöntése kifejezetten 'élő' kérdéssé vált a legutóbbi inflációs adatok után. Egy Seeking Alpha-elemző szerint a Fed-ülés, a közel-keleti olajkockázatok és a feltörekvő AI-buborék kipukkanása együtt újra lenyomhatja a részvényeket, és ezt alátámasztja, hogy a kínai AI-részvények mindössze négy hónap alatt 480 milliárd dollárnyi piaci értéket veszítettek, ami egyes kommentátorok szerint hasonló figyelmeztető jeleket mutat, mint amit most az amerikai piacon látni. Mindez spekulatív, de a kockázat strukturális jellegű: a finanszírozás egyre inkább adósságra és tőkeemelésre (Meta, SpaceX) tolódik át, nem a működési cash flow-ra."
+          ]
+        },
+        {
+          "letter": "C",
+          "heading": "Ma figyelendő",
+          "body": [
+            "A legfontosabb esemény a Fed szerda esti (október 28.) kamatdöntése, amelyet a piac jelenleg stabil kamatszinttel vár, de a legutóbbi inflációs adatok és Goolsbee figyelmeztetése miatt a döntés bizonytalanabbá vált. Ezzel egy időben zajlik a Big Tech negyedéves jelentési hulláma: az Alphabet, a Microsoft és az Amazon eredményei adhatnak első kézzelfogható bizonyítékot arra, hogy az AI-beruházási ciklus megtérül-e, miközben az S&P 500 vállalatainak mintegy harmada publikál e héten, köztük olaj-óriások (Exxon, Chevron) és chipgyártók (Intel, SanDisk) is. Az olajpiacon a Brent árfolyama 115 dollár körül mozog, enyhén lefelé a Perzsa-öböl menti feszültségek és a múlt heti csúcs után, ami a geopolitikai kockázati prémium alakulásának fontos jelzőszáma marad."
+          ]
+        }
+      ],
+      "rail": [
+        {
+          "lt": "D",
+          "heading": "Szentiment — pillanatkép",
+          "metrics": [
+            {
+              "k": "Fear &amp; Greed (részvény)",
+              "v": "27/100 — Fear (2026.10.26, CNN-módszertan alapú követő oldal)"
+            },
+            {
+              "k": "AAII bull–bear",
+              "v": "nincs friss, megbízható adat a vizsgált 24 órában"
+            },
+            {
+              "k": "Put/call arány",
+              "v": "nincs friss, megbízható adat a vizsgált 24 órában"
+            },
+            {
+              "k": "Kripto funding / F&amp;G",
+              "v": "~50-51/100 — Neutral (2026.10.26, Alternative.me/Coinglass)"
+            }
+          ],
+          "note": "Közelítés, nem pontos pozicionáltság. A részvénypiaci F&G forrásonként eltér (más mérőszám 21-27 sávban mutatott Fear/Extreme Fear szintet a múlt hét végén)."
+        },
+        {
+          "lt": "H",
+          "heading": "Amit figyelmen kívül hagynék",
+          "list": [
+            "A Bovespa -13,88%-os zuhanása — helyi brazil politikai esemény (Lula-győzelem), nem globális kockázati jelzés.",
+            "Napon belüli BUX/OTP/Mol mozgások a Budapesti Értéktőzsdén — helyi likviditási zaj, nem strukturális elmozdulás.",
+            "A kripto Fear & Greed napi 2-4 pontos ingadozásai 50 körül — a mutató maga is jelzi, hogy ez inkább zaj, mint irányjelzés."
+          ]
+        },
+        {
+          "lt": "F",
+          "heading": "Rotáció-figyelő",
+          "note": "Gyenge jel: tőke áramlik vissza a lefejezett (-25% csúcstól) félvezető/AI-infra szektorba (SOXX +3%, memória, AI-optika), de ez egyelőre finanszírozás-vezérelt (Meta és SpaceX adósság/tőkebevonása) megkönnyebbülési mozgásnak tűnik, nem megerősített, tartós szektorrotációnak — a szerdai Fed-döntés és a hét végi hyperscaler-jelentések adhatnak megerősítést vagy cáfolatot."
+        }
+      ]
+    },
+    {
+      "id": "company",
+      "label": "Vállalati elemzés",
+      "empty": {
+        "k": "Modul 02",
+        "heading": "Vállalati mély-elemzés",
+        "text": "Ugyanaz az A–K logika egyetlen cégre: pozíció a szektorban, capex- és marzs-pálya, termékciklus, szabályozási kitettség, ellenoldal. On-demand vagy heti.",
+        "steps": "Kimenet: <code>company/{ticker}-{dátum}.json</code> → a dashboard felsorolja és rendereli."
+      }
+    },
+    {
+      "id": "watch",
+      "label": "Céghír-figyelő",
+      "empty": {
+        "k": "Modul 03",
+        "heading": "Céghír-figyelő",
+        "text": "Megadott tickerek napi hír-átfutása, csak a strukturálisan releváns tételekkel. A watchlistet te adod meg (pl. NVDA, AMD, AAPL, ASML, MSFT).",
+        "steps": "Kimenet cégenként: „mi történt” + „miért számít” + forrás/dátum + epistemikus címke."
+      }
+    },
+    {
+      "id": "macro",
+      "label": "Makró &amp; geopolitika",
+      "empty": {
+        "k": "Modul 04",
+        "heading": "Makró &amp; geopolitika",
+        "text": "Rezsim-szintű makró (kamatpálya, infláció, dollár, hitelciklus) és piacmozgató geopolitika — Apollo/Slok és FT Unhedged fix forrásokra építve.",
+        "steps": "Ide fűzhető a CEE/magyar blokk (MNB, forint, régiós hozamok) is."
+      }
+    },
+    {
+      "id": "etf",
+      "label": "ETF-figyelő",
+      "sections": [
+        {
+          "type": "intro",
+          "html": "<b>Európában kereskedhető (UCITS) ETF-ek strukturális változásai.</b> Nem árfolyam — csak ami az alap lényegét érinti: index, díj, replikáció, domicil, összeolvadás, megszűnés.",
+          "legend": [
+            {
+              "t": "indexváltás",
+              "k": "index"
+            },
+            {
+              "t": "TER / díj",
+              "k": "fee"
+            },
+            {
+              "t": "összeolvadás",
+              "k": "merge"
+            },
+            {
+              "t": "megszűnés",
+              "k": "close"
+            },
+            {
+              "t": "replikáció",
+              "k": "repl"
+            },
+            {
+              "t": "domicil",
+              "k": "dom"
+            },
+            {
+              "t": "név / kibocsátó",
+              "k": "name"
+            }
+          ]
+        },
+        {
+          "letter": "ETF",
+          "letterStyle": "font-size:11px",
+          "heading": "Bejelentett változások — figyelőlista",
+          "items": [
+            {
+              "lead": "iShares Core S&amp;P 500 UCITS ETF",
+              "tags": [
+                {
+                  "t": "TER / díj",
+                  "k": "fee"
+                },
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "TER-csökkentés lépett érvénybe — a nettó hozamra hosszútávon releváns. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "IE00B5BMR087",
+                "kibocsátói értesítő",
+                "2026-08-20"
+              ]
+            },
+            {
+              "lead": "Xtrackers MSCI World UCITS ETF",
+              "tags": [
+                {
+                  "t": "indexváltás",
+                  "k": "index"
+                },
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "A követett index metodológiája módosul — a kitettség érdemben eltolódhat. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "IE00BJ0KDQ92",
+                "index-közlemény",
+                "eff. 2026-09-15"
+              ]
+            },
+            {
+              "lead": "Amundi … EURO STOXX 50 UCITS ETF",
+              "tags": [
+                {
+                  "t": "összeolvadás",
+                  "k": "merge"
+                },
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Beolvad egy testvéralapba — ISIN és share class változik, adó/számlatechnikai következmény lehet. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "részvényesi értesítő",
+                "eff. 2026-10-03"
+              ]
+            },
+            {
+              "lead": "… Thematic UCITS ETF",
+              "tags": [
+                {
+                  "t": "megszűnés",
+                  "k": "close"
+                },
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Likvidálás; utolsó kereskedési nap megadva — cselekvést igényel. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "kibocsátói bejelentés",
+                "utolsó nap: 2026-09-30"
+              ]
+            },
+            {
+              "lead": "… Emerging Markets UCITS ETF",
+              "tags": [
+                {
+                  "t": "replikáció",
+                  "k": "repl"
+                },
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "Pletyka szintjén szintetikus → fizikai replikáció — partnerkockázat változna, de nincs megerősítés. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "fórum / sajtó",
+                "2026-08-26"
+              ]
+            }
+          ]
+        }
+      ],
+      "rail": [
+        {
+          "heading": "Figyelt kibocsátók",
+          "chips": [
+            "iShares",
+            "Amundi",
+            "Xtrackers",
+            "Vanguard",
+            "Invesco",
+            "SPDR",
+            "WisdomTree",
+            "VanEck",
+            "HSBC"
+          ],
+          "note": "A watchlistet te adod meg — ISIN vagy ticker szerint."
+        },
+        {
+          "heading": "Elsődleges forrás",
+          "list": [
+            "Kibocsátói részvényesi értesítők",
+            "KIID / PRIIPs frissülés (TER, replikáció)",
+            "Index-szolgáltatói metodológia",
+            "justETF / extraETF (másodlagos)"
+          ],
+          "note": "A megbízható jelzés a kibocsátótól és a szabályozói dokumentumból jön."
+        }
+      ]
+    },
+    {
+      "id": "sentiment",
+      "label": "Szentiment / X-jelzés",
+      "sections": [
+        {
+          "type": "intro",
+          "html": "<b>Szentiment & X-jelzés — pletyka-sáv.</b> Ami itt van, az alapból <span class='tag tag--spec'>nincs megerősítve</span> — korai jelzés és közhangulat, nem tény. Átlépés a tényblokkba csak külső visszaigazolással."
+        },
+        {
+          "letter": "JEL",
+          "letterStyle": "font-size:12px",
+          "heading": "Napi X-jelzések & téma-momentum",
+          "items": [
+            {
+              "lead": "Jensen Huang: „megérkezett az AGI”",
+              "tags": [
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "Virális Nvidia-kijelentés, de az AGI definíciója vitatott, és nincs mögötte hivatalos bejelentés vagy mérhető mérföldkő.",
+              "src": [
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "~90 db 100MW+ amerikai adatközpont, 2030-ra ~280-ra nőhet",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "A Kobeissi Letter által idézett kapacitásszám az AI-adatközpont-építkezés ütemét jelzi, de elsődleges forrás nélkül.",
+              "src": [
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Tajvan chip-diplomáciát nyomat a szövetségesek felé",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Tajvan a chipgyártási dominanciáját nyomásgyakorlásra használja, miközben szövetségesei az AI-nyereség megosztását sürgetik.",
+              "src": [
+                "kurált X-lista: félvezető",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Malajzia Huawei-chipekkel dacolna az amerikai nyomással",
+              "tags": [
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "Egyetlen esti Bloomberg-összefoglaló jelzi a szándékot, hivatalos megerősítés nélkül.",
+              "src": [
+                "kurált X-lista: félvezető",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Japán Preferred Networks IPO-ra készül saját AI-chip gyártáshoz",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Kisebb szereplő, de jelzi a saját AI-szilícium fejlesztésének növekvő tétjét a globális versenyben.",
+              "src": [
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Malajziai kötvények rekord 3,9 Mrd$ beáramlást kaptak augusztusban az AI-optimizmusra",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Tőkeáramlási adat mutatja, hogy a feltörekvő piaci befektetők az AI-infra-boomra pozicionálnak.",
+              "src": [
+                "kurált X-lista: ETF",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "A koreai won 2 éves csúcson a félvezető-rally és index-beáramlás nyomán",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "A won és a félvezető-részvények együttes erősödése az AI-ciklusba vetett bizalmat tükrözi.",
+              "src": [
+                "kurált X-lista: makró",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Ausztrál adatközpont-boom inflációt és kamatemelést kényszeríthet ki",
+              "tags": [
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "Bloomberg Economics modellalapú előrejelzése, nem realizált adat.",
+              "src": [
+                "kurált X-lista: energia/atom",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Nvidia-csipek mint bankképes fedezet hitelekhez",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Jensen Huang kijelentése az AI-chipek finanszírozási felhasználásáról a szektor körkörös finanszírozási kockázatait veti fel.",
+              "src": [
+                "kurált X-lista: AI-infra",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Az adatközpontok politikailag népszerűtlenebbek, mint az atomerőművek",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "Az amerikai közhangulat fordulása helyi engedélyezési kockázatot jelenthet a hiperskálázóknak.",
+              "src": [
+                "kurált X-lista: energia/atom",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Arany esik, Nikkei/chip-részvények emelkednek a Fed-várakozásokra",
+              "tags": [
+                {
+                  "t": "közhangulat",
+                  "k": "mood"
+                }
+              ],
+              "why": "A kamatemelési várakozások és a chip-részvények együttmozgása szoros makró–félvezető összefonódást mutat.",
+              "src": [
+                "kurált X-lista: makró",
+                "2026-09-07"
+              ]
+            },
+            {
+              "lead": "Trump kereskedelmi leállítással fenyegetne, ha a Fed nem vág kamatot",
+              "tags": [
+                {
+                  "t": "nincs megerősítve",
+                  "k": "spec"
+                }
+              ],
+              "why": "A Kobeissi Letter posztja fizetős tartalom mögötti állítás, elsődleges forrás vagy pontos idézet nélkül.",
+              "src": [
+                "kurált X-lista: makró",
+                "2026-09-07"
+              ]
+            }
+          ]
+        }
+      ],
+      "rail": [
+        {
+          "lt": "D",
+          "heading": "Szentiment — pillanatkép",
+          "metrics": [
+            {
+              "k": "Fear &amp; Greed",
+              "v": "— / 100"
+            },
+            {
+              "k": "AAII bull–bear",
+              "v": "—"
+            },
+            {
+              "k": "Put/call arány",
+              "v": "—"
+            },
+            {
+              "k": "Kripto funding",
+              "v": "—"
+            }
+          ],
+          "vix": {
+            "value": "14,9",
+            "zone": "nyugodt",
+            "series": [
+              16.2,
+              15.8,
+              15.1,
+              14.6,
+              15.3,
+              16,
+              15.4,
+              14.9,
+              14.2,
+              13.9,
+              14.5,
+              15.7,
+              16.4,
+              15.9,
+              15.2,
+              14.8,
+              14.3,
+              14,
+              14.6,
+              15.1,
+              14.9,
+              14.9
+            ],
+            "cap": "20 munkanap · szept. 1. záró · minta-görbe, élesben a feladat frissíti"
+          },
+          "note": "Közelítés, nem pontos pozicionáltság."
+        },
+        {
+          "heading": "Piaci mérőszámok",
+          "markets": [
+            {
+              "name": "Arany",
+              "sub": "XAU/USD",
+              "value": "$4 335",
+              "delta": "0,3%",
+              "dir": "down",
+              "series": [
+                4104.419,
+                4158.68,
+                4160.292,
+                4133.663,
+                4156.741,
+                4160.797,
+                4181.398,
+                4197.701,
+                4158.319,
+                4160.996,
+                4222.316,
+                4202.346,
+                4231.674,
+                4187.482,
+                4224.532,
+                4250.358,
+                4224.052,
+                4279.857,
+                4284.04,
+                4231.794,
+                4238.507,
+                4280.889,
+                4315.282,
+                4284.132,
+                4279.914,
+                4301.161,
+                4281.141,
+                4301.523,
+                4323.581,
+                4335
+              ]
+            },
+            {
+              "name": "Olaj (WTI)",
+              "sub": "CL",
+              "value": "$91,2",
+              "delta": "0,6%",
+              "dir": "up",
+              "series": [
+                81.665,
+                82.014,
+                80.493,
+                80.911,
+                82.872,
+                83.023,
+                83.244,
+                82.825,
+                83.833,
+                84.197,
+                84.504,
+                83.936,
+                84.896,
+                85.175,
+                86.27,
+                87.243,
+                87.507,
+                86.958,
+                87.095,
+                87.054,
+                86.883,
+                87.221,
+                88.587,
+                88.609,
+                89.112,
+                90.667,
+                90.175,
+                90.619,
+                90.215,
+                91.2
+              ]
+            },
+            {
+              "name": "Dollárindex",
+              "sub": "DXY",
+              "value": "99,5",
+              "delta": "0,2%",
+              "dir": "up",
+              "series": [
+                98.777,
+                98.949,
+                98.883,
+                99.019,
+                99.051,
+                98.794,
+                98.788,
+                99.217,
+                98.951,
+                98.959,
+                99.357,
+                99.117,
+                99.319,
+                99.161,
+                99.262,
+                99.04,
+                99.301,
+                99.437,
+                99.286,
+                99.415,
+                99.401,
+                99.12,
+                99.485,
+                99.422,
+                99.299,
+                99.185,
+                99.62,
+                99.446,
+                99.588,
+                99.5
+              ]
+            },
+            {
+              "name": "EUR/USD",
+              "sub": "EURUSD",
+              "value": "1,158",
+              "delta": "0,2%",
+              "dir": "down",
+              "series": [
+                1.171,
+                1.169,
+                1.17,
+                1.169,
+                1.168,
+                1.169,
+                1.172,
+                1.17,
+                1.17,
+                1.166,
+                1.167,
+                1.165,
+                1.164,
+                1.163,
+                1.164,
+                1.167,
+                1.166,
+                1.166,
+                1.165,
+                1.161,
+                1.161,
+                1.163,
+                1.163,
+                1.163,
+                1.163,
+                1.158,
+                1.16,
+                1.16,
+                1.159,
+                1.158
+              ]
+            },
+            {
+              "name": "Bitcoin",
+              "sub": "BTC/USD",
+              "value": "$77 000",
+              "delta": "1,4%",
+              "dir": "down",
+              "series": [
+                72962.909,
+                73425.406,
+                73717.248,
+                74256.619,
+                73875.23,
+                74508.818,
+                72296.28,
+                73602.357,
+                75022.462,
+                74390.981,
+                75214.521,
+                73260.207,
+                74362.127,
+                73914.754,
+                74863.362,
+                75095.265,
+                73730.793,
+                74429.653,
+                74748.629,
+                76628.655,
+                76371.016,
+                74868.814,
+                76760.388,
+                75108.633,
+                76570.937,
+                75372.118,
+                75176.129,
+                77724.929,
+                76045.892,
+                77000
+              ]
+            },
+            {
+              "name": "US 2 é. hozam",
+              "sub": "UST 2Y",
+              "value": "4,38%",
+              "delta": "3 bp",
+              "dir": "up",
+              "series": [
+                4.219,
+                4.225,
+                4.223,
+                4.223,
+                4.222,
+                4.245,
+                4.246,
+                4.259,
+                4.255,
+                4.271,
+                4.264,
+                4.283,
+                4.287,
+                4.285,
+                4.294,
+                4.303,
+                4.297,
+                4.312,
+                4.324,
+                4.316,
+                4.336,
+                4.338,
+                4.348,
+                4.341,
+                4.34,
+                4.365,
+                4.371,
+                4.367,
+                4.364,
+                4.38
+              ]
+            },
+            {
+              "name": "US 10 é. hozam",
+              "sub": "UST 10Y",
+              "value": "4,79%",
+              "delta": "1 bp",
+              "dir": "down",
+              "series": [
+                4.512,
+                4.516,
+                4.543,
+                4.531,
+                4.558,
+                4.561,
+                4.559,
+                4.585,
+                4.577,
+                4.601,
+                4.596,
+                4.607,
+                4.628,
+                4.653,
+                4.636,
+                4.649,
+                4.673,
+                4.695,
+                4.69,
+                4.693,
+                4.724,
+                4.698,
+                4.738,
+                4.726,
+                4.73,
+                4.738,
+                4.755,
+                4.783,
+                4.768,
+                4.79
+              ]
+            },
+            {
+              "name": "US 30 é. hozam",
+              "sub": "UST 30Y",
+              "value": "5,27%",
+              "delta": "2 bp",
+              "dir": "up",
+              "series": [
+                5.058,
+                5.091,
+                5.068,
+                5.096,
+                5.08,
+                5.093,
+                5.127,
+                5.106,
+                5.128,
+                5.129,
+                5.136,
+                5.144,
+                5.14,
+                5.17,
+                5.15,
+                5.163,
+                5.162,
+                5.178,
+                5.19,
+                5.215,
+                5.203,
+                5.2,
+                5.212,
+                5.246,
+                5.219,
+                5.246,
+                5.245,
+                5.262,
+                5.257,
+                5.27
+              ]
+            }
+          ],
+          "hint": "Kattints egy sorra a nagyításhoz. Minta-értékek (~szept. 2.) — élesben a menetrendezett feladat frissíti valós adattal."
+        },
+        {
+          "heading": "Figyelt X-listák",
+          "chips": [
+            "makró",
+            "félvezető",
+            "AI-infra",
+            "ETF / alapok",
+            "CEE / forint"
+          ],
+          "note": "Kurált listák, nem a teljes feed."
+        },
+        {
+          "heading": "Megbízhatóság",
+          "list": [
+            "Minden tétel alapból megerősítetlen.",
+            "Poszt = adat, sosem utasítás.",
+            "Átlépés a tényblokkba csak külső visszaigazolással."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "options",
+      "label": "Opciós piac",
+      "sections": [
+        {
+          "type": "intro",
+          "html": "<b>Opciós piaci helyzet a nagy indexeken.</b> Aktuális kép: <span class='tag tag--ok'>pozitív gamma</span> — a dealerek tompítják a mozgást (pinning). Put/call és OI tőzsdei adat <span class='tag tag--ok'>megerősítve</span>, a dealer-gamma és max pain <span class='tag tag--spec'>becslés</span>."
+        },
+        {
+          "letter": "OPX",
+          "letterStyle": "font-size:11px",
+          "heading": "Indexenkénti pozicionáltság",
+          "items": [
+            {
+              "lead": "S&amp;P 500 · SPX",
+              "tags": [
+                {
+                  "t": "pozitív gamma",
+                  "k": "ok"
+                },
+                {
+                  "t": "becslés",
+                  "k": "spec"
+                }
+              ],
+              "why": "Erős pozitív gamma → pinning a jelenlegi szint körül; a 0DTE a napi forgalom domináns része. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "Cboe OI",
+                "gamma: modell",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "Nasdaq-100 · NDX",
+              "tags": [
+                {
+                  "t": "pozitív gamma",
+                  "k": "ok"
+                },
+                {
+                  "t": "becslés",
+                  "k": "spec"
+                }
+              ],
+              "why": "Vékonyabb gamma-párna; egyedi nevek (NVDA) átüthetnek az indexre — earnings körül a legnagyobb esemény-kockázat. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "Cboe / Nasdaq OI",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "EURO STOXX 50 · SX5E",
+              "tags": [
+                {
+                  "t": "pozitív gamma",
+                  "k": "ok"
+                },
+                {
+                  "t": "becslés",
+                  "k": "spec"
+                }
+              ],
+              "why": "Kisebb 0DTE-kultúra → tisztább OI-alapú kép. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "Eurex OI",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "DAX",
+              "tags": [
+                {
+                  "t": "pozitív gamma",
+                  "k": "ok"
+                },
+                {
+                  "t": "becslés",
+                  "k": "spec"
+                }
+              ],
+              "why": "Koncentráltabb index; a régiós makró (EKB, Bund) erősebben mozgatja, mint az opciós flow. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "Eurex OI",
+                "2026-08-27"
+              ]
+            }
+          ]
+        },
+        {
+          "letter": "RÉG",
+          "letterStyle": "font-size:10px",
+          "heading": "További régiós indexek",
+          "note": "A nem-amerikai indexeknél a becsült dealer-gamma jórészt nem elérhető → OI / put-call alapú kép. Likvid: Japán, Korea, Hollandia, Hongkong; vékony: Ausztrália, Kanada.",
+          "items": [
+            {
+              "lead": "Kína · CSI 300 / Hang Seng",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                },
+                {
+                  "t": "gamma korlátozott",
+                  "k": "spec"
+                }
+              ],
+              "why": "Opciók CFFEX / HKEX; erős szabályozói érzékenység — a policy-hír felülírja a pozicionáltságot. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "CFFEX / HKEX OI",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "Japán · Nikkei 225",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                },
+                {
+                  "t": "gamma korlátozott",
+                  "k": "spec"
+                }
+              ],
+              "why": "Mély, likvid piac (OSE). Fő mozgató a jen és a BoJ; carry-trade kockázat. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "JPX / OSE OI",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "Korea · KOSPI 200",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                },
+                {
+                  "t": "gamma korlátozott",
+                  "k": "spec"
+                }
+              ],
+              "why": "A világ egyik leglikvidebb index-opciós piaca (KRX), félvezető-nehéz (Samsung, SK Hynix). <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "KRX put-call",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "Ausztrália · S&amp;P/ASX 200",
+              "tags": [
+                {
+                  "t": "OI-alapú",
+                  "k": "skip"
+                }
+              ],
+              "why": "Vékonyabb forgalom (ASX); OI-alapú kép, gyenge gamma-olvasat. Kína-érzékeny. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "ASX OI",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "Kanada · S&amp;P/TSX 60",
+              "tags": [
+                {
+                  "t": "OI-alapú",
+                  "k": "skip"
+                }
+              ],
+              "why": "Opciók a Montréal Exchange-en; energia/pénzügy-nehéz, magas USA-korreláció. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "Montréal Exch. OI",
+                "2026-08-27"
+              ]
+            },
+            {
+              "lead": "Hollandia · AEX",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                },
+                {
+                  "t": "gamma korlátozott",
+                  "k": "spec"
+                }
+              ],
+              "why": "Régi opciós piac (Euronext); az ASML nagy súlya miatt a chip-óriás flow-ja átüthet az indexre. <span class='mono' style='font-size:12px'>(minta)</span>",
+              "src": [
+                "Euronext OI",
+                "2026-08-27"
+              ]
+            }
+          ]
+        },
+        {
+          "letter": "?",
+          "letterStyle": "font-size:12px",
+          "heading": "Mi a jel hosszútávon",
+          "body": [
+            "A napi strike-ok és pinning-zónák rövidtávú zaj — a hosszútávú néző számára a <b>rezsim iránya</b> a jel: pozitívból negatív gammába fordulás azt jelenti, hogy a dealer-fedezés a jövőben erősíteni fogja a mozgásokat. Ez a fordulat, nem a napi max pain."
+          ]
+        }
+      ],
+      "rail": [
+        {
+          "heading": "Gamma-rezsim — mit jelent",
+          "metrics": [
+            {
+              "k": "Pozitív gamma",
+              "v": "tompítás"
+            },
+            {
+              "k": "Negatív gamma",
+              "v": "erősítés"
+            }
+          ],
+          "note": "Pozitív → pinning, alacsony realizált vol. Negatív → nagyobb kilengés, gyorsuló esések. A rezsimváltás a fő jel."
+        },
+        {
+          "heading": "Vol term-struktúra",
+          "metrics": [
+            {
+              "k": "VIX / VIX3M",
+              "v": "contango"
+            }
+          ],
+          "note": "Contango = normál, nyugodt. Backwardation = stressz. (minta)"
+        },
+        {
+          "heading": "Forrás & megbízhatóság",
+          "list": [
+            "Put/call, OI: tőzsdei adat (Cboe, Eurex) — megerősített.",
+            "Dealer-gamma (GEX), max pain: modellbecslés (SpotGamma / Menthor Q típus, fizetős)."
+          ],
+          "note": "A becsült pozicionáltság közelítés — kereszt-ellenőrzésre való."
+        }
+      ]
+    },
+    {
+      "id": "folyamatok",
+      "label": "Folyamatok",
+      "intro": "Hogyan alakulnak a visszatérő témák időben. Minden lánc egy sztori — a korábbi hírektől a mai állásig, forrással és dátummal, hogy lásd: „korábban ezt írták → ez lett”. A Gmail- és X-modul tölti fel; az alábbi láncok példák.",
+      "storylines": [
+        {
+          "title": "Memóriaár-sokk / HBM",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "félvezető",
+          "note": "A memória a szűk keresztmetszet: hat a hardver-marzsokra és a helyi-AI narratívára.",
+          "entries": [
+            {
+              "date": "2026-06",
+              "source": "WSJ",
+              "kind": "fact",
+              "summary": "Apple jelzi: memória/NAND-drágulás az AI-adatközpontok miatt — „sosem látott” alkatrész-áremelkedés."
+            },
+            {
+              "date": "2026-08-25",
+              "source": "Apple",
+              "kind": "fact",
+              "summary": "M6 / M5 Mac áremelés — a júniusi drágulás beépült a fogyasztói árba."
+            },
+            {
+              "date": "2026-08-27",
+              "source": "X · pletyka",
+              "kind": "rumor",
+              "summary": "HBM4-ellátási szűkösség egy nagy beszállítónál — még nincs megerősítve."
+            }
+          ]
+        },
+        {
+          "title": "Hyperscaler saját szilícium",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "AI-infra",
+          "note": "Középtávon az Nvidia árazási erejére kockázat — de érdemi telepítés csak 2027-től.",
+          "entries": [
+            {
+              "date": "2026-06-24",
+              "source": "OpenAI/Broadcom",
+              "kind": "fact",
+              "summary": "„Jalapeño” inference-chip bemutató."
+            },
+            {
+              "date": "2026-08-25",
+              "source": "SemiAnalysis",
+              "kind": "estimate",
+              "summary": "Első benchmark: jobb energiahatékonyság — de vállalati mérés, GB300-alapon (nem Vera Rubin)."
+            }
+          ]
+        },
+        {
+          "title": "Atomenergia AI-adatközpontokhoz",
+          "status": "aktív",
+          "statusKind": "ok",
+          "tag": "energia",
+          "note": "A bejelentés-momentum a tényleges kapacitás előtt jár.",
+          "entries": [
+            {
+              "date": "2026 (folyamatos)",
+              "source": "SMR Intel",
+              "kind": "fact",
+              "summary": "Hyperscalerek ~9,8 GW atomkapacitást kötöttek le AI-adatközpontokra, 13 megállapodásban."
+            },
+            {
+              "date": "2026-06-01",
+              "source": "FERC",
+              "kind": "fact",
+              "summary": "Microsoft Three Mile Island Unit 1 újraindítás — átviteli mentesség jóváhagyva, cél 2027 H2."
+            },
+            {
+              "date": "2030-as évek",
+              "source": "kitekintés",
+              "kind": "estimate",
+              "summary": "Az SMR-ek zöme csak ekkor indul élesen — a kapacitás lassabban jön, mint a bejelentések."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "X · pletyka",
+              "kind": "rumor",
+              "summary": "The Economist: az amerikai adatközpontok politikailag népszerűtlenebbek, mint az atomerőművek — helyi engedélyezési ellenszél erősödik."
+            },
+            {
+              "date": "2026-09-07",
+              "source": "X · pletyka",
+              "kind": "rumor",
+              "summary": "Bloomberg Economics szerint Ausztráliában az AI-adatközpont-boom villamosenergia-kereslete inflációt és kamatemelést kényszeríthet ki."
+            }
+          ]
+        },
+        {
+          "title": "H-1B díj",
+          "status": "figyelt",
+          "statusKind": "spec",
+          "tag": "szabályozás",
+          "note": "Halmozódás kockázata: ha a proklamációs díj visszatér, a két teher együtt szedhető.",
+          "entries": [
+            {
+              "date": "2025-09-19",
+              "source": "proklamáció",
+              "kind": "fact",
+              "summary": "100 000 $ H-1B díj bejelentve."
+            },
+            {
+              "date": "2026-06-08",
+              "source": "szövetségi bíróság",
+              "kind": "fact",
+              "summary": "A proklamációs díjat megsemmisítik (majd felfüggesztés + fellebbezés)."
+            },
+            {
+              "date": "2026-08-25",
+              "source": "DHS · Federal Register",
+              "kind": "fact",
+              "summary": "Külön 103 265 $ díjtervezet; véleményezés 2026-09-24-ig."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "archive",
+      "label": "Archívum",
+      "archive": [
+        {
+          "date": "2026-10-26",
+          "file": "archive/2026-10-26.json"
+        },
+        {
+          "date": "2026-10-23",
+          "file": "archive/2026-10-23.json"
+        },
+        {
+          "date": "2026-10-21",
+          "file": "archive/2026-10-21.json"
+        },
+        {
+          "date": "2026-10-20",
+          "file": "archive/2026-10-20.json"
+        },
+        {
+          "date": "2026-10-19",
+          "file": "archive/2026-10-19.json"
+        },
+        {
+          "date": "2026-10-16",
+          "file": "archive/2026-10-16.json"
+        },
+        {
+          "date": "2026-10-15",
+          "file": "archive/2026-10-15.json"
+        },
+        {
+          "date": "2026-10-14",
+          "file": "archive/2026-10-14.json"
+        },
+        {
+          "date": "2026-10-13",
+          "file": "archive/2026-10-13.json"
+        },
+        {
+          "date": "2026-10-09",
+          "file": "archive/2026-10-09.json"
+        },
+        {
+          "date": "2026-10-08",
+          "file": "archive/2026-10-08.json"
+        },
+        {
+          "date": "2026-10-07",
+          "file": "archive/2026-10-07.json"
+        },
+        {
+          "date": "2026-10-06",
+          "file": "archive/2026-10-06.json"
+        },
+        {
+          "date": "2026-10-05",
+          "file": "archive/2026-10-05.json"
+        },
+        {
+          "date": "2026-10-02",
+          "file": "archive/2026-10-02.json"
+        },
+        {
+          "date": "2026-10-01",
+          "file": "archive/2026-10-01.json"
+        },
+        {
+          "date": "2026-09-29",
+          "file": "archive/2026-09-29.json"
+        },
+        {
+          "date": "2026-09-28",
+          "file": "archive/2026-09-28.json"
+        },
+        {
+          "date": "2026-09-25",
+          "file": "archive/2026-09-25.json"
+        },
+        {
+          "date": "2026-09-23",
+          "file": "archive/2026-09-23.json"
+        },
+        {
+          "date": "2026-09-22",
+          "file": "archive/2026-09-22.json"
+        },
+        {
+          "date": "2026-09-21",
+          "file": "archive/2026-09-21.json"
+        },
+        {
+          "date": "2026-09-18",
+          "file": "archive/2026-09-18.json"
+        },
+        {
+          "date": "2026-09-17",
+          "file": "archive/2026-09-17.json"
+        },
+        {
+          "date": "2026-09-16",
+          "file": "archive/2026-09-16.json"
+        },
+        {
+          "date": "2026-09-15",
+          "file": "archive/2026-09-15.json"
+        },
+        {
+          "date": "2026-09-14",
+          "file": "archive/2026-09-14.json"
+        },
+        {
+          "date": "2026-09-11",
+          "file": "archive/2026-09-11.json"
+        },
+        {
+          "date": "2026-09-10",
+          "file": "archive/2026-09-10.json"
+        },
+        {
+          "date": "2026-09-09",
+          "file": "archive/2026-09-09.json"
+        }
+      ]
+    }
+  ]
+}
