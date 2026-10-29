@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "time": "07:20 CET",
-    "run": "automatikus (2026-10-28T10:56:31.179Z)",
+    "run": "automatikus (2026-10-29T11:14:09.863Z)",
     "demo": false
   },
   "brand": {
@@ -11,8 +11,8 @@
   },
   "regime": {
     "state": "transition",
-    "label": "Tech-vezérelt kockázatvállalás, Fed-döntés árnyékában",
-    "text": "A cseppfélvezető- és AI-infra rally újra felpörgette a részvénypiacokat, de a <b>ma esedékes Fed-döntés</b>, a geopolitikai olajrizikó és a memóriaár-sokk miatt a rezsim inkább átmeneti, mint tiszta risk-on."
+    "label": "Szelektív AI-rali törékeny szentiment mellett",
+    "text": "A Fed kitartó óvatossága és az Alphabet beruházási sokkja közepette a piacot <b>félvezető- és AI-infra vezette, de alacsony szélességű rali</b> tartja fogva, miközben a szentiment-mutatók még mindig a félelem zónájában állnak."
   },
   "tabs": [
     {
@@ -25,73 +25,87 @@
           "heading": "Tegnap mozgatói",
           "items": [
             {
-              "lead": "Chipgyártók rallyja húzta a Nasdaqot",
+              "lead": "Fed: kamattartás 3,75–4%, két disszentáló tag emelést akart",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Nasdaq Composite 1,18%-ot emelkedett 26 477,81 pontra, miközben a félvezető-részvények vezették a kereskedést a Fed-ülés előtt.",
+              "why": "A Fed 10–2 arányban tartotta a kamatot, az inflációt továbbra is „emelkedettnek” nevezte, ami életben tartja a decemberi emelés esélyét (piaci árazás szerint ~80–87%).",
               "src": [
-                "Yahoo Finance / CNBC",
-                "2026-10-27"
+                "CNBC / Advisor Perspectives",
+                "2026.10.28"
               ]
             },
             {
-              "lead": "Anthropic IPO-prospektusa újraélesztette az AI-kereskedést",
+              "lead": "S&P 500 harmadik egymást követő nyerő napja",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "Az Anthropic hétfőn nyilvánosságra hozott befektetői prospektusa az AI ígéreteit és kockázatait is bemutatta, ami Ázsiában a koreai chipgyártókat és a KOSPI-t is feltolta.",
+              "why": "Ez volt az első eset 2025 decembere óta, hogy az S&P 500 Fed-kamatdöntési napon emelkedéssel zárt, ami a piac megkönnyebbülését jelzi a kitartás miatt.",
               "src": [
-                "Yahoo Finance",
-                "2026-10-27"
+                "CNN Business",
+                "2026.10.28"
               ]
             },
             {
-              "lead": "Olajár-esés Irán-diplomácia miatt",
+              "lead": "Oracle +11% a 2030-as szabad cashflow-célkitűzésre",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A Brent kb. 1,7%-ot esett 113,88 dollárra, miután Szaúd-Arábia, Törökország és Pakisztán tárgyalásokat folytatott Iránnal, bár a Houthi-támadások Ras Tanura ellen fenntartották a kockázati felárat.",
+              "why": "A befektetői napon bemutatott 2030-as pénzügyi évi 225 milliárd dolláros bevételi cél és a javuló szabadcashflow-kilátás oldotta az AI-költési aggályokat.",
               "src": [
-                "The Nation Thailand / Bloomberg",
-                "2026-10-27"
+                "Bloomberg / Yahoo Finance",
+                "2026.10.28"
               ]
             },
             {
-              "lead": "Constellation Energy: 5 milliárd dolláros DOE-hitel atomerőmű-felújításra",
+              "lead": "Alphabet -9/-10% kereskedés utáni órákban",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "Az Energiaügyi Minisztérium feltételes hitelt ajánlott fel illinois-i, marylandi és pennsylvaniai reaktorok korszerűsítésére, ami több mint 1 GW pluszkapacitást adhat.",
+              "why": "Bevétel- és eredmény-elmaradás, valamint 9,07 milliárd dolláros negatív szabad cashflow (22 éve először két egymást követő negatív negyedév) erősítette az AI-megtérülési aggályokat a hirdetési lassulás mellett.",
               "src": [
-                "CNBC",
-                "2026-10-27"
+                "CNBC / Reuters (Euronext)",
+                "2026.10.28"
               ]
             },
             {
-              "lead": "Fed kétnapos ülés kezdődött, holdra számítanak",
+              "lead": "Microsoft emelkedett kereskedés utáni órákban a felhőbevételekre",
               "tags": [
                 {
                   "t": "megerősítve",
                   "k": "ok"
                 }
               ],
-              "why": "A piaci árazás ~90%-ra teszi a változatlan 3,75–4,00%-os kamatszint fenntartásának esélyét a szerdai döntésen, miközben decemberre szinte egyöntetű kamatemelési várakozás van.",
+              "why": "Az erős felhőértékesítés ellenpontozta az Alphabet melletti aggályokat, és azt sugallja, hogy az AI-kereslet a hiperskálázóknál egyenetlenül oszlik meg.",
               "src": [
-                "CME FedWatch / Reuters-felmérés idézve",
-                "2026-10-27"
+                "Bloomberg",
+                "2026.10.28"
+              ]
+            },
+            {
+              "lead": "Félvezető-rali: SOX index +3,6%, AMD +5,5%, Broadcom +4%",
+              "tags": [
+                {
+                  "t": "megerősítve",
+                  "k": "ok"
+                }
+              ],
+              "why": "Az AI-vezérelt félvezetőszektor lendületet kapott, a kereskedési volumen és az advance/decline arány is a kockázatvállalás erősödésére utalt.",
+              "src": [
+                "Yahoo Finance / Zacks",
+                "2026.10.28"
               ]
             }
           ]
@@ -100,8 +114,8 @@
           "letter": "G",
           "heading": "Tech szektor csomag — félvezető & AI-infra",
           "body": [
-            "A chipszektor két egymást követő napon vezette a felpattanást: a félvezető-részvények rallyja mellett az Oracle bejelentette, hogy Nvidia mellett Google TPU-kat, Cerebras és SambaNova chipeket is bevon felhőinfrastruktúrájába, ami a hiperskálázók beszállító-diverzifikációs törekvését jelzi. Eközben a Broadcom egy 63 milliárd dolláros, bankok (Bank of America, Citi, Morgan Stanley) és a Blackstone által finanszírozott speciális célú eszközt (SPV) hozott létre XPU-gyorsítók lízingelésére az Anthropic számára, 2027-es szállítással – ez a félvezetőipar finanszírozásának egyre összetettebb, tőkeáttételes szerkezetét mutatja. Az Nvidia is több milliárd dolláros kapacitásfoglalási megállapodást kötött hat beszállítóval (köztük Ibiden, Unimicron, Samsung Electro-Mechanics) szubsztrát-, csomagolási- és teszt-kapacitásra 2027–2028-ig, jelezve, hogy az ellátási lánc szűk keresztmetszete továbbra is stratégiai prioritás.",
-            "A memóriapiacon a szűkösség tovább éleződik: a SK Hynix októberi eredményközlésén elmondta, hogy HBM-, DRAM- és NAND-kapacitása gyakorlatilag 2026-ra teljesen elfogyott, miközben a Micron teljesen kivonult a fogyasztói memóriapiacról, hogy vállalati és AI-ügyfelekre koncentráljon. A TrendForce szerint a hagyományos DRAM szerződéses árak Q4 2026-ban még 10–15%-kal nőhetnek tovább (szemben a Q2-es kb. 60%-kal), vagyis az áremelkedés üteme lassul, de a hiány súlyos marad. A Micron árfolyama idén 200% feletti emelkedést mutat, ami jól tükrözi, hogy a memória vált az AI-infrastruktúra legszűkebb keresztmetszetévé a logikai chipek helyett."
+            "A félvezetőszektor tegnap jelentősen felülteljesített (SOX +3,6%, SOXX +3,9%), miközben az Oracle befektetői napja és a Microsoft felhőszámai megerősítették a hiperskálázói AI-kereslet tartósságát; ezzel szemben az Alphabet negatív szabad cashflow-ja és a 2027-re várt 300 milliárd dollár feletti tőkeberuházási terv rávilágít arra, hogy a kiadások üteme egyre inkább meghaladja a rövid távú megtérülést — ez a nagy kérdőjel a szektor felett.",
+            "A memóriachip-piacon a szűkösség strukturálissá vált: a Barclays és a TrendForce szerint a DDR4 szerződéses árak havi 4%-kal, negyedéves szinten 24%-kal, a DDR5 árak havi 3%-kal, negyedéves szinten 20%-kal emelkedtek októberben, miközben a Citi 2028-ig tartó DRAM- és NAND-hiányt vetít előre, mert a gyártói kapacitás túlnyomó részét a nagy haszonkulcsú HBM köti le az AI-szerverek számára."
           ]
         },
         {
@@ -109,22 +123,22 @@
           "letterStyle": "font-size:11px",
           "heading": "Energia szektor — atom & új energia kiemelten",
           "body": [
-            "Az atomenergia-szektorban folytatódik a befektetői és állami támogatás: a DOE 5 milliárd dolláros feltételes hitelt ajánlott a Constellation Energynek három állambeli reaktor felújítására, ami több mint 1 GW extra kapacitást szabadíthat fel meglévő erőművekből; ez a lépés a Google és a Constellation korábbi, 11 atomerőmű korszerűsítéséről szóló megállapodására épül. Emellett az X-Energy, az Amazon és az American Electric Power partnersége egy 12 egységes, 960 MW-os SMR-projektet mozdít előre Indianában, és a katonai/NASA-érdeklődés a kis moduláris reaktorok iránt is fennmaradt – ezek összességében megerősítik az atomenergia strukturális reneszánszát, bár a hosszabb lejáratú hozamok emelkedése (10 éves amerikai hozam ~5% körül) korábban több atomrészvényt (NuScale, Oklo) is nyomás alá helyezett.",
-            "Az új energia / tárolás oldalán a BloombergNEF 30%-kal emelte fel 10 éves amerikai energiatárolási kapacitás-előrejelzését, mivel a hiperskálázók (élükön a Google) helyszíni akkumulátoros tárolásra kötöttek rögzített megrendeléseket; az adatközponti telephelyi tárolás idén 4,9 GW/7,4 GWh-ra nőhet, az 500 MW/1,4 GWh-ás 2025-ös szinthez képest. A tendencia mögött az áll, hogy a GPU-klaszterek ezredmásodperces teljesítményingadozásai miatt a tárolás a hálózati háttér helyett egyre inkább a létesítmények közvetlen stabilizálójává válik."
+            "Az atomenergia-szektorban a strukturális tőkebeáramlás folytatódik: a Constellation akár 5 milliárd dolláros feltételes DOE-hitelt kapott nyolc reaktor teljesítmény-felfejlesztésére, a Kereskedelmi Minisztérium pedig szándéknyilatkozatokat írt alá fúziós cégekkel (Helion, Commonwealth Fusion Systems) szövetségi K+F-támogatásra — mindkettő a hiperskálázói (pl. korábbi Google–Constellation megállapodás) és állami finanszírozás találkozását jelzi az AI-energiaigény kiszolgálására.",
+            "Az új energia oldalán a hálózati méretű akkumulátoros tárolás (BESS) bővülése gyorsul: Németországban üzembe állt a Kyon Energy 282 MWh-s Alfeld projektje, az LG Energy Solution MOU-t kötött az Energixszel 4,5 GWh amerikai és európai BESS-fejlesztésre, Portugáliában pedig október 23-tól kötelezővé vált a hálózatformáló (grid-forming) képesség a nagy tárolóknál — ezek együtt azt jelzik, hogy a tárolás egyre inkább a hálózati stabilitás és az adatközpont-terhelés kiszolgálásának strukturális elemévé válik, nem csak kiegészítő technológia."
           ]
         },
         {
           "letter": "I",
           "heading": "Ellenoldal / kockázat — steelman",
           "body": [
-            "A legerősebb ellenérv, hogy az AI-capex finanszírozása egyre inkább tőkeáttételes szerkezetekre (bank+magántőke SPV-k, mint a Broadcom–Blackstone konstrukció, vagy a Meta közel 100 milliárd dolláros részvénykibocsátása) támaszkodik ahelyett, hogy a hiperskálázók szabad cash flow-jából finanszíroznák azt – ez rendszerszintű törékenységet vihet be, ha a megtérülési idő elhúzódik. Ezzel párhuzamosan a memóriaár-sokk (DRAM/NAND árak többszörös emelkedése) már a PC- és fogyasztói elektronikai margint is szorítja, ami rövid távon fogyasztói keresletcsökkenést és szélesebb tech-bevétel-lassulást okozhat. A makro oldalon a Fed mára várt kamattartása mellett a szeptemberi jegyzőkönyv és a közgazdász-felmérések szerint decemberre szinte egyöntetű kamatemelési várakozás áll fenn, miközben az infláció tartósan a 2%-os cél felett van – ha a Fed hawkish hangot üt meg, az hozamokat (és dollárt) emelhet, ami a hosszú lejáratú, tőkeigényes AI- és atomenergia-projektek értékelését nyomás alá helyezheti. Végül a közel-keleti olajkockázat (Houthi-támadások szaúdi finomító ellen, Hormuzi-szoros körüli incidensek) strukturális, nem múló tényező marad, még ha a diplomáciai hírek rövid távon enyhítik is az árfolyamot."
+            "A bikás narratíva (AI-capex önmagát finanszírozó növekedési motor) ellen szól, hogy az Alphabet második egymást követő negyedévben termelt negatív szabad cashflow-t — ez 22 éve nem fordult elő —, miközben a tőkekiadás 2027-re 300 milliárd dollár fölé nőhet; ha a piac vezető, eddig legjövedelmezőbb AI-szereplőjénél is megbicsaklik a megtérülési ütem, az kérdéseket vet fel a kevésbé tőkeerős versenytársak finanszírozási fenntarthatóságáról. Emellett a Fed két tagja azonnali kamatemelést szeretett volna, az infláció „emelkedettnek” minősítése és a decemberi emelésre ~80–87%-os piaci árazás azt jelzi, hogy a kamatkörnyezet továbbra sem engedi el a részvénypiaci értékeltségeket, miközben a szentiment-mutatók (CNN Fear & Greed 36, „Fear” zóna) és a szűk piaci szélesség (az S&P 500 11 szektorából csak 5 zárt pluszban a tegnapi emelkedés napján) törékeny alapot jeleznek egy esetleges újabb negatív meglepetéshez."
           ]
         },
         {
           "letter": "C",
           "heading": "Ma figyelendő",
           "body": [
-            "A nap központi eseménye a Fed kamatdöntése (szerda, 14:00 EDT), amelytől a piac túlnyomó többsége a 3,75–4,00%-os tartomány fenntartását várja; a hangsúly Kevin Warsh sajtótájékoztatóján lesz, különösen azon, hogy a decemberi kamatemelésre utaló nyelvezet mennyire marad kemény az infláció és a gyenge munkaerőpiaci adatok (szeptemberi CPI +3,7% év/év, mindössze 29 ezer új munkahely) fényében. Zárás után várható az Alphabet és a Microsoft negyedéves gyorsjelentése, amelyek iránymutatást adhatnak az AI-capex megtérüléséről. Emellett érdemes figyelni az olajpiaci hírfolyamot (további Houthi-támadások, iráni–szaúdi tárgyalások alakulása), mivel ez rövid távon visszaható lehet az energiaszektorra és az inflációs várakozásokra is."
+            "Ma zárás után érkezik az Amazon harmadik negyedéves jelentése — a piac elsősorban az AWS növekedési ütemét és a tőkeberuházási fegyelmet nézi majd az Alphabet negatív cashflow-sokkja után, mivel ez tesztelheti, mennyire tartós a hiperskálázói AI-bizalom. Emellett figyelendő a decemberi Fed-kamatemelésre vonatkozó piaci árazás további alakulása, a 10 éves amerikai hozam ~5%-os szintje, valamint az olajpiaci és iráni diplomáciai fejlemények (Vance-féle közvetítési kísérlet), amelyek tegnap este visszafogták az olajár-rallyt."
           ]
         }
       ],
@@ -135,19 +149,19 @@
           "metrics": [
             {
               "k": "Fear &amp; Greed",
-              "v": "27/100 (Fear zóna, hétfői záró, javuló trendben)"
+              "v": "36/100 (Fear zóna, 2026.10.28)"
             },
             {
               "k": "AAII bull–bear",
-              "v": "nincs friss adat a keresésben"
+              "v": "37% bika / 46% medve (2026.10.23, kissé elavult)"
             },
             {
               "k": "Put/call arány",
-              "v": "a F&G-komponens szerint ~21 (Extreme Fear sáv, korábbi leolvasás)"
+              "v": "nincs friss önálló adat; a F&amp;G put/call komponens 2026.10.24-én 21 (Extreme Fear) volt — becslés"
             },
             {
               "k": "Kripto funding",
-              "v": "nincs megerősített friss adat"
+              "v": "nincs megbízható friss adat erre a napra"
             }
           ],
           "note": "Közelítés, nem pontos pozicionáltság."
@@ -156,15 +170,15 @@
           "lt": "H",
           "heading": "Amit figyelmen kívül hagynék",
           "list": [
-            "Egyedi napi részvénykiugrások (pl. SoFi +13-15% gyorsjelentés után) – egyszeri eseti hír, nem strukturális elmozdulás.",
-            "Dell új kiberbiztonsági termékbejelentése – termékhír, nem makro jelzés.",
-            "Napi szintű olajár-ingadozás (±1%) a diplomáciai hírfolyam mentén – zaj a geopolitikai kockázati prémium körül, nem trendváltás."
+            "Egyedi earnings-meglepetések zaja (F5 -19%, Wingstop +15%, Boston Scientific -6%) — vállalatspecifikus, nem makro jelzés.",
+            "Malajziai AI-chip csempészbotrány (12 millió dolláros lefoglalás) — bűnüldözési epizód, nem strukturális keresleti/kínálati fordulat.",
+            "Egynapos VIX-visszaesés (17,52-re) — rövid távú volatilitás-enyhülés, nem feltétlenül tartós rezsimváltás."
           ]
         },
         {
           "lt": "F",
           "heading": "Rotáció-figyelő",
-          "note": "Gyenge jel: a Russell 2000 (+1,16%) és az ipari/alapanyag szektorok (XLI +1,4%) a technológiával (XLK +1,7%) párhuzamosan emelkedtek, miközben a kommunikációs szolgáltatások (XLC) estek – ez inkább szélesedő, mintsem éles stílusváltást jelző rotációra utal, megerősítés még nem egyértelmű."
+          "note": "Gyenge jel: az energiaszektor vezette a tegnapi szektornyereségeket, miközben az ingatlan és a közművek visszaestek, ami defenzív/hozamérzékeny szektorokból ciklikus/energia felé mutató rotációra utalhat — de egynapos adat, megerősítésre vár a következő napokban."
         }
       ]
     },
@@ -1306,6 +1320,10 @@
       "label": "Archívum",
       "archive": [
         {
+          "date": "2026-10-29",
+          "file": "archive/2026-10-29.json"
+        },
+        {
           "date": "2026-10-28",
           "file": "archive/2026-10-28.json"
         },
@@ -1420,10 +1438,6 @@
         {
           "date": "2026-09-14",
           "file": "archive/2026-09-14.json"
-        },
-        {
-          "date": "2026-09-11",
-          "file": "archive/2026-09-11.json"
         }
       ]
     }
